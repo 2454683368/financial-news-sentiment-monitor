@@ -133,6 +133,16 @@ def build_html(today: str, score: float, tone: str, count: int, dropped: int, to
       <li>Historical linkage will become more informative as daily samples accumulate.</li>
     </ul>
   </div>
+  <div class="card">
+    <h2>How It Works</h2>
+    <ol>
+      <li>Ingest daily financial headlines</li>
+      <li>Clean and deduplicate low-quality items</li>
+      <li>Run hybrid sentiment scoring</li>
+      <li>Fetch market index data</li>
+      <li>Generate report, charts, and GitHub Pages output</li>
+    </ol>
+  </div>
   <div class="grid">
     <div class="card"><h2>Topic Distribution</h2><ul>{topic_html}</ul></div>
     <div class="card"><h2>Keyword Signals</h2><ul>{keyword_html}</ul></div>
