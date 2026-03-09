@@ -96,14 +96,26 @@ def plot_topic_distribution(today: str, sentiment: dict) -> str:
     return path.name
 
 
+def rolling_mean(values: list[float], window: int = 3) -> list[float]:
+    out = []
+    for i in range(len(values)):
+        start = max(0, i - window + 1)
+        chunk = values[start:i + 1]
+        out.append(sum(chunk) / len(chunk))
+    return out
+
+
 def plot_history_sentiment(history: list[dict]) -> str:
     dates = [x["date"] for x in history]
     scores = [x["sentiment_index"] for x in history]
+    smooth_scores = rolling_mean(scores, window=3)
     plt.figure(figsize=(8, 4.5))
-    plt.plot(dates, scores, marker="o", color="#dc2626")
+    plt.plot(dates, scores, marker="o", color="#fca5a5", linewidth=1.8, label="Daily Sentiment")
+    plt.plot(dates, smooth_scores, marker="o", color="#dc2626", linewidth=2.4, label="3D Rolling Sentiment")
     plt.title("Sentiment Index History")
     plt.ylabel("Sentiment Index")
     plt.xticks(rotation=30)
+    plt.legend()
     plt.tight_layout()
     path = DOCS_ASSETS / "sentiment_history.png"
     plt.savefig(path, dpi=160)
@@ -114,14 +126,16 @@ def plot_history_sentiment(history: list[dict]) -> str:
 def plot_history_market_linkage(history: list[dict]) -> str:
     dates = [x["date"] for x in history]
     sentiments = [x["sentiment_index"] for x in history]
+    smooth_sentiments = rolling_mean(sentiments, window=3)
     hs300_returns = [x["hs300_return"] for x in history]
     fig, ax1 = plt.subplots(figsize=(8, 4.5))
-    ax1.plot(dates, sentiments, marker="o", color="#dc2626")
+    ax1.plot(dates, sentiments, marker="o", color="#fca5a5", linewidth=1.5, label="Daily Sentiment")
+    ax1.plot(dates, smooth_sentiments, marker="o", color="#dc2626", linewidth=2.3, label="3D Rolling Sentiment")
     ax1.set_ylabel("Sentiment Index", color="#dc2626")
     ax1.tick_params(axis="y", labelcolor="#dc2626")
     ax1.tick_params(axis="x", rotation=30)
     ax2 = ax1.twinx()
-    ax2.bar(dates, hs300_returns, alpha=0.3, color="#2563eb")
+    ax2.bar(dates, hs300_returns, alpha=0.28, color="#2563eb", label="HS300 Return")
     ax2.set_ylabel("HS300 Return (%)", color="#2563eb")
     ax2.tick_params(axis="y", labelcolor="#2563eb")
     plt.title("Sentiment vs HS300 Return History")

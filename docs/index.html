@@ -81,8 +81,8 @@
   <div class="card">
     <h2 data-lang="zh">情绪-市场联动解释</h2>
     <h2 data-lang="en">Sentiment-Market Linkage</h2>
-    <p data-lang="zh">当日新闻情绪为偏谨慎，沪深300与上证指数分别下跌 0.97% / 0.67%，情绪与市场方向大体一致。当前历史样本较短，后续需继续积累。</p>
-    <p data-lang="en">Daily news sentiment is Cautious, while HS300 and SH Index fell 0.97% / 0.67% respectively. News tone and market direction are broadly aligned. History is still short and needs more daily samples.</p>
+    <p data-lang="zh">当日新闻情绪为偏谨慎，沪深300与上证指数分别下跌 0.97% / 0.67%，情绪与市场方向大体一致。当前已具备基础连续样本，可继续观察趋势稳定性。</p>
+    <p data-lang="en">Daily news sentiment is Cautious, while HS300 and SH Index fell 0.97% / 0.67% respectively. News tone and market direction are broadly aligned. A basic continuous sample is now available for further observation.</p>
   </div>
 
   <div class="card">
@@ -92,14 +92,14 @@
       <li>从少量相对稳定的公开财经新闻源抓取标题。</li>
       <li>通过规则过滤、去重、域名排除等方式清洗标题。</li>
       <li>情绪评分采用 SnowNLP + 财经关键词规则 的混合方案。</li>
-      <li>市场联动目前比较情绪指数与沪深300 / 上证收益率。</li>
+      <li>市场联动不仅看单日情绪，也关注近 3 日滚动情绪，因为新闻影响常具有滞后性和持续发酵效应。</li>
       <li>随着历史样本积累，多日联动分析会越来越有信息量。</li>
     </ul>
     <ul data-lang="en">
       <li>Headlines are collected from a small set of relatively stable public financial sources.</li>
       <li>Titles are cleaned with rule-based filtering, deduplication, and domain exclusion.</li>
       <li>Sentiment uses a hybrid score: SnowNLP + finance-specific keyword rules.</li>
-      <li>Market linkage currently compares the sentiment index with HS300 and SH Index returns.</li>
+      <li>Market linkage looks beyond same-day sentiment and also tracks a 3-day rolling sentiment view, since news effects often have lag and persistence.</li>
       <li>Historical linkage becomes more informative as daily samples accumulate.</li>
     </ul>
   </div>
@@ -143,8 +143,8 @@
     <div class="card"><h2>Topic Distribution Chart</h2><img src="./assets/topic_distribution.png" alt="topic distribution" /></div>
   </div>
   <div class="grid">
-    <div class="card"><h2>Sentiment History</h2><img src="./assets/sentiment_history.png" alt="sentiment history" /><p class="muted" data-lang="zh">历史图会随着每日自动运行逐步丰富，目前仍处于样本积累早期。</p><p class="muted" data-lang="en">Historical charts will become more informative as daily runs accumulate. The sample is still at an early stage.</p></div>
-    <div class="card"><h2>Sentiment vs HS300 Return History</h2><img src="./assets/sentiment_vs_hs300_history.png" alt="sentiment vs hs300 history" /><p class="muted" data-lang="zh">当前更适合作为联动观察面板，而非正式统计结论。</p><p class="muted" data-lang="en">At the current stage, this is better interpreted as an observation panel rather than a formal statistical conclusion.</p></div>
+    <div class="card"><h2>Sentiment History</h2><img src="./assets/sentiment_history.png" alt="sentiment history" /><p class="muted" data-lang="zh">浅红线为单日情绪，深红线为 3 日滚动情绪；后者更适合观察新闻影响的持续性。</p><p class="muted" data-lang="en">The light red line shows daily sentiment, while the dark red line shows 3-day rolling sentiment, which is more useful for observing persistence in news impact.</p></div>
+    <div class="card"><h2>Sentiment vs HS300 Return History</h2><img src="./assets/sentiment_vs_hs300_history.png" alt="sentiment vs hs300 history" /><p class="muted" data-lang="zh">蓝柱为 HS300 日收益，红线为情绪读数；更适合作为联动观察面板，而非正式统计结论。</p><p class="muted" data-lang="en">Blue bars show daily HS300 returns, while red lines show sentiment readings. At the current stage, this is better interpreted as an observation panel rather than a formal statistical conclusion.</p></div>
   </div>
 
   <div class="grid">
