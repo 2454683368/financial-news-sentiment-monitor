@@ -123,6 +123,16 @@ def build_html(today: str, score: float, tone: str, count: int, dropped: int, to
     <h2>Sentiment-Market Linkage</h2>
     <p>{linkage_text}</p>
   </div>
+  <div class="card">
+    <h2>Methodology</h2>
+    <ul>
+      <li>News is collected from a small set of relatively stable public financial sources.</li>
+      <li>Titles are cleaned with rule-based filtering, deduplication, and source-domain exclusion.</li>
+      <li>Sentiment uses a hybrid score: SnowNLP model signal + finance-specific keyword rules.</li>
+      <li>Market linkage currently compares daily sentiment with HS300 and SH Index returns.</li>
+      <li>Historical linkage will become more informative as daily samples accumulate.</li>
+    </ul>
+  </div>
   <div class="grid">
     <div class="card"><h2>Topic Distribution</h2><ul>{topic_html}</ul></div>
     <div class="card"><h2>Keyword Signals</h2><ul>{keyword_html}</ul></div>

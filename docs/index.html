@@ -32,6 +32,16 @@
     <h2>Sentiment-Market Linkage</h2>
     <p>当日新闻情绪为中性偏平衡，但沪深300 / 上证指数涨跌幅分别为 -0.97% / -0.67%，说明新闻情绪与市场表现存在一定背离。当前历史样本较短，后续需继续积累。</p>
   </div>
+  <div class="card">
+    <h2>Methodology</h2>
+    <ul>
+      <li>News is collected from a small set of relatively stable public financial sources.</li>
+      <li>Titles are cleaned with rule-based filtering, deduplication, and source-domain exclusion.</li>
+      <li>Sentiment uses a hybrid score: SnowNLP model signal + finance-specific keyword rules.</li>
+      <li>Market linkage currently compares daily sentiment with HS300 and SH Index returns.</li>
+      <li>Historical linkage will become more informative as daily samples accumulate.</li>
+    </ul>
+  </div>
   <div class="grid">
     <div class="card"><h2>Topic Distribution</h2><ul><li><strong>其他</strong>: 34</li><li><strong>能源黄金</strong>: 23</li><li><strong>国际局势</strong>: 18</li><li><strong>金融监管</strong>: 11</li><li><strong>科技AI</strong>: 10</li><li><strong>资本市场</strong>: 9</li></ul></div>
     <div class="card"><h2>Keyword Signals</h2><ul><li><strong>油价</strong>: 22</li><li><strong>中东冲突</strong>: 12</li><li><strong>AI</strong>: 9</li><li><strong>银行监管</strong>: 7</li><li><strong>A股</strong>: 2</li><li><strong>港股</strong>: 2</li><li><strong>货币政策</strong>: 1</li><li><strong>两会</strong>: 1</li></ul></div>
