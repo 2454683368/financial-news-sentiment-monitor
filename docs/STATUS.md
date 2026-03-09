@@ -2,16 +2,27 @@
 
 ## What is working
 - Daily pipeline runs end-to-end
-- News ingestion -> cleaning -> sentiment -> market data -> report generation works
-- Results are pushed to GitHub
+- News ingestion -> cleaning -> sentiment -> market data -> history update -> chart generation -> report generation works
+- GitHub Pages is live
+- Local auto-publish script is available
+
+## Recommended daily usage
+1. Run `python scripts/run_daily.py`
+2. Check generated report and charts
+3. Run `python scripts/publish_github.py`
+
+## Why generation and publishing are still separated
+- Safer for debugging
+- Easier to inspect outputs before pushing
+- Better for early-stage MVP iteration
 
 ## Current known issues
-- Some non-news informational pages are still mixed into the dataset
+- Some edge-case noise may still remain
 - Sentiment scoring is improved but still not perfect for finance-specific headlines
-- Topic extraction is currently rule-based and still simple
+- Historical linkage is still early because sample length is short
 
 ## Next planned tasks
-1. Further tighten source filtering
-2. Add stronger topic labeling and keyword extraction
-3. Improve GitHub Pages presentation
-4. Add automated publish step
+1. Add local scheduler / cron integration
+2. Improve source quality further
+3. Strengthen sentiment rules and topic tagging
+4. Accumulate multi-day history for better linkage analysis

@@ -7,7 +7,8 @@ A lightweight daily financial news sentiment and market volatility monitoring pr
 - Cleans and filters noisy, low-value, and duplicate items
 - Builds a hybrid sentiment score for the daily news set
 - Fetches market index data such as HS300 and SH Index
-- Generates a daily report and publishes it to GitHub Pages
+- Generates charts, a daily report, and a GitHub Pages landing page
+- Supports local auto-publish to GitHub
 
 ## Core methodology
 1. **Data ingestion**: collect headlines from a small set of relatively stable public sources
@@ -15,6 +16,13 @@ A lightweight daily financial news sentiment and market volatility monitoring pr
 3. **Sentiment scoring**: combine SnowNLP model output with finance-specific positive/negative keyword rules
 4. **Market linkage**: compare daily sentiment reading with HS300 / SH Index daily returns
 5. **History accumulation**: store daily snapshots for future multi-day trend and linkage analysis
+
+## Daily usage
+```bash
+source .venv/bin/activate
+python scripts/run_daily.py
+python scripts/publish_github.py
+```
 
 ## Current project stage
 This project is in the MVP-but-serious stage:
