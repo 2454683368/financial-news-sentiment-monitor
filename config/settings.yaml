@@ -1,0 +1,12 @@
+project:
+  name: Financial News Sentiment Monitor
+  timezone: Asia/Shanghai
+  report_time: "08:00"
+market:
+  symbols:
+    - hs300
+    - sh_index
+sentiment:
+  mode: hybrid
+  rule_weight: 0.5
+  model_weight: 0.5

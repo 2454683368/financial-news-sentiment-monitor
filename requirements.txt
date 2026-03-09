@@ -1,0 +1,10 @@
+pandas
+requests
+beautifulsoup4
+feedparser
+matplotlib
+jinja2
+python-dotenv
+pyyaml
+akshare
+snownlp

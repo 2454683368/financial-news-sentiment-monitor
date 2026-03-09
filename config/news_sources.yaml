@@ -1,0 +1,13 @@
+sources:
+  - name: sina_finance
+    type: html
+    enabled: true
+    note: TODO configure stable public news list page
+  - name: eastmoney_finance
+    type: html
+    enabled: true
+    note: TODO configure stable public news list page
+  - name: rss_backup
+    type: rss
+    enabled: false
+    note: enable when stable rss source is confirmed
