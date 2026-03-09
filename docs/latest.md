@@ -3,14 +3,14 @@
 ## 1. Daily Sentiment Snapshot
 - Total cleaned news items: 96
 - Dropped noisy items: 20
-- Daily sentiment index: 0.0085
+- Daily sentiment index: -0.0457
 - Daily tone: 中性偏平衡
-- Label counts: {'neutral': 15, 'positive': 45, 'negative': 36}
+- Label counts: {'negative': 40, 'positive': 41, 'neutral': 15}
 - HS300 daily return: -0.97%
 - SH Index daily return: -0.67%
 
 ## 2. Sentiment-Market Linkage
-- 当日新闻情绪为中性偏平衡，但沪深300 / 上证指数涨跌幅分别为 -0.97% / -0.67%，说明新闻情绪与市场表现存在一定背离。当前历史样本较短，后续需继续积累。
+- 当日新闻情绪为中性偏平衡，沪深300与上证指数分别下跌 0.97% / 0.67%，情绪与市场方向大体一致。当前历史样本较短，后续需继续积累。
 
 ## 3. Topic Distribution
 - 其他: 34
@@ -32,17 +32,17 @@
 
 ## 5. Positive Headline Examples
 - 乌克兰总统泽连斯基：美国等国家寻求乌克兰的安全支持
-- 中国人民银行副行长宣昌能出席“亚洲2050”国际会议
-- 直面“抄袭门”，980亿魏建军公开致歉
 - 持续押注中国新经济：2025年普洛斯算力中心业务收入同比增长32%
 - 印度官员：印度不会释放战略原油储备
+- AI内存芯片短缺问题浮现，科技支出目标2026年达6500亿美元
+- 迪士尼皮克斯动画电影《河狸变身计划》首映以4600万美元票房登顶
 
 ## 6. Negative Headline Examples
+- 开盘：美股周一大幅低开 油价飙升引发滞胀担忧
 - 战事蔓延，美国下令人员撤离沙特，伊朗拒绝立即停火
+- 直面“抄袭门”，980亿魏建军公开致歉
 - 能源价格飙升，国会民主党人要求继续禁止印度购买俄油
 - 603268，业绩大增超1000%，申请“摘星脱帽”！
-- 300750，拟10派69.57元！多只A股，大手笔分红
-- LNG供应中断震动能源市场，煤炭价格飙升9.3%至150美元
 
 ## 7. Market Data
 - HS300 latest rows: 10
@@ -56,4 +56,4 @@
 - sentiment_vs_hs300_history.png
 
 ## 9. Brief Comment
-Today's sentiment reading is 中性偏平衡. Key topics are concentrated in 其他, 能源黄金, 国际局势. 当日新闻情绪为中性偏平衡，但沪深300 / 上证指数涨跌幅分别为 -0.97% / -0.67%，说明新闻情绪与市场表现存在一定背离。当前历史样本较短，后续需继续积累。
+Today's sentiment reading is 中性偏平衡. Key topics are concentrated in 其他, 能源黄金, 国际局势. 当日新闻情绪为中性偏平衡，沪深300与上证指数分别下跌 0.97% / 0.67%，情绪与市场方向大体一致。当前历史样本较短，后续需继续积累。

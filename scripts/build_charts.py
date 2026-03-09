@@ -11,6 +11,7 @@ BASE_DIR = Path(__file__).resolve().parents[1]
 PROC_DIR = BASE_DIR / "data" / "processed"
 DOCS_ASSETS = BASE_DIR / "docs" / "assets"
 DOCS_ASSETS.mkdir(parents=True, exist_ok=True)
+HISTORY_PATH = DOCS_ASSETS / "history.json"
 
 FONT_CANDIDATES = [
     "/System/Library/Fonts/Hiragino Sans GB.ttc",
@@ -32,21 +33,31 @@ def setup_chinese_font() -> str:
     return "default"
 
 
+
+
+def latest_available_date() -> str:
+    candidates = sorted(PROC_DIR.glob("sentiment_*.json"))
+    if not candidates:
+        raise FileNotFoundError("No sentiment_*.json files found in processed data")
+    return candidates[-1].stem.replace("sentiment_", "")
+
 def load_today():
-    today = datetime.now().strftime("%Y-%m-%d")
+    today = latest_available_date()
     sentiment_path = PROC_DIR / f"sentiment_{today}.json"
     market_path = PROC_DIR / f"market_{today}.json"
     sentiment = json.loads(sentiment_path.read_text(encoding="utf-8"))
     market = json.loads(market_path.read_text(encoding="utf-8"))
-    return today, sentiment, market
+    history = json.loads(HISTORY_PATH.read_text(encoding="utf-8")) if HISTORY_PATH.exists() else []
+    return today, sentiment, market, history
 
 
 def plot_label_distribution(today: str, sentiment: dict) -> str:
     labels = sentiment["label_counts"]
-    x = list(labels.keys())
+    order = ["positive", "neutral", "negative"]
+    x = [k for k in order if k in labels]
     y = [labels[k] for k in x]
     plt.figure(figsize=(6, 4))
-    plt.bar(x, y, color=["#ef4444", "#10b981", "#9ca3af"])
+    plt.bar(x, y, color=["#10b981", "#9ca3af", "#ef4444"][: len(x)])
     plt.title(f"Sentiment Label Distribution - {today}")
     plt.ylabel("Count")
     plt.tight_layout()
@@ -85,25 +96,37 @@ def plot_topic_distribution(today: str, sentiment: dict) -> str:
     return path.name
 
 
-def plot_sentiment_vs_market(today: str, sentiment: dict, market: dict) -> str:
-    hs300 = market.get("hs300", [])
-    if not hs300:
-        raise ValueError("hs300 data missing")
-    dates = [row.get("date", "") for row in hs300][-10:]
-    closes = [float(row.get("close", 0)) for row in hs300][-10:]
-    sentiment_series = [sentiment["daily_sentiment_index"] for _ in dates]
+def plot_history_sentiment(history: list[dict]) -> str:
+    dates = [x["date"] for x in history]
+    scores = [x["sentiment_index"] for x in history]
+    plt.figure(figsize=(8, 4.5))
+    plt.plot(dates, scores, marker="o", color="#dc2626")
+    plt.title("Sentiment Index History")
+    plt.ylabel("Sentiment Index")
+    plt.xticks(rotation=30)
+    plt.tight_layout()
+    path = DOCS_ASSETS / "sentiment_history.png"
+    plt.savefig(path, dpi=160)
+    plt.close()
+    return path.name
+
+
+def plot_history_market_linkage(history: list[dict]) -> str:
+    dates = [x["date"] for x in history]
+    sentiments = [x["sentiment_index"] for x in history]
+    hs300_returns = [x["hs300_return"] for x in history]
     fig, ax1 = plt.subplots(figsize=(8, 4.5))
-    ax1.plot(dates, closes, color="#2563eb", marker="o", label="HS300 Close")
-    ax1.set_ylabel("HS300 Close", color="#2563eb")
-    ax1.tick_params(axis="y", labelcolor="#2563eb")
+    ax1.plot(dates, sentiments, marker="o", color="#dc2626")
+    ax1.set_ylabel("Sentiment Index", color="#dc2626")
+    ax1.tick_params(axis="y", labelcolor="#dc2626")
     ax1.tick_params(axis="x", rotation=30)
     ax2 = ax1.twinx()
-    ax2.plot(dates, sentiment_series, color="#dc2626", linestyle="--", label="Sentiment Index")
-    ax2.set_ylabel("Sentiment Index", color="#dc2626")
-    ax2.tick_params(axis="y", labelcolor="#dc2626")
-    plt.title(f"Sentiment vs HS300 - {today}")
+    ax2.bar(dates, hs300_returns, alpha=0.3, color="#2563eb")
+    ax2.set_ylabel("HS300 Return (%)", color="#2563eb")
+    ax2.tick_params(axis="y", labelcolor="#2563eb")
+    plt.title("Sentiment vs HS300 Return History")
     fig.tight_layout()
-    path = DOCS_ASSETS / "sentiment_vs_hs300.png"
+    path = DOCS_ASSETS / "sentiment_vs_hs300_history.png"
     plt.savefig(path, dpi=160)
     plt.close()
     return path.name
@@ -111,12 +134,13 @@ def plot_sentiment_vs_market(today: str, sentiment: dict, market: dict) -> str:
 
 def main():
     font_name = setup_chinese_font()
-    today, sentiment, market = load_today()
+    today, sentiment, market, history = load_today()
     outputs = {
         "font": font_name,
         "label_distribution": plot_label_distribution(today, sentiment),
         "topic_distribution": plot_topic_distribution(today, sentiment),
-        "sentiment_vs_hs300": plot_sentiment_vs_market(today, sentiment, market),
+        "sentiment_history": plot_history_sentiment(history),
+        "sentiment_vs_hs300_history": plot_history_market_linkage(history),
     }
     out_path = DOCS_ASSETS / "charts.json"
     out_path.write_text(json.dumps(outputs, ensure_ascii=False, indent=2), encoding="utf-8")
