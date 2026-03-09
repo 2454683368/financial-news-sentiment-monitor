@@ -13,12 +13,12 @@
 - 当日新闻情绪为偏谨慎，沪深300与上证指数分别下跌 0.97% / 0.67%，情绪与市场方向大体一致。当前历史样本较短，后续需继续积累。
 
 ## 3. Topic Distribution
-- 其他: 48
-- 国际局势: 23
-- 能源黄金: 11
-- 科技AI: 8
-- 金融监管: 7
-- 资本市场: 7
+- 国际局势: 30
+- 其他: 26
+- 资本市场: 24
+- 能源黄金: 18
+- 金融监管: 13
+- 宏观政策: 12
 
 ## 4. Keyword Signals
 - 中东冲突: 12
@@ -56,4 +56,6 @@
 - sentiment_vs_hs300_history.png
 
 ## 9. Brief Comment
-Today's sentiment reading is 偏谨慎. Key topics are concentrated in 其他, 国际局势, 能源黄金. 当日新闻情绪为偏谨慎，沪深300与上证指数分别下跌 0.97% / 0.67%，情绪与市场方向大体一致。当前历史样本较短，后续需继续积累。
+- CN: 今日市场信息面偏谨慎，负面扰动主要来自国际局势、资本市场相关线索，尤其是中东冲突、油价。沪深300/上证分别录得 -0.97% / -0.67% ，情绪读数与市场走弱方向基本一致，当前更适合作为风险偏好变化的观察面板。
+- EN: Today's information backdrop is cautious, with downside pressure mainly linked to Global Geopolitics, Capital Markets, especially around Middle East Conflict, Oil. HS300 / SH Index moved -0.97% / -0.67%, broadly consistent with the weaker sentiment reading. At this stage, the dashboard is better used as a risk-appetite monitoring panel than a directional predictor.
+- Linkage: 当日新闻情绪为偏谨慎，沪深300与上证指数分别下跌 0.97% / 0.67%，情绪与市场方向大体一致。当前历史样本较短，后续需继续积累。

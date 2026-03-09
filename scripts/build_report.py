@@ -14,12 +14,12 @@ REPORTS_DIR.mkdir(parents=True, exist_ok=True)
 DOCS_DIR.mkdir(parents=True, exist_ok=True)
 
 TOPIC_RULES = {
-    "宏观政策": ["两会", "政府工作报告", "货币政策", "财政", "PPI", "CPI", "经济", "稳汇率"],
-    "资本市场": ["A股", "港股", "ETF", "股市", "IPO", "净买入", "回购", "涨停", "下跌"],
-    "能源黄金": ["油价", "原油", "黄金", "燃油", "天然气", "WTI"],
-    "科技AI": ["AI", "人工智能", "OpenClaw", "英伟达", "机器人", "算力", "大模型"],
-    "金融监管": ["监管", "银行", "保险", "合规", "最高法", "最高检", "证券犯罪"],
-    "国际局势": ["伊朗", "中东", "美国", "欧洲", "特朗普", "冲突", "北约"],
+    "宏观政策": ["两会", "政府工作报告", "货币政策", "财政", "PPI", "CPI", "经济", "稳汇率", "通胀", "加息", "降息", "滞胀", "财政政策", "宏观", "经济衰退"],
+    "资本市场": ["A股", "港股", "ETF", "股市", "IPO", "净买入", "回购", "涨停", "下跌", "收跌", "收涨", "基金", "市场", "交易", "上市", "股价", "美股", "纳指", "道指", "标普"],
+    "能源黄金": ["油价", "原油", "黄金", "燃油", "天然气", "WTI", "石油", "能源", "汽油", "金价", "原油储备"],
+    "科技AI": ["AI", "人工智能", "OpenClaw", "英伟达", "机器人", "算力", "大模型", "Copilot", "微软", "芯片", "半导体", "智能驾驶", "智慧交通"],
+    "金融监管": ["监管", "银行", "保险", "合规", "最高法", "最高检", "证券犯罪", "央行", "利率", "存款利率", "金融", "券商", "公募"],
+    "国际局势": ["伊朗", "中东", "美国", "欧洲", "特朗普", "冲突", "北约", "战争", "袭击", "制裁", "七国集团", "G7", "乌克兰", "俄罗斯"],
 }
 
 KEYWORD_RULES = {
@@ -346,12 +346,22 @@ def latest_available_date() -> str:
 
 
 
-def build_today_take(score: float, hs300_ret: float, topic_counts: list[tuple[str, int]]) -> tuple[str, str]:
-    filtered = [x for x in topic_counts if x[0] != '其他']
-    top_topics = '、'.join([x[0] for x in filtered[:2]]) if filtered else '综合财经信息'
-    top_topics_en = ', '.join([TOPIC_EN.get(x[0], x[0]) for x in filtered[:2]]) if filtered else 'general finance news'
-    zh = f"今日新闻情绪整体为{classify_index(score)}，市场偏弱，关注点主要集中在{top_topics}。当前更适合作为风险情绪观察，而不是方向性预测。"
-    en = f"Today's news tone is {classify_index_en(score)} with a softer market backdrop. The main attention is concentrated in {top_topics_en}. At this stage, the dashboard is more suitable for risk-sentiment observation than directional prediction."
+def build_today_take(score: float, hs300_ret: float, sh_ret: float, topic_counts: list[tuple[str, int]], keyword_counts: list[tuple[str, int]]) -> tuple[str, str]:
+    filtered_topics = [x for x in topic_counts if x[0] != '其他']
+    top_topics = '、'.join([x[0] for x in filtered_topics[:2]]) if filtered_topics else '综合财经信息'
+    top_topics_en = ', '.join([TOPIC_EN.get(x[0], x[0]) for x in filtered_topics[:2]]) if filtered_topics else 'general finance news'
+    top_keywords = '、'.join([x[0] for x in keyword_counts[:2]]) if keyword_counts else '综合因素'
+    top_keywords_en = ', '.join([KEYWORD_EN.get(x[0], x[0]) for x in keyword_counts[:2]]) if keyword_counts else 'mixed factors'
+
+    if score <= -0.12:
+        zh = f"今日市场信息面偏谨慎，负面扰动主要来自{top_topics}相关线索，尤其是{top_keywords}。沪深300/上证分别录得 {hs300_ret}% / {sh_ret}% ，情绪读数与市场走弱方向基本一致，当前更适合作为风险偏好变化的观察面板。"
+        en = f"Today's information backdrop is cautious, with downside pressure mainly linked to {top_topics_en}, especially around {top_keywords_en}. HS300 / SH Index moved {hs300_ret}% / {sh_ret}%, broadly consistent with the weaker sentiment reading. At this stage, the dashboard is better used as a risk-appetite monitoring panel than a directional predictor."
+    elif score >= 0.12:
+        zh = f"今日新闻情绪整体偏乐观，积极信号主要集中在{top_topics}，关键词上以{top_keywords}为主。沪深300/上证分别变动 {hs300_ret}% / {sh_ret}% ，可作为观察情绪改善与市场表现是否共振的轻量看板。"
+        en = f"Today's news tone is optimistic, with constructive signals mainly concentrated in {top_topics_en}, led by {top_keywords_en}. HS300 / SH Index moved {hs300_ret}% / {sh_ret}%, making the dashboard useful for observing whether improving sentiment is aligning with market performance."
+    else:
+        zh = f"今日日内信息面整体偏均衡，市场关注点集中在{top_topics}，关键词主要围绕{top_keywords}展开。沪深300/上证分别变动 {hs300_ret}% / {sh_ret}% ，当前读数更适合用于观察结构性扰动，而非直接做方向判断。"
+        en = f"Today's information flow is broadly balanced, with attention centered on {top_topics_en} and keywords led by {top_keywords_en}. HS300 / SH Index moved {hs300_ret}% / {sh_ret}%, so the current reading is better interpreted as a view on structural risk tone rather than a direct directional signal."
     return zh, en
 
 def main() -> None:
@@ -376,7 +386,7 @@ def main() -> None:
     sh_ret = calc_return(market['sh_index'])
     linkage_text = market_linkage_comment(score, hs300_ret, sh_ret, len(history))
     linkage_text_en = market_linkage_comment_en(score, hs300_ret, sh_ret, len(history))
-    today_take_zh, today_take_en = build_today_take(score, hs300_ret, topic_counts)
+    today_take_zh, today_take_en = build_today_take(score, hs300_ret, sh_ret, topic_counts, keyword_counts)
 
     report = f"""# Daily Financial Sentiment Report - {today}\n\n## 1. Daily Sentiment Snapshot\n- Total cleaned news items: {sentiment['count']}\n- Dropped noisy items: {clean.get('dropped_count', 0)}\n- Daily sentiment index: {score}\n- Daily tone: {tone}\n- Label counts: {sentiment['label_counts']}\n- HS300 daily return: {hs300_ret}%\n- SH Index daily return: {sh_ret}%\n\n## 2. Sentiment-Market Linkage\n- {linkage_text}\n\n## 3. Topic Distribution\n"""
     for topic, count in topic_counts[:6]:
@@ -397,7 +407,9 @@ def main() -> None:
     report += "\n## 8. Visual Assets\n"
     report += "- label_distribution.png\n- topic_distribution.png\n- sentiment_history.png\n- sentiment_vs_hs300_history.png\n"
     report += "\n## 9. Brief Comment\n"
-    report += f"Today's sentiment reading is {tone}. Key topics are concentrated in {', '.join([x[0] for x in topic_counts[:3]]) if topic_counts else 'general finance news'}. {linkage_text}\n"
+    report += f"- CN: {today_take_zh}\n"
+    report += f"- EN: {today_take_en}\n"
+    report += f"- Linkage: {linkage_text}\n"
 
     report_path = REPORTS_DIR / f"{today}.md"
     latest_path = DOCS_DIR / "latest.md"
