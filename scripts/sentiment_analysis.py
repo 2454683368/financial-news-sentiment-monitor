@@ -13,20 +13,22 @@ PROC_DIR.mkdir(parents=True, exist_ok=True)
 
 POS_WORDS = [
     "上涨", "增长", "提振", "回暖", "改善", "突破", "利好", "走强", "创新高", "净买入", "宽松",
-    "净利预增", "纳入港股通", "大力推广", "正式纳入", "分红"
+    "净利预增", "纳入港股通", "大力推广", "正式纳入", "分红", "上调评级", "超预期", "增持"
 ]
 NEG_WORDS = [
     "下跌", "风险", "承压", "收缩", "违约", "下行", "贬值", "波动", "大跌", "崩盘", "冲突", "通胀担忧", "拖累", "减弱",
-    "撤离", "停火", "抄袭", "致歉", "飙升", "战事", "中断", "震动", "油价飙升", "价格飙升"
+    "撤离", "停火", "抄袭", "致歉", "飙升", "战事", "中断", "震动", "油价飙升", "价格飙升",
+    "滞胀", "通胀", "加息", "高企", "战争", "紧张局势", "袭击", "制裁", "回升至", "押注"
 ]
 
 STRONG_NEG = [
     "下跌", "大跌", "崩盘", "风险", "违约", "拖累", "减弱", "承压", "冲突", "飙升", "恐慌",
-    "撤离", "通胀", "抄袭", "致歉", "战事", "中断", "油价飙升", "价格飙升"
+    "撤离", "通胀", "抄袭", "致歉", "战事", "中断", "油价飙升", "价格飙升", "滞胀", "战争",
+    "紧张局势", "袭击", "制裁", "加息", "高企"
 ]
 STRONG_POS = [
     "增长", "提振", "改善", "突破", "创新高", "净买入", "回暖", "宽松",
-    "净利预增", "纳入港股通", "大力推广", "正式纳入"
+    "净利预增", "纳入港股通", "大力推广", "正式纳入", "上调评级", "超预期", "增持"
 ]
 
 
@@ -51,10 +53,21 @@ def rule_score(title: str) -> float:
 
 def special_case_adjustment(title: str) -> float:
     bonus = 0.0
+    risk_terms = ["战争", "战事", "冲突", "紧张局势", "袭击", "制裁", "滞胀", "通胀", "加息", "高企", "押注"]
+    oil_terms = ["油价", "原油", "汽油价格", "天然气", "能源供应"]
+
     if "油价飙升" in title or "价格飙升" in title:
         bonus -= 1.2
-    if "突破" in title and ("油价" in title or "汽油价格" in title):
+    if any(term in title for term in risk_terms):
+        bonus -= 0.8
+    if any(term in title for term in oil_terms) and any(term in title for term in ["飙升", "升至", "涨至", "高企", "紧张局势"]):
+        bonus -= 0.8
+    if "突破" in title and any(term in title for term in oil_terms):
+        bonus -= 0.8
+    if "上涨" in title and any(term in title for term in ["通胀", "油价", "战争"]):
         bonus -= 0.6
+    if "上调评级" in title and any(term in title for term in ["股价", "公司", "个股"]):
+        bonus += 0.4
     return bonus
 
 def hybrid_score(title: str) -> float:

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-10T00:43:18.395993",
+  "generated_at": "2026-03-10T00:58:41.969215",
   "count": 95,
-  "daily_sentiment_index": -0.0181,
+  "daily_sentiment_index": -0.1078,
   "label_counts": {
     "neutral": 21,
-    "negative": 32,
-    "positive": 42
+    "negative": 40,
+    "positive": 34
   },
   "items": [
     {
@@ -34,8 +34,8 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.7008,
-      "rule_score": -1.6,
-      "hybrid_score": -0.2397,
+      "rule_score": -4.0,
+      "hybrid_score": -0.7197,
       "sentiment_label": "negative"
     },
     {
@@ -44,9 +44,9 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.8021,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1208,
-      "sentiment_label": "positive"
+      "rule_score": -2.4,
+      "hybrid_score": -0.3592,
+      "sentiment_label": "negative"
     },
     {
       "title": "被指构成供应链风险 Anthropic起诉美国国防部",
@@ -64,8 +64,8 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.4916,
-      "rule_score": -0.6,
-      "hybrid_score": -0.1234,
+      "rule_score": -2.4,
+      "hybrid_score": -0.4834,
       "sentiment_label": "negative"
     },
     {
@@ -84,8 +84,8 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.9851,
-      "rule_score": -1.6,
-      "hybrid_score": -0.126,
+      "rule_score": -2.4,
+      "hybrid_score": -0.286,
       "sentiment_label": "negative"
     },
     {
@@ -124,9 +124,9 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.9897,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1959,
-      "sentiment_label": "positive"
+      "rule_score": -3.4,
+      "hybrid_score": -0.4841,
+      "sentiment_label": "negative"
     },
     {
       "title": "英国央行面临通胀回升至5%上方的风险 交易员提高加息押注",
@@ -134,8 +134,8 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.9885,
-      "rule_score": -2.2,
-      "hybrid_score": -0.2446,
+      "rule_score": -7.6,
+      "hybrid_score": -1.3246,
       "sentiment_label": "negative"
     },
     {
@@ -144,9 +144,9 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.9915,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1966,
-      "sentiment_label": "positive"
+      "rule_score": -2.4,
+      "hybrid_score": -0.2834,
+      "sentiment_label": "negative"
     },
     {
       "title": "Anthropic就五角大楼黑名单起诉特朗普政府",
@@ -194,9 +194,9 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.8036,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1214,
-      "sentiment_label": "positive"
+      "rule_score": -2.4,
+      "hybrid_score": -0.3586,
+      "sentiment_label": "negative"
     },
     {
       "title": "宁德时代，抛出年度大红包",
@@ -224,9 +224,9 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.83,
-      "rule_score": -0.6,
-      "hybrid_score": 0.012,
-      "sentiment_label": "neutral"
+      "rule_score": -2.4,
+      "hybrid_score": -0.348,
+      "sentiment_label": "negative"
     },
     {
       "title": "资深石油分析师：如果伊朗冲突扩大 油价可能还要上涨50%",
@@ -234,8 +234,8 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.0148,
-      "rule_score": -0.6,
-      "hybrid_score": -0.3141,
+      "rule_score": -2.0,
+      "hybrid_score": -0.5941,
       "sentiment_label": "negative"
     },
     {
@@ -244,8 +244,8 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.4314,
-      "rule_score": -0.6,
-      "hybrid_score": -0.1474,
+      "rule_score": -1.2,
+      "hybrid_score": -0.2674,
       "sentiment_label": "negative"
     },
     {
@@ -274,9 +274,9 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.7564,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1026,
-      "sentiment_label": "positive"
+      "rule_score": -2.4,
+      "hybrid_score": -0.3774,
+      "sentiment_label": "negative"
     },
     {
       "title": "法国表示，七国集团尚未就释放石油储备达成一致",
@@ -294,9 +294,9 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.8808,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1523,
-      "sentiment_label": "positive"
+      "rule_score": -0.8,
+      "hybrid_score": -0.0077,
+      "sentiment_label": "neutral"
     },
     {
       "title": "地缘紧张局势升温叠加Truist上调评级，Redwire股价逆市走高",
@@ -304,9 +304,9 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.9614,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1846,
-      "sentiment_label": "positive"
+      "rule_score": -0.6,
+      "hybrid_score": 0.0646,
+      "sentiment_label": "neutral"
     },
     {
       "title": "亚马逊旗下的Zoox扩大服务范围，自动驾驶出租车竞争日趋激烈",
@@ -324,9 +324,9 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.9979,
-      "rule_score": -0.8,
-      "hybrid_score": 0.0392,
-      "sentiment_label": "neutral"
+      "rule_score": -1.8,
+      "hybrid_score": -0.1608,
+      "sentiment_label": "negative"
     },
     {
       "title": "AI“养龙虾”爆火！多家A股公司回应",
@@ -434,9 +434,9 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.9998,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1999,
-      "sentiment_label": "positive"
+      "rule_score": -3.4,
+      "hybrid_score": -0.4801,
+      "sentiment_label": "negative"
     },
     {
       "title": "捷荣技术主力净流出603.71万元，此前被立案律师征集受损投资者维权",
@@ -534,8 +534,8 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.0123,
-      "rule_score": -3.2,
-      "hybrid_score": -0.8351,
+      "rule_score": -4.0,
+      "hybrid_score": -0.9951,
       "sentiment_label": "negative"
     },
     {
@@ -574,8 +574,8 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.9093,
-      "rule_score": 0.8,
-      "hybrid_score": 0.3237,
+      "rule_score": 0.6,
+      "hybrid_score": 0.2837,
       "sentiment_label": "positive"
     },
     {
@@ -594,8 +594,8 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.6142,
-      "rule_score": -3.2,
-      "hybrid_score": -0.5943,
+      "rule_score": -4.0,
+      "hybrid_score": -0.7543,
       "sentiment_label": "negative"
     },
     {
@@ -674,8 +674,8 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.1922,
-      "rule_score": -3.2,
-      "hybrid_score": -0.7631,
+      "rule_score": -4.0,
+      "hybrid_score": -0.9231,
       "sentiment_label": "negative"
     },
     {
@@ -734,8 +734,8 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.0063,
-      "rule_score": 0.0,
-      "hybrid_score": -0.1975,
+      "rule_score": -2.4,
+      "hybrid_score": -0.6775,
       "sentiment_label": "negative"
     },
     {
@@ -774,8 +774,8 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.0114,
-      "rule_score": -0.6,
-      "hybrid_score": -0.3155,
+      "rule_score": -2.0,
+      "hybrid_score": -0.5955,
       "sentiment_label": "negative"
     },
     {
@@ -794,8 +794,8 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.9074,
-      "rule_score": -4.4,
-      "hybrid_score": -0.717,
+      "rule_score": -7.6,
+      "hybrid_score": -1.357,
       "sentiment_label": "negative"
     },
     {

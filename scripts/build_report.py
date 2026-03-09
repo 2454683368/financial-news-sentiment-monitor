@@ -60,17 +60,17 @@ KEYWORD_EN = {
 
 
 def classify_index(score: float) -> str:
-    if score > 0.12:
+    if score > 0.08:
         return "偏乐观"
-    if score < -0.12:
+    if score < -0.08:
         return "偏谨慎"
     return "中性偏平衡"
 
 
 def classify_index_en(score: float) -> str:
-    if score > 0.12:
+    if score > 0.08:
         return "Optimistic"
-    if score < -0.12:
+    if score < -0.08:
         return "Cautious"
     return "Balanced / Neutral"
 
@@ -101,7 +101,15 @@ def detect_keywords(titles: list[str]) -> list[tuple[str, int]]:
 
 def select_examples(items: list[dict], label_name: str, limit: int = 5) -> list[str]:
     finance_keywords = ["银行", "股", "油价", "黄金", "经济", "监管", "AI", "汇率", "港股", "A股", "市场", "资本", "美股", "能源", "通胀"]
+    risk_terms = ["战争", "战事", "冲突", "通胀", "加息", "高企", "油价", "制裁", "紧张局势", "押注"]
     pool = [x for x in items if x["sentiment_label"] == label_name]
+
+    if label_name == "positive":
+        pool = [x for x in pool if not any(k in x["title"] for k in risk_terms)]
+        pool = sorted(pool, key=lambda x: x.get("hybrid_score", 0), reverse=True)
+    elif label_name == "negative":
+        pool = sorted(pool, key=lambda x: x.get("hybrid_score", 0))
+
     preferred = [x["title"] for x in pool if any(k in x["title"] for k in finance_keywords)]
     fallback = [x["title"] for x in pool if x["title"] not in preferred]
     return (preferred + fallback)[:limit]
@@ -117,21 +125,21 @@ def calc_return(series: list[dict]) -> float:
 def market_linkage_comment(score: float, hs300_ret: float, sh_ret: float, history_len: int) -> str:
     tone = classify_index(score)
     suffix = "当前历史样本较短，后续需继续积累。" if history_len < 5 else "当前已具备基础连续样本，可继续观察趋势稳定性。"
-    if score > 0 and hs300_ret > 0:
+    if score > 0.08 and hs300_ret > 0:
         return f"当日新闻情绪为{tone}，沪深300与上证指数分别上涨 {hs300_ret}% / {sh_ret}%，情绪与市场方向大体一致。{suffix}"
-    if score < 0 and hs300_ret < 0:
+    if score < -0.08 and hs300_ret < 0:
         return f"当日新闻情绪为{tone}，沪深300与上证指数分别下跌 {abs(hs300_ret)}% / {abs(sh_ret)}%，情绪与市场方向大体一致。{suffix}"
-    return f"当日新闻情绪为{tone}，但沪深300 / 上证指数涨跌幅分别为 {hs300_ret}% / {sh_ret}%，说明新闻情绪与市场表现存在一定背离。{suffix}"
+    return f"当日新闻情绪为{tone}，沪深300 / 上证指数涨跌幅分别为 {hs300_ret}% / {sh_ret}%，更适合解读为情绪偏中性或存在阶段性背离，而不是简单同向验证。{suffix}"
 
 
 def market_linkage_comment_en(score: float, hs300_ret: float, sh_ret: float, history_len: int) -> str:
     tone = classify_index_en(score)
     suffix = "History is still short and needs more daily samples." if history_len < 5 else "A basic continuous sample is now available for further observation."
-    if score > 0 and hs300_ret > 0:
+    if score > 0.08 and hs300_ret > 0:
         return f"Daily news sentiment is {tone}, while HS300 and SH Index rose {hs300_ret}% / {sh_ret}% respectively. News tone and market direction are broadly aligned. {suffix}"
-    if score < 0 and hs300_ret < 0:
+    if score < -0.08 and hs300_ret < 0:
         return f"Daily news sentiment is {tone}, while HS300 and SH Index fell {abs(hs300_ret)}% / {abs(sh_ret)}% respectively. News tone and market direction are broadly aligned. {suffix}"
-    return f"Daily news sentiment is {tone}, but HS300 / SH Index moved {hs300_ret}% / {sh_ret}%, suggesting a short-term divergence between news tone and market performance. {suffix}"
+    return f"Daily news sentiment is {tone}, while HS300 / SH Index moved {hs300_ret}% / {sh_ret}%. This is better interpreted as neutral tone or short-term divergence rather than a clean same-direction confirmation. {suffix}"
 
 
 def build_html(today: str, score: float, tone: str, count: int, dropped: int, topics, keywords, positive_titles, negative_titles, linkage_text: str, linkage_text_en: str, hs300_ret: float, sh_ret: float, today_take_zh: str, today_take_en: str) -> str:

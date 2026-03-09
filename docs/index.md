@@ -2,7 +2,7 @@
 
 Latest report: [Daily Report 2026-03-10](./latest.md)
 
-- Latest sentiment tone: 中性偏平衡
+- Latest sentiment tone: 偏谨慎
 - Cleaned news count: 95
 - Dropped noisy items: 21
 - HS300 daily return: -0.97%
