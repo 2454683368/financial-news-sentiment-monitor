@@ -65,7 +65,24 @@ def detect_keywords(titles: list[str]) -> list[tuple[str, int]]:
     return counter.most_common()
 
 
-def build_html(today: str, score: float, tone: str, count: int, dropped: int, topics, keywords, positive_titles, negative_titles) -> str:
+def calc_return(series: list[dict]) -> float:
+    if len(series) < 2:
+        return 0.0
+    prev_close = float(series[-2]["close"])
+    latest_close = float(series[-1]["close"])
+    return round((latest_close / prev_close - 1) * 100, 2)
+
+
+def market_linkage_comment(score: float, hs300_ret: float, sh_ret: float) -> str:
+    tone = classify_index(score)
+    if score > 0 and hs300_ret > 0:
+        return f"当日新闻情绪为{tone}，沪深300与上证指数分别上涨 {hs300_ret}% / {sh_ret}%，情绪与市场方向大体一致。"
+    if score < 0 and hs300_ret < 0:
+        return f"当日新闻情绪为{tone}，沪深300与上证指数分别下跌 {abs(hs300_ret)}% / {abs(sh_ret)}%，情绪与市场方向大体一致。"
+    return f"当日新闻情绪为{tone}，但沪深300 / 上证指数涨跌幅分别为 {hs300_ret}% / {sh_ret}%，说明新闻情绪与市场表现存在一定背离，后续需要更多历史样本观察持续性。"
+
+
+def build_html(today: str, score: float, tone: str, count: int, dropped: int, topics, keywords, positive_titles, negative_titles, linkage_text: str, hs300_ret: float, sh_ret: float) -> str:
     topic_html = ''.join([f'<li><strong>{t}</strong>: {c}</li>' for t, c in topics[:6]])
     keyword_html = ''.join([f'<li><strong>{k}</strong>: {c}</li>' for k, c in keywords[:8]])
     pos_html = ''.join([f'<li>{x}</li>' for x in positive_titles])
@@ -77,13 +94,12 @@ def build_html(today: str, score: float, tone: str, count: int, dropped: int, to
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Financial News Sentiment Monitor</title>
   <style>
-    body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; margin: 40px auto; max-width: 980px; padding: 0 16px; line-height: 1.6; color: #1f2937; }}
+    body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; margin: 40px auto; max-width: 980px; padding: 0 16px; line-height: 1.6; color: #1f2937; background: #f9fafb; }}
     h1, h2 {{ color: #111827; }}
     .card {{ border: 1px solid #e5e7eb; border-radius: 12px; padding: 18px; margin: 16px 0; background: #fff; }}
     .muted {{ color: #6b7280; }}
     .grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }}
     img {{ width: 100%; border-radius: 10px; border: 1px solid #e5e7eb; background: #fff; }}
-    body {{ background: #f9fafb; }}
   </style>
 </head>
 <body>
@@ -96,8 +112,14 @@ def build_html(today: str, score: float, tone: str, count: int, dropped: int, to
       <li><strong>Daily tone</strong>: {tone}</li>
       <li><strong>Cleaned news count</strong>: {count}</li>
       <li><strong>Dropped noisy items</strong>: {dropped}</li>
+      <li><strong>HS300 daily return</strong>: {hs300_ret}%</li>
+      <li><strong>SH Index daily return</strong>: {sh_ret}%</li>
     </ul>
     <p><a href="./latest.md">View latest markdown report</a> · <a href="./STATUS.md">Project status</a></p>
+  </div>
+  <div class="card">
+    <h2>Sentiment-Market Linkage</h2>
+    <p>{linkage_text}</p>
   </div>
   <div class="grid">
     <div class="card"><h2>Topic Distribution</h2><ul>{topic_html}</ul></div>
@@ -133,26 +155,29 @@ def main() -> None:
     keyword_counts = detect_keywords(titles)
     score = sentiment['daily_sentiment_index']
     tone = classify_index(score)
+    hs300_ret = calc_return(market['hs300'])
+    sh_ret = calc_return(market['sh_index'])
+    linkage_text = market_linkage_comment(score, hs300_ret, sh_ret)
 
-    report = f"""# Daily Financial Sentiment Report - {today}\n\n## 1. Daily Sentiment Snapshot\n- Total cleaned news items: {sentiment['count']}\n- Dropped noisy items: {clean.get('dropped_count', 0)}\n- Daily sentiment index: {score}\n- Daily tone: {tone}\n- Label counts: {sentiment['label_counts']}\n\n## 2. Topic Distribution\n"""
+    report = f"""# Daily Financial Sentiment Report - {today}\n\n## 1. Daily Sentiment Snapshot\n- Total cleaned news items: {sentiment['count']}\n- Dropped noisy items: {clean.get('dropped_count', 0)}\n- Daily sentiment index: {score}\n- Daily tone: {tone}\n- Label counts: {sentiment['label_counts']}\n- HS300 daily return: {hs300_ret}%\n- SH Index daily return: {sh_ret}%\n\n## 2. Sentiment-Market Linkage\n- {linkage_text}\n\n## 3. Topic Distribution\n"""
     for topic, count in topic_counts[:6]:
         report += f"- {topic}: {count}\n"
-    report += "\n## 3. Keyword Signals\n"
+    report += "\n## 4. Keyword Signals\n"
     for key, count in keyword_counts[:8]:
         report += f"- {key}: {count}\n"
-    report += "\n## 4. Positive Headline Examples\n"
+    report += "\n## 5. Positive Headline Examples\n"
     for title in positive_titles:
         report += f"- {title}\n"
-    report += "\n## 5. Negative Headline Examples\n"
+    report += "\n## 6. Negative Headline Examples\n"
     for title in negative_titles:
         report += f"- {title}\n"
-    report += "\n## 6. Market Data\n"
+    report += "\n## 7. Market Data\n"
     report += f"- HS300 latest rows: {len(market['hs300'])}\n"
     report += f"- SH Index latest rows: {len(market['sh_index'])}\n"
-    report += "\n## 7. Visual Assets\n"
+    report += "\n## 8. Visual Assets\n"
     report += "- label_distribution.png\n- topic_distribution.png\n- sentiment_vs_hs300.png\n"
-    report += "\n## 8. Brief Comment\n"
-    report += f"Today's sentiment reading is {tone}. Key topics are concentrated in {', '.join([x[0] for x in topic_counts[:3]]) if topic_counts else 'general finance news'}. This auto-generated report is based on cleaned financial headlines, hybrid sentiment scoring, market index updates, and simple visualization.\n"
+    report += "\n## 9. Brief Comment\n"
+    report += f"Today's sentiment reading is {tone}. Key topics are concentrated in {', '.join([x[0] for x in topic_counts[:3]]) if topic_counts else 'general finance news'}. {linkage_text}\n"
 
     report_path = REPORTS_DIR / f"{today}.md"
     latest_path = DOCS_DIR / "latest.md"
@@ -161,11 +186,11 @@ def main() -> None:
     report_path.write_text(report, encoding="utf-8")
     latest_path.write_text(report, encoding="utf-8")
     index_md_path.write_text(
-        f"# Financial News Sentiment Monitor\n\nLatest report: [Daily Report {today}](./latest.md)\n\n- Latest sentiment tone: {tone}\n- Cleaned news count: {sentiment['count']}\n- Dropped noisy items: {clean.get('dropped_count', 0)}\n- Visual assets: label distribution / topic distribution / sentiment vs HS300\n\nThis page is updated automatically.\n",
+        f"# Financial News Sentiment Monitor\n\nLatest report: [Daily Report {today}](./latest.md)\n\n- Latest sentiment tone: {tone}\n- Cleaned news count: {sentiment['count']}\n- Dropped noisy items: {clean.get('dropped_count', 0)}\n- HS300 daily return: {hs300_ret}%\n- SH Index daily return: {sh_ret}%\n- Visual assets: label distribution / topic distribution / sentiment vs HS300\n\nThis page is updated automatically.\n",
         encoding="utf-8",
     )
     index_html_path.write_text(
-        build_html(today, score, tone, sentiment['count'], clean.get('dropped_count', 0), topic_counts, keyword_counts, positive_titles, negative_titles),
+        build_html(today, score, tone, sentiment['count'], clean.get('dropped_count', 0), topic_counts, keyword_counts, positive_titles, negative_titles, linkage_text, hs300_ret, sh_ret),
         encoding='utf-8'
     )
     print(f"report generated: {report_path}")
