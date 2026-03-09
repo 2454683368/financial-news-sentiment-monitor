@@ -5,11 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Financial News Sentiment Monitor</title>
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; margin: 40px auto; max-width: 920px; padding: 0 16px; line-height: 1.6; color: #1f2937; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; margin: 40px auto; max-width: 980px; padding: 0 16px; line-height: 1.6; color: #1f2937; }
     h1, h2 { color: #111827; }
-    .card { border: 1px solid #e5e7eb; border-radius: 12px; padding: 18px; margin: 16px 0; }
+    .card { border: 1px solid #e5e7eb; border-radius: 12px; padding: 18px; margin: 16px 0; background: #fff; }
     .muted { color: #6b7280; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+    img { width: 100%; border-radius: 10px; border: 1px solid #e5e7eb; background: #fff; }
+    body { background: #f9fafb; }
   </style>
 </head>
 <body>
@@ -29,6 +31,11 @@
     <div class="card"><h2>Topic Distribution</h2><ul><li><strong>其他</strong>: 34</li><li><strong>能源黄金</strong>: 23</li><li><strong>国际局势</strong>: 18</li><li><strong>金融监管</strong>: 11</li><li><strong>科技AI</strong>: 10</li><li><strong>资本市场</strong>: 9</li></ul></div>
     <div class="card"><h2>Keyword Signals</h2><ul><li><strong>油价</strong>: 22</li><li><strong>中东冲突</strong>: 12</li><li><strong>AI</strong>: 9</li><li><strong>银行监管</strong>: 7</li><li><strong>A股</strong>: 2</li><li><strong>港股</strong>: 2</li><li><strong>货币政策</strong>: 1</li><li><strong>两会</strong>: 1</li></ul></div>
   </div>
+  <div class="grid">
+    <div class="card"><h2>Sentiment Label Distribution</h2><img src="./assets/label_distribution.png" alt="label distribution" /></div>
+    <div class="card"><h2>Topic Distribution Chart</h2><img src="./assets/topic_distribution.png" alt="topic distribution" /></div>
+  </div>
+  <div class="card"><h2>Sentiment vs HS300</h2><img src="./assets/sentiment_vs_hs300.png" alt="sentiment vs hs300" /></div>
   <div class="grid">
     <div class="card"><h2>Positive Examples</h2><ul><li>乌克兰总统泽连斯基：美国等国家寻求乌克兰的安全支持</li><li>中国人民银行副行长宣昌能出席“亚洲2050”国际会议</li><li>直面“抄袭门”，980亿魏建军公开致歉</li><li>持续押注中国新经济：2025年普洛斯算力中心业务收入同比增长32%</li><li>印度官员：印度不会释放战略原油储备</li></ul></div>
     <div class="card"><h2>Negative Examples</h2><ul><li>战事蔓延，美国下令人员撤离沙特，伊朗拒绝立即停火</li><li>能源价格飙升，国会民主党人要求继续禁止印度购买俄油</li><li>603268，业绩大增超1000%，申请“摘星脱帽”！</li><li>300750，拟10派69.57元！多只A股，大手笔分红</li><li>LNG供应中断震动能源市场，煤炭价格飙升9.3%至150美元</li></ul></div>

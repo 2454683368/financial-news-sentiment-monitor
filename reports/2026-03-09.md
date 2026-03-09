@@ -43,5 +43,10 @@
 - HS300 latest rows: 10
 - SH Index latest rows: 10
 
-## 7. Brief Comment
-Today's sentiment reading is 中性偏平衡. Key topics are concentrated in 其他, 能源黄金, 国际局势. This auto-generated report is based on cleaned financial headlines, hybrid sentiment scoring, and market index updates.
+## 7. Visual Assets
+- label_distribution.png
+- topic_distribution.png
+- sentiment_vs_hs300.png
+
+## 8. Brief Comment
+Today's sentiment reading is 中性偏平衡. Key topics are concentrated in 其他, 能源黄金, 国际局势. This auto-generated report is based on cleaned financial headlines, hybrid sentiment scoring, market index updates, and simple visualization.

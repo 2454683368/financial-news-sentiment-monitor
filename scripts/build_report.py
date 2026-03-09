@@ -77,11 +77,13 @@ def build_html(today: str, score: float, tone: str, count: int, dropped: int, to
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Financial News Sentiment Monitor</title>
   <style>
-    body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; margin: 40px auto; max-width: 920px; padding: 0 16px; line-height: 1.6; color: #1f2937; }}
+    body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; margin: 40px auto; max-width: 980px; padding: 0 16px; line-height: 1.6; color: #1f2937; }}
     h1, h2 {{ color: #111827; }}
-    .card {{ border: 1px solid #e5e7eb; border-radius: 12px; padding: 18px; margin: 16px 0; }}
+    .card {{ border: 1px solid #e5e7eb; border-radius: 12px; padding: 18px; margin: 16px 0; background: #fff; }}
     .muted {{ color: #6b7280; }}
-    .grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }}
+    .grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }}
+    img {{ width: 100%; border-radius: 10px; border: 1px solid #e5e7eb; background: #fff; }}
+    body {{ background: #f9fafb; }}
   </style>
 </head>
 <body>
@@ -101,6 +103,11 @@ def build_html(today: str, score: float, tone: str, count: int, dropped: int, to
     <div class="card"><h2>Topic Distribution</h2><ul>{topic_html}</ul></div>
     <div class="card"><h2>Keyword Signals</h2><ul>{keyword_html}</ul></div>
   </div>
+  <div class="grid">
+    <div class="card"><h2>Sentiment Label Distribution</h2><img src="./assets/label_distribution.png" alt="label distribution" /></div>
+    <div class="card"><h2>Topic Distribution Chart</h2><img src="./assets/topic_distribution.png" alt="topic distribution" /></div>
+  </div>
+  <div class="card"><h2>Sentiment vs HS300</h2><img src="./assets/sentiment_vs_hs300.png" alt="sentiment vs hs300" /></div>
   <div class="grid">
     <div class="card"><h2>Positive Examples</h2><ul>{pos_html}</ul></div>
     <div class="card"><h2>Negative Examples</h2><ul>{neg_html}</ul></div>
@@ -142,8 +149,10 @@ def main() -> None:
     report += "\n## 6. Market Data\n"
     report += f"- HS300 latest rows: {len(market['hs300'])}\n"
     report += f"- SH Index latest rows: {len(market['sh_index'])}\n"
-    report += "\n## 7. Brief Comment\n"
-    report += f"Today's sentiment reading is {tone}. Key topics are concentrated in {', '.join([x[0] for x in topic_counts[:3]]) if topic_counts else 'general finance news'}. This auto-generated report is based on cleaned financial headlines, hybrid sentiment scoring, and market index updates.\n"
+    report += "\n## 7. Visual Assets\n"
+    report += "- label_distribution.png\n- topic_distribution.png\n- sentiment_vs_hs300.png\n"
+    report += "\n## 8. Brief Comment\n"
+    report += f"Today's sentiment reading is {tone}. Key topics are concentrated in {', '.join([x[0] for x in topic_counts[:3]]) if topic_counts else 'general finance news'}. This auto-generated report is based on cleaned financial headlines, hybrid sentiment scoring, market index updates, and simple visualization.\n"
 
     report_path = REPORTS_DIR / f"{today}.md"
     latest_path = DOCS_DIR / "latest.md"
@@ -152,7 +161,7 @@ def main() -> None:
     report_path.write_text(report, encoding="utf-8")
     latest_path.write_text(report, encoding="utf-8")
     index_md_path.write_text(
-        f"# Financial News Sentiment Monitor\n\nLatest report: [Daily Report {today}](./latest.md)\n\n- Latest sentiment tone: {tone}\n- Cleaned news count: {sentiment['count']}\n- Dropped noisy items: {clean.get('dropped_count', 0)}\n\nThis page is updated automatically.\n",
+        f"# Financial News Sentiment Monitor\n\nLatest report: [Daily Report {today}](./latest.md)\n\n- Latest sentiment tone: {tone}\n- Cleaned news count: {sentiment['count']}\n- Dropped noisy items: {clean.get('dropped_count', 0)}\n- Visual assets: label distribution / topic distribution / sentiment vs HS300\n\nThis page is updated automatically.\n",
         encoding="utf-8",
     )
     index_html_path.write_text(
