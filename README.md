@@ -30,7 +30,12 @@ This project is in the MVP-but-serious stage:
 - GitHub Pages is live
 - visual charts are available
 - historical data accumulation has started
+- OpenClaw scheduled automation has been configured for daily execution
 - source quality and sentiment robustness are still being improved
+
+## Automation
+- The project is scheduled inside OpenClaw to run daily at 08:00 Asia/Shanghai.
+- The scheduled flow runs the pipeline, checks outputs, pushes updates to GitHub, and reports execution status back to the user.
 
 ## Repository structure
 - `scripts/`: runnable daily pipeline scripts

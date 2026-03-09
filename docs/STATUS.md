@@ -5,6 +5,7 @@
 - News ingestion -> cleaning -> sentiment -> market data -> history update -> chart generation -> report generation works
 - GitHub Pages is live
 - Local auto-publish script is available
+- OpenClaw daily scheduled execution has been configured (08:00 Asia/Shanghai)
 
 ## Recommended daily usage
 1. Run `python scripts/run_daily.py`
