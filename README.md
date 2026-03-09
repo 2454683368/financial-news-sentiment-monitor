@@ -64,3 +64,7 @@ This project is not trying to be a heavy production crawler. The goal is to buil
 ## Status / 状态
 See `docs/STATUS.md` for the latest status and next steps.  
 最新状态见 `docs/STATUS.md`。
+
+## Changelog / 更新记录
+See `CHANGELOG.md` for recent iteration history.  
+近期迭代记录见 `CHANGELOG.md`。

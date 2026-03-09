@@ -15,3 +15,5 @@ Latest report / 最新日报: [Daily Report](./latest.md)
 - 图表包括情绪分布、主题分布、情绪历史和情绪-市场联动历史。
 - This page is updated automatically by OpenClaw.
 - 本页由 OpenClaw 自动更新。
+- Recent iteration history: [CHANGELOG](../CHANGELOG.md)
+- 近期迭代记录： [CHANGELOG](../CHANGELOG.md)
