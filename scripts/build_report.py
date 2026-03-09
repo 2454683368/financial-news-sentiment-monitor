@@ -150,6 +150,7 @@ def build_html(today: str, score: float, tone: str, count: int, dropped: int, to
     .lang-switch {{ display:flex; gap:8px; }}
     .lang-switch button {{ border:1px solid #d1d5db; background:#fff; border-radius:8px; padding:6px 12px; cursor:pointer; }}
     .lang-switch button.active {{ background:#111827; color:#fff; border-color:#111827; }}
+    .badge {{ display:inline-block; padding:6px 10px; border-radius:999px; background:#dbeafe; color:#1d4ed8; font-size:14px; margin-top:8px; }}
     [data-lang] {{ display:none; }}
     [data-lang].active {{ display:block; }}
   </style>
@@ -172,6 +173,8 @@ def build_html(today: str, score: float, tone: str, count: int, dropped: int, to
       <h1 data-lang="en">Financial News Sentiment Monitor</h1>
       <p class="muted" data-lang="zh">一个轻量、可持续更新的财经新闻情绪与市场联动展示项目。</p>
       <p class="muted" data-lang="en">A lightweight and continuously updating project for financial news sentiment and market linkage.</p>
+      <div class="badge" data-lang="zh">最近更新：{today}</div>
+      <div class="badge" data-lang="en">Last updated: {today}</div>
     </div>
     <div class="lang-switch">
       <button id="btn-zh" onclick="setLang('zh')">中文</button>
