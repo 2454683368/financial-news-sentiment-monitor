@@ -18,13 +18,14 @@ POS_WORDS = [
 NEG_WORDS = [
     "下跌", "风险", "承压", "收缩", "违约", "下行", "贬值", "波动", "大跌", "崩盘", "冲突", "通胀担忧", "拖累", "减弱",
     "撤离", "停火", "抄袭", "致歉", "飙升", "战事", "中断", "震动", "油价飙升", "价格飙升",
-    "滞胀", "通胀", "加息", "高企", "战争", "紧张局势", "袭击", "制裁", "回升至", "押注"
+    "滞胀", "通胀", "加息", "高企", "战争", "紧张局势", "袭击", "制裁", "回升至", "押注",
+    "离世", "意外离世", "立案", "维权", "受损投资者", "火葬场", "供应中断", "供应收紧", "概率大幅上升"
 ]
 
 STRONG_NEG = [
     "下跌", "大跌", "崩盘", "风险", "违约", "拖累", "减弱", "承压", "冲突", "飙升", "恐慌",
     "撤离", "通胀", "抄袭", "致歉", "战事", "中断", "油价飙升", "价格飙升", "滞胀", "战争",
-    "紧张局势", "袭击", "制裁", "加息", "高企"
+    "紧张局势", "袭击", "制裁", "加息", "高企", "离世", "立案", "维权", "供应中断", "供应收紧"
 ]
 STRONG_POS = [
     "增长", "提振", "改善", "突破", "创新高", "净买入", "回暖", "宽松",
@@ -55,13 +56,18 @@ def special_case_adjustment(title: str) -> float:
     bonus = 0.0
     risk_terms = ["战争", "战事", "冲突", "紧张局势", "袭击", "制裁", "滞胀", "通胀", "加息", "高企", "押注"]
     oil_terms = ["油价", "原油", "汽油价格", "天然气", "能源供应"]
+    event_negative_terms = ["离世", "意外离世", "立案", "维权", "受损投资者", "火葬场"]
 
     if "油价飙升" in title or "价格飙升" in title:
         bonus -= 1.2
     if any(term in title for term in risk_terms):
         bonus -= 0.8
+    if any(term in title for term in event_negative_terms):
+        bonus -= 1.0
     if any(term in title for term in oil_terms) and any(term in title for term in ["飙升", "升至", "涨至", "高企", "紧张局势"]):
         bonus -= 0.8
+    if any(term in title for term in ["供应中断", "供应收紧", "概率大幅上升"]):
+        bonus -= 1.0
     if "突破" in title and any(term in title for term in oil_terms):
         bonus -= 0.8
     if "上涨" in title and any(term in title for term in ["通胀", "油价", "战争"]):

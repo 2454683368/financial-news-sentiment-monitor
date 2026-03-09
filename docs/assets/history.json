@@ -11,10 +11,10 @@
   },
   {
     "date": "2026-03-10",
-    "sentiment_index": -0.1078,
-    "positive": 34,
+    "sentiment_index": -0.1511,
+    "positive": 30,
     "neutral": 21,
-    "negative": 40,
+    "negative": 44,
     "news_count": 95,
     "hs300_return": -0.97,
     "sh_index_return": -0.67

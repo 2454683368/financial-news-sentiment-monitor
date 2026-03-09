@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-10T00:58:41.969215",
+  "generated_at": "2026-03-10T01:00:49.090961",
   "count": 95,
-  "daily_sentiment_index": -0.1078,
+  "daily_sentiment_index": -0.1511,
   "label_counts": {
     "neutral": 21,
-    "negative": 40,
-    "positive": 34
+    "negative": 44,
+    "positive": 30
   },
   "items": [
     {
@@ -104,9 +104,9 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.9993,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1997,
-      "sentiment_label": "positive"
+      "rule_score": -2.0,
+      "hybrid_score": -0.2003,
+      "sentiment_label": "negative"
     },
     {
       "title": "午盘：道指下跌400点 纳指跌幅收窄至0.1%",
@@ -444,9 +444,9 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.9979,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1992,
-      "sentiment_label": "positive"
+      "rule_score": -5.2,
+      "hybrid_score": -0.8408,
+      "sentiment_label": "negative"
     },
     {
       "title": "星宸科技：2026年计划发布1款激光雷达芯片及3款12nm芯片",
@@ -534,8 +534,8 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.0123,
-      "rule_score": -4.0,
-      "hybrid_score": -0.9951,
+      "rule_score": -6.6,
+      "hybrid_score": -1.5151,
       "sentiment_label": "negative"
     },
     {
@@ -574,9 +574,9 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.9093,
-      "rule_score": 0.6,
-      "hybrid_score": 0.2837,
-      "sentiment_label": "positive"
+      "rule_score": -1.4,
+      "hybrid_score": -0.1163,
+      "sentiment_label": "negative"
     },
     {
       "title": "美股存储概念股走高，闪迪涨6%",
@@ -594,8 +594,8 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.6142,
-      "rule_score": -4.0,
-      "hybrid_score": -0.7543,
+      "rule_score": -6.6,
+      "hybrid_score": -1.2743,
       "sentiment_label": "negative"
     },
     {
@@ -674,8 +674,8 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.1922,
-      "rule_score": -4.0,
-      "hybrid_score": -0.9231,
+      "rule_score": -6.6,
+      "hybrid_score": -1.4431,
       "sentiment_label": "negative"
     },
     {
@@ -744,9 +744,9 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 1.0,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
-      "sentiment_label": "positive"
+      "rule_score": -3.6,
+      "hybrid_score": -0.52,
+      "sentiment_label": "negative"
     },
     {
       "title": "Live Nation与美国司法部就反垄断案达成和解",
