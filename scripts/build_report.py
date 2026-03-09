@@ -97,6 +97,15 @@ def detect_keywords(titles: list[str]) -> list[tuple[str, int]]:
     return counter.most_common()
 
 
+
+
+def select_examples(items: list[dict], label_name: str, limit: int = 5) -> list[str]:
+    finance_keywords = ["银行", "股", "油价", "黄金", "经济", "监管", "AI", "汇率", "港股", "A股", "市场", "资本", "美股", "能源", "通胀"]
+    pool = [x for x in items if x["sentiment_label"] == label_name]
+    preferred = [x["title"] for x in pool if any(k in x["title"] for k in finance_keywords)]
+    fallback = [x["title"] for x in pool if x["title"] not in preferred]
+    return (preferred + fallback)[:limit]
+
 def calc_return(series: list[dict]) -> float:
     if len(series) < 2:
         return 0.0
@@ -344,8 +353,8 @@ def main() -> None:
     history = json.loads(history_path.read_text(encoding="utf-8")) if history_path.exists() else []
 
     titles = [x["title"] for x in sentiment["items"]]
-    negative_titles = [x["title"] for x in sentiment["items"] if x["sentiment_label"] == "negative"][:5]
-    positive_titles = [x["title"] for x in sentiment["items"] if x["sentiment_label"] == "positive"][:5]
+    negative_titles = select_examples(sentiment["items"], "negative", 5)
+    positive_titles = select_examples(sentiment["items"], "positive", 5)
     topic_counts = detect_topics(titles)
     keyword_counts = detect_keywords(titles)
     score = sentiment['daily_sentiment_index']
