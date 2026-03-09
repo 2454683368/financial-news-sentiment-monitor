@@ -156,6 +156,10 @@ def build_html(today: str, score: float, tone: str, count: int, dropped: int, to
     <div class="card"><h2>Sentiment vs HS300 Return History</h2><img src="./assets/sentiment_vs_hs300_history.png" alt="sentiment vs hs300 history" /></div>
   </div>
   <div class="grid">
+    <div class="card"><h2>Data Sources</h2><ul><li>Public financial news pages / feeds</li><li>Rule-based cleaned headline set</li><li>Daily HS300 and SH Index market data</li></ul></div>
+    <div class="card"><h2>Known Limitations</h2><ul><li>Some edge-case noise may still remain</li><li>Sentiment scoring is hybrid but not perfect</li><li>Historical linkage is still early because samples are short</li></ul></div>
+  </div>
+  <div class="grid">
     <div class="card"><h2>Positive Examples</h2><ul>{pos_html}</ul></div>
     <div class="card"><h2>Negative Examples</h2><ul>{neg_html}</ul></div>
   </div>
