@@ -5,11 +5,31 @@ from datetime import datetime
 from pathlib import Path
 
 import matplotlib.pyplot as plt
+from matplotlib import font_manager, rcParams
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 PROC_DIR = BASE_DIR / "data" / "processed"
 DOCS_ASSETS = BASE_DIR / "docs" / "assets"
 DOCS_ASSETS.mkdir(parents=True, exist_ok=True)
+
+FONT_CANDIDATES = [
+    "/System/Library/Fonts/Hiragino Sans GB.ttc",
+    "/System/Library/Fonts/STHeiti Medium.ttc",
+    "/System/Library/Fonts/Supplemental/Songti.ttc",
+]
+
+
+def setup_chinese_font() -> str:
+    for path in FONT_CANDIDATES:
+        if Path(path).exists():
+            font_manager.fontManager.addfont(path)
+            prop = font_manager.FontProperties(fname=path)
+            font_name = prop.get_name()
+            rcParams["font.family"] = font_name
+            rcParams["axes.unicode_minus"] = False
+            return font_name
+    rcParams["axes.unicode_minus"] = False
+    return "default"
 
 
 def load_today():
@@ -90,8 +110,10 @@ def plot_sentiment_vs_market(today: str, sentiment: dict, market: dict) -> str:
 
 
 def main():
+    font_name = setup_chinese_font()
     today, sentiment, market = load_today()
     outputs = {
+        "font": font_name,
         "label_distribution": plot_label_distribution(today, sentiment),
         "topic_distribution": plot_topic_distribution(today, sentiment),
         "sentiment_vs_hs300": plot_sentiment_vs_market(today, sentiment, market),
@@ -99,6 +121,7 @@ def main():
     out_path = DOCS_ASSETS / "charts.json"
     out_path.write_text(json.dumps(outputs, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"charts generated: {out_path}")
+    print(f"font selected: {font_name}")
 
 
 if __name__ == "__main__":
