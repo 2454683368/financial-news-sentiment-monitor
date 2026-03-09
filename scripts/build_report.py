@@ -125,7 +125,7 @@ def market_linkage_comment_en(score: float, hs300_ret: float, sh_ret: float, his
     return f"Daily news sentiment is {tone}, but HS300 / SH Index moved {hs300_ret}% / {sh_ret}%, suggesting a short-term divergence between news tone and market performance. {suffix}"
 
 
-def build_html(today: str, score: float, tone: str, count: int, dropped: int, topics, keywords, positive_titles, negative_titles, linkage_text: str, linkage_text_en: str, hs300_ret: float, sh_ret: float) -> str:
+def build_html(today: str, score: float, tone: str, count: int, dropped: int, topics, keywords, positive_titles, negative_titles, linkage_text: str, linkage_text_en: str, hs300_ret: float, sh_ret: float, today_take_zh: str, today_take_en: str) -> str:
     topic_html_zh = ''.join([f'<li><strong>{t}</strong>: {c}</li>' for t, c in topics[:6]])
     topic_html_en = ''.join([f'<li><strong>{TOPIC_EN.get(t, t)}</strong>: {c}</li>' for t, c in topics[:6]])
     keyword_html_zh = ''.join([f'<li><strong>{k}</strong>: {c}</li>' for k, c in keywords[:8]])
@@ -205,6 +205,12 @@ def build_html(today: str, score: float, tone: str, count: int, dropped: int, to
     <p data-lang="en"><a href="./latest.md">View latest markdown report</a> · <a href="./STATUS.md">Project status</a></p>
   </div>
 
+  <div class="card">
+    <h2 data-lang="zh">今日结论</h2>
+    <h2 data-lang="en">Today's Take</h2>
+    <p data-lang="zh">{today_take_zh}</p>
+    <p data-lang="en">{today_take_en}</p>
+  </div>
   <div class="card">
     <h2 data-lang="zh">情绪-市场联动解释</h2>
     <h2 data-lang="en">Sentiment-Market Linkage</h2>
@@ -315,6 +321,15 @@ def latest_available_date() -> str:
     latest = candidates[-1].stem.replace("sentiment_", "")
     return latest
 
+
+
+def build_today_take(score: float, hs300_ret: float, topic_counts: list[tuple[str, int]]) -> tuple[str, str]:
+    top_topics = '、'.join([x[0] for x in topic_counts[:2]]) if topic_counts else '综合财经信息'
+    top_topics_en = ', '.join([TOPIC_EN.get(x[0], x[0]) for x in topic_counts[:2]]) if topic_counts else 'general finance news'
+    zh = f"今日新闻情绪整体为{classify_index(score)}，市场偏弱，关注点主要集中在{top_topics}。当前更适合作为风险情绪观察，而不是方向性预测。"
+    en = f"Today's news tone is {classify_index_en(score)} with a softer market backdrop. The main attention is concentrated in {top_topics_en}. At this stage, the dashboard is more suitable for risk-sentiment observation than directional prediction."
+    return zh, en
+
 def main() -> None:
     today = latest_available_date()
     sentiment_path = PROC_DIR / f"sentiment_{today}.json"
@@ -337,6 +352,7 @@ def main() -> None:
     sh_ret = calc_return(market['sh_index'])
     linkage_text = market_linkage_comment(score, hs300_ret, sh_ret, len(history))
     linkage_text_en = market_linkage_comment_en(score, hs300_ret, sh_ret, len(history))
+    today_take_zh, today_take_en = build_today_take(score, hs300_ret, topic_counts)
 
     report = f"""# Daily Financial Sentiment Report - {today}\n\n## 1. Daily Sentiment Snapshot\n- Total cleaned news items: {sentiment['count']}\n- Dropped noisy items: {clean.get('dropped_count', 0)}\n- Daily sentiment index: {score}\n- Daily tone: {tone}\n- Label counts: {sentiment['label_counts']}\n- HS300 daily return: {hs300_ret}%\n- SH Index daily return: {sh_ret}%\n\n## 2. Sentiment-Market Linkage\n- {linkage_text}\n\n## 3. Topic Distribution\n"""
     for topic, count in topic_counts[:6]:
@@ -370,7 +386,7 @@ def main() -> None:
         encoding="utf-8",
     )
     index_html_path.write_text(
-        build_html(today, score, tone, sentiment['count'], clean.get('dropped_count', 0), topic_counts, keyword_counts, positive_titles, negative_titles, linkage_text, linkage_text_en, hs300_ret, sh_ret),
+        build_html(today, score, tone, sentiment['count'], clean.get('dropped_count', 0), topic_counts, keyword_counts, positive_titles, negative_titles, linkage_text, linkage_text_en, hs300_ret, sh_ret, today_take_zh, today_take_en),
         encoding='utf-8'
     )
     print(f"report generated: {report_path}")
