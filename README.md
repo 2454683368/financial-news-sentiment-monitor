@@ -36,8 +36,12 @@ A lightweight, explainable, and continuously updating financial-tech project.
 ## Daily usage / 日常运行方式
 ```bash
 source .venv/bin/activate
-python scripts/run_daily.py
-python scripts/publish_github.py
+python scripts/run_daily.py --publish
+```
+
+Or use the one-shot shell entry / 或者直接用一键入口：
+```bash
+./scripts/run_daily_job.sh
 ```
 
 ## Current stage / 当前阶段

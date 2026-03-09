@@ -8,14 +8,15 @@
 - OpenClaw daily scheduled execution has been configured (08:00 Asia/Shanghai)
 
 ## Recommended daily usage
-1. Run `python scripts/run_daily.py`
-2. Check generated report and charts
-3. Run `python scripts/publish_github.py`
+1. Run `python scripts/run_daily.py --publish`
+2. Or use `./scripts/run_daily_job.sh` for a one-shot scheduled entry
+3. Check `logs/` when you need to debug failures
 
-## Why generation and publishing are still separated
-- Safer for debugging
-- Easier to inspect outputs before pushing
-- Better for early-stage MVP iteration
+## Current automation design
+- Generation and publishing can now run in one step
+- A dedicated shell entry is available for scheduled execution
+- Logs are kept locally for easier troubleshooting
+- You can still run generation only when debugging specific pipeline stages
 
 ## Current known issues
 - Some edge-case noise may still remain
