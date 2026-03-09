@@ -3,9 +3,9 @@
 ## 1. Daily Sentiment Snapshot
 - Total cleaned news items: 96
 - Dropped noisy items: 20
-- Daily sentiment index: -0.0457
+- Daily sentiment index: -0.1053
 - Daily tone: 中性偏平衡
-- Label counts: {'negative': 40, 'positive': 41, 'neutral': 15}
+- Label counts: {'negative': 41, 'positive': 40, 'neutral': 15}
 - HS300 daily return: -0.97%
 - SH Index daily return: -0.67%
 

@@ -17,12 +17,12 @@ POS_WORDS = [
 ]
 NEG_WORDS = [
     "下跌", "风险", "承压", "收缩", "违约", "下行", "贬值", "波动", "大跌", "崩盘", "冲突", "通胀担忧", "拖累", "减弱",
-    "撤离", "停火", "抄袭", "致歉", "飙升", "战事", "中断", "震动"
+    "撤离", "停火", "抄袭", "致歉", "飙升", "战事", "中断", "震动", "油价飙升", "价格飙升"
 ]
 
 STRONG_NEG = [
     "下跌", "大跌", "崩盘", "风险", "违约", "拖累", "减弱", "承压", "冲突", "飙升", "恐慌",
-    "撤离", "通胀", "抄袭", "致歉", "战事", "中断"
+    "撤离", "通胀", "抄袭", "致歉", "战事", "中断", "油价飙升", "价格飙升"
 ]
 STRONG_POS = [
     "增长", "提振", "改善", "突破", "创新高", "净买入", "回暖", "宽松",
@@ -47,10 +47,20 @@ def rule_score(title: str) -> float:
     return score
 
 
+
+
+def special_case_adjustment(title: str) -> float:
+    bonus = 0.0
+    if "油价飙升" in title or "价格飙升" in title:
+        bonus -= 1.2
+    if "突破" in title and ("油价" in title or "汽油价格" in title):
+        bonus -= 0.6
+    return bonus
+
 def hybrid_score(title: str) -> float:
     model_score = SnowNLP(title).sentiments
     model_centered = model_score - 0.5
-    r_score = rule_score(title)
+    r_score = rule_score(title) + special_case_adjustment(title)
     hybrid = 0.4 * model_centered + 0.6 * (r_score / 3)
     return model_score, r_score, hybrid
 

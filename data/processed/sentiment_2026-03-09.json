@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-10T00:15:41.153579",
+  "generated_at": "2026-03-10T00:19:08.386405",
   "count": 96,
-  "daily_sentiment_index": -0.0457,
+  "daily_sentiment_index": -0.1053,
   "label_counts": {
-    "negative": 40,
-    "positive": 41,
+    "negative": 41,
+    "positive": 40,
     "neutral": 15
   },
   "items": [
@@ -14,8 +14,8 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.8202,
-      "rule_score": -1.6,
-      "hybrid_score": -0.1919,
+      "rule_score": -4.4,
+      "hybrid_score": -0.7519,
       "sentiment_label": "negative"
     },
     {
@@ -104,8 +104,8 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.109,
-      "rule_score": -1.6,
-      "hybrid_score": -0.4764,
+      "rule_score": -4.4,
+      "hybrid_score": -1.0364,
       "sentiment_label": "negative"
     },
     {
@@ -164,8 +164,8 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.0052,
-      "rule_score": -4.2,
-      "hybrid_score": -1.0379,
+      "rule_score": -7.0,
+      "hybrid_score": -1.5979,
       "sentiment_label": "negative"
     },
     {
@@ -194,8 +194,8 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.3256,
-      "rule_score": -1.6,
-      "hybrid_score": -0.3898,
+      "rule_score": -4.4,
+      "hybrid_score": -0.9498,
       "sentiment_label": "negative"
     },
     {
@@ -304,8 +304,8 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.6863,
-      "rule_score": -1.6,
-      "hybrid_score": -0.2455,
+      "rule_score": -4.4,
+      "hybrid_score": -0.8055,
       "sentiment_label": "negative"
     },
     {
@@ -354,9 +354,9 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.9944,
-      "rule_score": -0.2,
-      "hybrid_score": 0.1578,
-      "sentiment_label": "positive"
+      "rule_score": -3.6,
+      "hybrid_score": -0.5222,
+      "sentiment_label": "negative"
     },
     {
       "title": "私家车加一箱油多花近30元！国内成品油价格迎年内“四连涨”，创近4年来最大涨幅",
@@ -384,8 +384,8 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.9813,
-      "rule_score": -2.6,
-      "hybrid_score": -0.3275,
+      "rule_score": -5.4,
+      "hybrid_score": -0.8875,
       "sentiment_label": "negative"
     },
     {
@@ -484,8 +484,8 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.9987,
-      "rule_score": -3.2,
-      "hybrid_score": -0.4405,
+      "rule_score": -6.0,
+      "hybrid_score": -1.0005,
       "sentiment_label": "negative"
     },
     {
@@ -574,8 +574,8 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.6456,
-      "rule_score": -1.6,
-      "hybrid_score": -0.2618,
+      "rule_score": -4.4,
+      "hybrid_score": -0.8218,
       "sentiment_label": "negative"
     },
     {
@@ -644,8 +644,8 @@
       "source": "sina_finance",
       "published_at": null,
       "model_score": 0.9374,
-      "rule_score": -3.2,
-      "hybrid_score": -0.465,
+      "rule_score": -6.0,
+      "hybrid_score": -1.025,
       "sentiment_label": "negative"
     },
     {
