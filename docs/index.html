@@ -11,51 +11,122 @@
     .muted { color: #6b7280; }
     .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
     img { width: 100%; border-radius: 10px; border: 1px solid #e5e7eb; background: #fff; }
+    .toolbar { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:16px; }
+    .lang-switch { display:flex; gap:8px; }
+    .lang-switch button { border:1px solid #d1d5db; background:#fff; border-radius:8px; padding:6px 12px; cursor:pointer; }
+    .lang-switch button.active { background:#111827; color:#fff; border-color:#111827; }
+    [data-lang] { display:none; }
+    [data-lang].active { display:block; }
   </style>
+  <script>
+    function setLang(lang) {
+      localStorage.setItem('site_lang', lang);
+      document.querySelectorAll('[data-lang]').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('[data-lang="' + lang + '"]').forEach(el => el.classList.add('active'));
+      document.querySelectorAll('.lang-switch button').forEach(btn => btn.classList.remove('active'));
+      document.getElementById('btn-' + lang).classList.add('active');
+      document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+    }
+    window.addEventListener('DOMContentLoaded', () => setLang(localStorage.getItem('site_lang') || 'zh'));
+  </script>
 </head>
 <body>
-  <h1>Financial News Sentiment Monitor</h1>
-  <p class="muted">A lightweight daily financial news sentiment and market volatility monitoring project.</p>
+  <div class="toolbar">
+    <div>
+      <h1 data-lang="zh">财经新闻情绪与市场波动监测</h1>
+      <h1 data-lang="en">Financial News Sentiment Monitor</h1>
+      <p class="muted" data-lang="zh">一个轻量、可持续更新的财经新闻情绪与市场联动展示项目。</p>
+      <p class="muted" data-lang="en">A lightweight and continuously updating project for financial news sentiment and market linkage.</p>
+    </div>
+    <div class="lang-switch">
+      <button id="btn-zh" onclick="setLang('zh')">中文</button>
+      <button id="btn-en" onclick="setLang('en')">EN</button>
+    </div>
+  </div>
+
   <div class="card">
-    <h2>Latest Snapshot · 2026-03-09</h2>
-    <ul>
+    <h2 data-lang="zh">最新快照 · 2026-03-09</h2>
+    <h2 data-lang="en">Latest Snapshot · 2026-03-09</h2>
+    <ul data-lang="zh">
+      <li><strong>当日情绪指数</strong>: 0.0085</li>
+      <li><strong>当日基调</strong>: 中性偏平衡</li>
+      <li><strong>清洗后新闻数</strong>: 96</li>
+      <li><strong>过滤噪声数</strong>: 20</li>
+      <li><strong>沪深300日收益率</strong>: -0.97%</li>
+      <li><strong>上证指数日收益率</strong>: -0.67%</li>
+    </ul>
+    <ul data-lang="en">
       <li><strong>Daily sentiment index</strong>: 0.0085</li>
-      <li><strong>Daily tone</strong>: 中性偏平衡</li>
+      <li><strong>Daily tone</strong>: Balanced / Neutral</li>
       <li><strong>Cleaned news count</strong>: 96</li>
       <li><strong>Dropped noisy items</strong>: 20</li>
       <li><strong>HS300 daily return</strong>: -0.97%</li>
       <li><strong>SH Index daily return</strong>: -0.67%</li>
     </ul>
-    <p><a href="./latest.md">View latest markdown report</a> · <a href="./STATUS.md">Project status</a></p>
+    <p data-lang="zh"><a href="./latest.md">查看最新 Markdown 日报</a> · <a href="./STATUS.md">项目状态</a></p>
+    <p data-lang="en"><a href="./latest.md">View latest markdown report</a> · <a href="./STATUS.md">Project status</a></p>
   </div>
+
   <div class="card">
-    <h2>Sentiment-Market Linkage</h2>
-    <p>当日新闻情绪为中性偏平衡，但沪深300 / 上证指数涨跌幅分别为 -0.97% / -0.67%，说明新闻情绪与市场表现存在一定背离。当前历史样本较短，后续需继续积累。</p>
+    <h2 data-lang="zh">情绪-市场联动解释</h2>
+    <h2 data-lang="en">Sentiment-Market Linkage</h2>
+    <p data-lang="zh">当日新闻情绪为中性偏平衡，但沪深300 / 上证指数涨跌幅分别为 -0.97% / -0.67%，说明新闻情绪与市场表现存在一定背离。当前历史样本较短，后续需继续积累。</p>
+    <p data-lang="en">Daily news sentiment is Balanced / Neutral, but HS300 / SH Index moved -0.97% / -0.67%, suggesting a short-term divergence between news tone and market performance. History is still short and needs more daily samples.</p>
   </div>
+
   <div class="card">
-    <h2>Methodology</h2>
-    <ul>
-      <li>News is collected from a small set of relatively stable public financial sources.</li>
-      <li>Titles are cleaned with rule-based filtering, deduplication, and source-domain exclusion.</li>
-      <li>Sentiment uses a hybrid score: SnowNLP model signal + finance-specific keyword rules.</li>
-      <li>Market linkage currently compares daily sentiment with HS300 and SH Index returns.</li>
-      <li>Historical linkage will become more informative as daily samples accumulate.</li>
+    <h2 data-lang="zh">方法说明</h2>
+    <h2 data-lang="en">Methodology</h2>
+    <ul data-lang="zh">
+      <li>从少量相对稳定的公开财经新闻源抓取标题。</li>
+      <li>通过规则过滤、去重、域名排除等方式清洗标题。</li>
+      <li>情绪评分采用 SnowNLP + 财经关键词规则 的混合方案。</li>
+      <li>市场联动目前比较情绪指数与沪深300 / 上证收益率。</li>
+      <li>随着历史样本积累，多日联动分析会越来越有信息量。</li>
+    </ul>
+    <ul data-lang="en">
+      <li>Headlines are collected from a small set of relatively stable public financial sources.</li>
+      <li>Titles are cleaned with rule-based filtering, deduplication, and domain exclusion.</li>
+      <li>Sentiment uses a hybrid score: SnowNLP + finance-specific keyword rules.</li>
+      <li>Market linkage currently compares the sentiment index with HS300 and SH Index returns.</li>
+      <li>Historical linkage becomes more informative as daily samples accumulate.</li>
     </ul>
   </div>
+
   <div class="card">
-    <h2>How It Works</h2>
-    <ol>
+    <h2 data-lang="zh">流程</h2>
+    <h2 data-lang="en">How It Works</h2>
+    <ol data-lang="zh">
+      <li>抓取当日财经新闻标题</li>
+      <li>清洗去重低质量内容</li>
+      <li>执行混合情绪打分</li>
+      <li>抓取市场指数数据</li>
+      <li>生成图表、报告与 GitHub Pages 页面</li>
+    </ol>
+    <ol data-lang="en">
       <li>Ingest daily financial headlines</li>
       <li>Clean and deduplicate low-quality items</li>
       <li>Run hybrid sentiment scoring</li>
       <li>Fetch market index data</li>
-      <li>Generate report, charts, and GitHub Pages output</li>
+      <li>Generate charts, reports, and GitHub Pages output</li>
     </ol>
   </div>
+
   <div class="grid">
-    <div class="card"><h2>Topic Distribution</h2><ul><li><strong>其他</strong>: 34</li><li><strong>能源黄金</strong>: 23</li><li><strong>国际局势</strong>: 18</li><li><strong>金融监管</strong>: 11</li><li><strong>科技AI</strong>: 10</li><li><strong>资本市场</strong>: 9</li></ul></div>
-    <div class="card"><h2>Keyword Signals</h2><ul><li><strong>油价</strong>: 22</li><li><strong>中东冲突</strong>: 12</li><li><strong>AI</strong>: 9</li><li><strong>银行监管</strong>: 7</li><li><strong>A股</strong>: 2</li><li><strong>港股</strong>: 2</li><li><strong>货币政策</strong>: 1</li><li><strong>两会</strong>: 1</li></ul></div>
+    <div class="card">
+      <h2 data-lang="zh">主题分布</h2>
+      <h2 data-lang="en">Topic Distribution</h2>
+      <ul data-lang="zh"><li><strong>其他</strong>: 34</li><li><strong>能源黄金</strong>: 23</li><li><strong>国际局势</strong>: 18</li><li><strong>金融监管</strong>: 11</li><li><strong>科技AI</strong>: 10</li><li><strong>资本市场</strong>: 9</li></ul>
+      <ul data-lang="en"><li><strong>Others</strong>: 34</li><li><strong>Energy & Gold</strong>: 23</li><li><strong>Global Geopolitics</strong>: 18</li><li><strong>Financial Regulation</strong>: 11</li><li><strong>Tech & AI</strong>: 10</li><li><strong>Capital Markets</strong>: 9</li></ul>
+    </div>
+    <div class="card">
+      <h2 data-lang="zh">关键词信号</h2>
+      <h2 data-lang="en">Keyword Signals</h2>
+      <ul data-lang="zh"><li><strong>油价</strong>: 22</li><li><strong>中东冲突</strong>: 12</li><li><strong>AI</strong>: 9</li><li><strong>银行监管</strong>: 7</li><li><strong>A股</strong>: 2</li><li><strong>港股</strong>: 2</li><li><strong>货币政策</strong>: 1</li><li><strong>两会</strong>: 1</li></ul>
+      <ul data-lang="en"><li><strong>Oil</strong>: 22</li><li><strong>Middle East Conflict</strong>: 12</li><li><strong>AI</strong>: 9</li><li><strong>Bank Regulation</strong>: 7</li><li><strong>A Shares</strong>: 2</li><li><strong>Hong Kong Stocks</strong>: 2</li><li><strong>Monetary Policy</strong>: 1</li><li><strong>Two Sessions</strong>: 1</li></ul>
+    </div>
   </div>
+
   <div class="grid">
     <div class="card"><h2>Sentiment Label Distribution</h2><img src="./assets/label_distribution.png" alt="label distribution" /></div>
     <div class="card"><h2>Topic Distribution Chart</h2><img src="./assets/topic_distribution.png" alt="topic distribution" /></div>
@@ -64,13 +135,33 @@
     <div class="card"><h2>Sentiment History</h2><img src="./assets/sentiment_history.png" alt="sentiment history" /></div>
     <div class="card"><h2>Sentiment vs HS300 Return History</h2><img src="./assets/sentiment_vs_hs300_history.png" alt="sentiment vs hs300 history" /></div>
   </div>
+
   <div class="grid">
-    <div class="card"><h2>Data Sources</h2><ul><li>Public financial news pages / feeds</li><li>Rule-based cleaned headline set</li><li>Daily HS300 and SH Index market data</li></ul></div>
-    <div class="card"><h2>Known Limitations</h2><ul><li>Some edge-case noise may still remain</li><li>Sentiment scoring is hybrid but not perfect</li><li>Historical linkage is still early because samples are short</li></ul></div>
+    <div class="card">
+      <h2 data-lang="zh">数据来源</h2>
+      <h2 data-lang="en">Data Sources</h2>
+      <ul data-lang="zh"><li>公开财经新闻页面 / RSS 类来源</li><li>规则清洗后的标题样本</li><li>沪深300与上证指数日度数据</li></ul>
+      <ul data-lang="en"><li>Public financial news pages / feed-like sources</li><li>Rule-cleaned headline samples</li><li>Daily HS300 and SH Index data</li></ul>
+    </div>
+    <div class="card">
+      <h2 data-lang="zh">已知局限</h2>
+      <h2 data-lang="en">Known Limitations</h2>
+      <ul data-lang="zh"><li>仍可能存在少量边界噪声</li><li>混合情绪评分仍不是完美分类器</li><li>历史联动样本目前仍较短</li></ul>
+      <ul data-lang="en"><li>Some edge-case noise may still remain</li><li>The hybrid sentiment model is improved but not perfect</li><li>Historical linkage is still early because the sample is short</li></ul>
+    </div>
   </div>
+
   <div class="grid">
-    <div class="card"><h2>Positive Examples</h2><ul><li>乌克兰总统泽连斯基：美国等国家寻求乌克兰的安全支持</li><li>中国人民银行副行长宣昌能出席“亚洲2050”国际会议</li><li>直面“抄袭门”，980亿魏建军公开致歉</li><li>持续押注中国新经济：2025年普洛斯算力中心业务收入同比增长32%</li><li>印度官员：印度不会释放战略原油储备</li></ul></div>
-    <div class="card"><h2>Negative Examples</h2><ul><li>战事蔓延，美国下令人员撤离沙特，伊朗拒绝立即停火</li><li>能源价格飙升，国会民主党人要求继续禁止印度购买俄油</li><li>603268，业绩大增超1000%，申请“摘星脱帽”！</li><li>300750，拟10派69.57元！多只A股，大手笔分红</li><li>LNG供应中断震动能源市场，煤炭价格飙升9.3%至150美元</li></ul></div>
+    <div class="card">
+      <h2 data-lang="zh">正面样例</h2>
+      <h2 data-lang="en">Positive Examples</h2>
+      <ul><li>乌克兰总统泽连斯基：美国等国家寻求乌克兰的安全支持</li><li>中国人民银行副行长宣昌能出席“亚洲2050”国际会议</li><li>直面“抄袭门”，980亿魏建军公开致歉</li><li>持续押注中国新经济：2025年普洛斯算力中心业务收入同比增长32%</li><li>印度官员：印度不会释放战略原油储备</li></ul>
+    </div>
+    <div class="card">
+      <h2 data-lang="zh">负面样例</h2>
+      <h2 data-lang="en">Negative Examples</h2>
+      <ul><li>战事蔓延，美国下令人员撤离沙特，伊朗拒绝立即停火</li><li>能源价格飙升，国会民主党人要求继续禁止印度购买俄油</li><li>603268，业绩大增超1000%，申请“摘星脱帽”！</li><li>300750，拟10派69.57元！多只A股，大手笔分红</li><li>LNG供应中断震动能源市场，煤炭价格飙升9.3%至150美元</li></ul>
+    </div>
   </div>
 </body>
 </html>

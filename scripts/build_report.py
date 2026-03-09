@@ -303,8 +303,17 @@ def build_html(today: str, score: float, tone: str, count: int, dropped: int, to
 """
 
 
+
+
+def latest_available_date() -> str:
+    candidates = sorted(PROC_DIR.glob("sentiment_*.json"))
+    if not candidates:
+        raise FileNotFoundError("No sentiment_*.json files found in processed data")
+    latest = candidates[-1].stem.replace("sentiment_", "")
+    return latest
+
 def main() -> None:
-    today = datetime.now().strftime("%Y-%m-%d")
+    today = latest_available_date()
     sentiment_path = PROC_DIR / f"sentiment_{today}.json"
     market_path = PROC_DIR / f"market_{today}.json"
     clean_path = PROC_DIR / f"news_clean_{today}.json"
