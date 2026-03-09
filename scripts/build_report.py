@@ -270,8 +270,8 @@ def build_html(today: str, score: float, tone: str, count: int, dropped: int, to
     <div class="card"><h2>Topic Distribution Chart</h2><img src="./assets/topic_distribution.png" alt="topic distribution" /></div>
   </div>
   <div class="grid">
-    <div class="card"><h2>Sentiment History</h2><img src="./assets/sentiment_history.png" alt="sentiment history" /></div>
-    <div class="card"><h2>Sentiment vs HS300 Return History</h2><img src="./assets/sentiment_vs_hs300_history.png" alt="sentiment vs hs300 history" /></div>
+    <div class="card"><h2>Sentiment History</h2><img src="./assets/sentiment_history.png" alt="sentiment history" /><p class="muted" data-lang="zh">历史图会随着每日自动运行逐步丰富，目前仍处于样本积累早期。</p><p class="muted" data-lang="en">Historical charts will become more informative as daily runs accumulate. The sample is still at an early stage.</p></div>
+    <div class="card"><h2>Sentiment vs HS300 Return History</h2><img src="./assets/sentiment_vs_hs300_history.png" alt="sentiment vs hs300 history" /><p class="muted" data-lang="zh">当前更适合作为联动观察面板，而非正式统计结论。</p><p class="muted" data-lang="en">At the current stage, this is better interpreted as an observation panel rather than a formal statistical conclusion.</p></div>
   </div>
 
   <div class="grid">
