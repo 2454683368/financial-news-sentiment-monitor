@@ -18,6 +18,7 @@ def main() -> None:
         'clean_news.py',
         'sentiment_analysis.py',
         'fetch_market_data.py',
+        'update_history.py',
         'build_report.py',
     ]:
         run(script)
