@@ -319,8 +319,8 @@ def build_html(today: str, score: float, tone: str, count: int, dropped: int, to
     </div>
   </div>
   <footer class="muted" style="margin:32px 0 16px; font-size:14px;">
-    <div data-lang="zh">仓库：<a href="https://github.com/2454683368/financial-news-sentiment-monitor">financial-news-sentiment-monitor</a> · 本页由 OpenClaw 定时更新</div>
-    <div data-lang="en">Repo: <a href="https://github.com/2454683368/financial-news-sentiment-monitor">financial-news-sentiment-monitor</a> · This page is updated on schedule by OpenClaw</div>
+    <div data-lang="zh">仓库：<a href="https://github.com/2454683368/financial-news-sentiment-monitor">financial-news-sentiment-monitor</a> · <a href="../CHANGELOG.md">更新记录</a> · 本页由 OpenClaw 定时更新</div>
+    <div data-lang="en">Repo: <a href="https://github.com/2454683368/financial-news-sentiment-monitor">financial-news-sentiment-monitor</a> · <a href="../CHANGELOG.md">Changelog</a> · This page is updated on schedule by OpenClaw</div>
   </footer>
 </body>
 </html>
