@@ -210,6 +210,8 @@ def build_html(today: str, score: float, tone: str, count: int, dropped: int, to
     <h2 data-lang="en">Today's Take</h2>
     <p data-lang="zh">{today_take_zh}</p>
     <p data-lang="en">{today_take_en}</p>
+    <p class="muted" data-lang="zh">项目定位：用于观察财经新闻情绪与市场联动，不直接作为交易预测信号。</p>
+    <p class="muted" data-lang="en">Project scope: designed for observing news sentiment and market linkage, not as a direct trading signal.</p>
   </div>
   <div class="card">
     <h2 data-lang="zh">情绪-市场联动解释</h2>
