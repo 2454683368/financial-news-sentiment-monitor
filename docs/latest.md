@@ -10,7 +10,7 @@
 - SH Index daily return: -0.67%
 
 ## 2. Sentiment-Market Linkage
-- 当日新闻情绪为中性偏平衡，但沪深300 / 上证指数涨跌幅分别为 -0.97% / -0.67%，说明新闻情绪与市场表现存在一定背离，后续需要更多历史样本观察持续性。
+- 当日新闻情绪为中性偏平衡，但沪深300 / 上证指数涨跌幅分别为 -0.97% / -0.67%，说明新闻情绪与市场表现存在一定背离。当前历史样本较短，后续需继续积累。
 
 ## 3. Topic Distribution
 - 其他: 34
@@ -47,11 +47,13 @@
 ## 7. Market Data
 - HS300 latest rows: 10
 - SH Index latest rows: 10
+- History length: 1
 
 ## 8. Visual Assets
 - label_distribution.png
 - topic_distribution.png
-- sentiment_vs_hs300.png
+- sentiment_history.png
+- sentiment_vs_hs300_history.png
 
 ## 9. Brief Comment
-Today's sentiment reading is 中性偏平衡. Key topics are concentrated in 其他, 能源黄金, 国际局势. 当日新闻情绪为中性偏平衡，但沪深300 / 上证指数涨跌幅分别为 -0.97% / -0.67%，说明新闻情绪与市场表现存在一定背离，后续需要更多历史样本观察持续性。
+Today's sentiment reading is 中性偏平衡. Key topics are concentrated in 其他, 能源黄金, 国际局势. 当日新闻情绪为中性偏平衡，但沪深300 / 上证指数涨跌幅分别为 -0.97% / -0.67%，说明新闻情绪与市场表现存在一定背离。当前历史样本较短，后续需继续积累。

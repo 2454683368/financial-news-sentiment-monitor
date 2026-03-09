@@ -9,6 +9,7 @@ BASE_DIR = Path(__file__).resolve().parents[1]
 PROC_DIR = BASE_DIR / "data" / "processed"
 REPORTS_DIR = BASE_DIR / "reports"
 DOCS_DIR = BASE_DIR / "docs"
+ASSETS_DIR = DOCS_DIR / "assets"
 REPORTS_DIR.mkdir(parents=True, exist_ok=True)
 DOCS_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -73,13 +74,14 @@ def calc_return(series: list[dict]) -> float:
     return round((latest_close / prev_close - 1) * 100, 2)
 
 
-def market_linkage_comment(score: float, hs300_ret: float, sh_ret: float) -> str:
+def market_linkage_comment(score: float, hs300_ret: float, sh_ret: float, history_len: int) -> str:
     tone = classify_index(score)
+    suffix = "当前历史样本较短，后续需继续积累。" if history_len < 5 else "当前已具备基础连续样本，可继续观察趋势稳定性。"
     if score > 0 and hs300_ret > 0:
-        return f"当日新闻情绪为{tone}，沪深300与上证指数分别上涨 {hs300_ret}% / {sh_ret}%，情绪与市场方向大体一致。"
+        return f"当日新闻情绪为{tone}，沪深300与上证指数分别上涨 {hs300_ret}% / {sh_ret}%，情绪与市场方向大体一致。{suffix}"
     if score < 0 and hs300_ret < 0:
-        return f"当日新闻情绪为{tone}，沪深300与上证指数分别下跌 {abs(hs300_ret)}% / {abs(sh_ret)}%，情绪与市场方向大体一致。"
-    return f"当日新闻情绪为{tone}，但沪深300 / 上证指数涨跌幅分别为 {hs300_ret}% / {sh_ret}%，说明新闻情绪与市场表现存在一定背离，后续需要更多历史样本观察持续性。"
+        return f"当日新闻情绪为{tone}，沪深300与上证指数分别下跌 {abs(hs300_ret)}% / {abs(sh_ret)}%，情绪与市场方向大体一致。{suffix}"
+    return f"当日新闻情绪为{tone}，但沪深300 / 上证指数涨跌幅分别为 {hs300_ret}% / {sh_ret}%，说明新闻情绪与市场表现存在一定背离。{suffix}"
 
 
 def build_html(today: str, score: float, tone: str, count: int, dropped: int, topics, keywords, positive_titles, negative_titles, linkage_text: str, hs300_ret: float, sh_ret: float) -> str:
@@ -129,7 +131,10 @@ def build_html(today: str, score: float, tone: str, count: int, dropped: int, to
     <div class="card"><h2>Sentiment Label Distribution</h2><img src="./assets/label_distribution.png" alt="label distribution" /></div>
     <div class="card"><h2>Topic Distribution Chart</h2><img src="./assets/topic_distribution.png" alt="topic distribution" /></div>
   </div>
-  <div class="card"><h2>Sentiment vs HS300</h2><img src="./assets/sentiment_vs_hs300.png" alt="sentiment vs hs300" /></div>
+  <div class="grid">
+    <div class="card"><h2>Sentiment History</h2><img src="./assets/sentiment_history.png" alt="sentiment history" /></div>
+    <div class="card"><h2>Sentiment vs HS300 Return History</h2><img src="./assets/sentiment_vs_hs300_history.png" alt="sentiment vs hs300 history" /></div>
+  </div>
   <div class="grid">
     <div class="card"><h2>Positive Examples</h2><ul>{pos_html}</ul></div>
     <div class="card"><h2>Negative Examples</h2><ul>{neg_html}</ul></div>
@@ -144,9 +149,11 @@ def main() -> None:
     sentiment_path = PROC_DIR / f"sentiment_{today}.json"
     market_path = PROC_DIR / f"market_{today}.json"
     clean_path = PROC_DIR / f"news_clean_{today}.json"
+    history_path = ASSETS_DIR / "history.json"
     sentiment = json.loads(sentiment_path.read_text(encoding="utf-8"))
     market = json.loads(market_path.read_text(encoding="utf-8"))
     clean = json.loads(clean_path.read_text(encoding="utf-8"))
+    history = json.loads(history_path.read_text(encoding="utf-8")) if history_path.exists() else []
 
     titles = [x["title"] for x in sentiment["items"]]
     negative_titles = [x["title"] for x in sentiment["items"] if x["sentiment_label"] == "negative"][:5]
@@ -157,7 +164,7 @@ def main() -> None:
     tone = classify_index(score)
     hs300_ret = calc_return(market['hs300'])
     sh_ret = calc_return(market['sh_index'])
-    linkage_text = market_linkage_comment(score, hs300_ret, sh_ret)
+    linkage_text = market_linkage_comment(score, hs300_ret, sh_ret, len(history))
 
     report = f"""# Daily Financial Sentiment Report - {today}\n\n## 1. Daily Sentiment Snapshot\n- Total cleaned news items: {sentiment['count']}\n- Dropped noisy items: {clean.get('dropped_count', 0)}\n- Daily sentiment index: {score}\n- Daily tone: {tone}\n- Label counts: {sentiment['label_counts']}\n- HS300 daily return: {hs300_ret}%\n- SH Index daily return: {sh_ret}%\n\n## 2. Sentiment-Market Linkage\n- {linkage_text}\n\n## 3. Topic Distribution\n"""
     for topic, count in topic_counts[:6]:
@@ -174,8 +181,9 @@ def main() -> None:
     report += "\n## 7. Market Data\n"
     report += f"- HS300 latest rows: {len(market['hs300'])}\n"
     report += f"- SH Index latest rows: {len(market['sh_index'])}\n"
+    report += f"- History length: {len(history)}\n"
     report += "\n## 8. Visual Assets\n"
-    report += "- label_distribution.png\n- topic_distribution.png\n- sentiment_vs_hs300.png\n"
+    report += "- label_distribution.png\n- topic_distribution.png\n- sentiment_history.png\n- sentiment_vs_hs300_history.png\n"
     report += "\n## 9. Brief Comment\n"
     report += f"Today's sentiment reading is {tone}. Key topics are concentrated in {', '.join([x[0] for x in topic_counts[:3]]) if topic_counts else 'general finance news'}. {linkage_text}\n"
 
@@ -186,7 +194,7 @@ def main() -> None:
     report_path.write_text(report, encoding="utf-8")
     latest_path.write_text(report, encoding="utf-8")
     index_md_path.write_text(
-        f"# Financial News Sentiment Monitor\n\nLatest report: [Daily Report {today}](./latest.md)\n\n- Latest sentiment tone: {tone}\n- Cleaned news count: {sentiment['count']}\n- Dropped noisy items: {clean.get('dropped_count', 0)}\n- HS300 daily return: {hs300_ret}%\n- SH Index daily return: {sh_ret}%\n- Visual assets: label distribution / topic distribution / sentiment vs HS300\n\nThis page is updated automatically.\n",
+        f"# Financial News Sentiment Monitor\n\nLatest report: [Daily Report {today}](./latest.md)\n\n- Latest sentiment tone: {tone}\n- Cleaned news count: {sentiment['count']}\n- Dropped noisy items: {clean.get('dropped_count', 0)}\n- HS300 daily return: {hs300_ret}%\n- SH Index daily return: {sh_ret}%\n- History length: {len(history)}\n- Visual assets: label distribution / topic distribution / sentiment history / sentiment vs HS300 history\n\nThis page is updated automatically.\n",
         encoding="utf-8",
     )
     index_html_path.write_text(
