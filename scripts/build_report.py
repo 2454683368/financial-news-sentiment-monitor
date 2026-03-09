@@ -335,8 +335,9 @@ def latest_available_date() -> str:
 
 
 def build_today_take(score: float, hs300_ret: float, topic_counts: list[tuple[str, int]]) -> tuple[str, str]:
-    top_topics = '、'.join([x[0] for x in topic_counts[:2]]) if topic_counts else '综合财经信息'
-    top_topics_en = ', '.join([TOPIC_EN.get(x[0], x[0]) for x in topic_counts[:2]]) if topic_counts else 'general finance news'
+    filtered = [x for x in topic_counts if x[0] != '其他']
+    top_topics = '、'.join([x[0] for x in filtered[:2]]) if filtered else '综合财经信息'
+    top_topics_en = ', '.join([TOPIC_EN.get(x[0], x[0]) for x in filtered[:2]]) if filtered else 'general finance news'
     zh = f"今日新闻情绪整体为{classify_index(score)}，市场偏弱，关注点主要集中在{top_topics}。当前更适合作为风险情绪观察，而不是方向性预测。"
     en = f"Today's news tone is {classify_index_en(score)} with a softer market backdrop. The main attention is concentrated in {top_topics_en}. At this stage, the dashboard is more suitable for risk-sentiment observation than directional prediction."
     return zh, en
