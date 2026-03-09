@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-10T01:06:21.237627",
-  "count": 89,
-  "daily_sentiment_index": 0.1388,
+  "generated_at": "2026-03-10T01:11:42.687414",
+  "count": 55,
+  "daily_sentiment_index": 0.1008,
   "label_counts": {
-    "positive": 71,
-    "neutral": 9,
+    "positive": 39,
+    "neutral": 7,
     "negative": 9
   },
   "items": [
@@ -19,26 +19,6 @@
       "sentiment_label": "positive"
     },
     {
-      "title": "清朗金融网络 守护安心消费 农银人寿全面启动2026年3·15金融消费者权益保护教育宣传活动",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNc1R0UXpRUjhTWlFFU05uRE9iWlNSd0JBdzR6R1l5WGVSRWhWaVRXMUhtUmk5Wnp6M3dCckw0YWRqUHQ3NzEzUk1RRmR6VTUwamtFalpRX3NiYjU2VFpvSThadzFmZXVsNGVFYTV1b1Q0TDkwQk9hQmVEREdHNExCZVpQRXNSWklHWWtMX1RUaw?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 05:48:19 GMT",
-      "model_score": 0.9997,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1999,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "“3·15”教育宣传周丨为民办实事：泰康人寿江夏服务部开展“清朗金融网络，守护安心消费”金融教育进小区活动",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB0RzlDREZRMmNkWjR5c2xDV2M5MVY4aXdzcndFclgtU0FTTElZZmNGdmg3SVIyM085S3Q2ajhsX2t6X1ZGelA2U2d3NHQ5VUN2RER4YXFIOTBpN1JTclJ3UG1sUndhTU5HclN2OTIwd2FXczBiZmdBUA?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 06:48:09 GMT",
-      "model_score": 0.9999,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
-      "sentiment_label": "positive"
-    },
-    {
       "title": "从“走出去”到“走进去” 金融血脉重塑",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5qemhlXzhwZ0RuZDRlbEVlQ01mZ2Foa1pITGd0VHluZDNUVU0yak1xX1c2WlFzTXF2Z3NLYnNWZC12RGFmUFRyZ2J6bk1HOGtMU3E1X2U5cmxrZXRhYktna01B?oc=5",
       "source": "google_news_rss",
@@ -49,26 +29,6 @@
       "sentiment_label": "positive"
     },
     {
-      "title": "构建产业升级与金融赋能良性循环；提升大湾区公共服务互联互通水平；从四方面推动新能源车险高质量发展",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQ0ZGZTJwbzFNT1ZGeGJFRkFvUGhGcVZxQVlJZGx2TnlTT3BqRW9GdXNvMFQ4MXhfbXlOTzBaS0twNFNpRnMtWUxzQmY1SDR5TUxLTExrdVozRmVUb0lxZHNVUTV5emxEWWUtRVdtR2dwSkZlaV8wQkwwZ3IwZk9vU1NKY2RSSF82TmhON2p0NA?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 06:30:00 GMT",
-      "model_score": 0.9843,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1937,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "【红色金融系列01】苏区金融往事：红色经济从0到1的突破-观察者网",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHeW1WMjkzX2pycmNReGdGM2xWXzBHT21XajJTbHE2WEZTV3Rjek9pa0dEcGRpc0NudUpPZmYwWEprMDFjWHUtZHo1ZUFwNS0tM1ZJV1pYbnYzZnhhYWlfODJEMHNfNHZIVHc?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Sun, 08 Mar 2026 23:35:00 GMT",
-      "model_score": 0.9994,
-      "rule_score": 1.4,
-      "hybrid_score": 0.4797,
-      "sentiment_label": "positive"
-    },
-    {
       "title": "金融联动航运，绿色绘画未来",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1zeWhjeFk5ZjdDaVdFZUdXaUhhc2xCYkpvODF6UE1ZeFRKb1JZZ25YOVVhTjRzSmtnNV80Sm5WZGNnS1hacmJJMDBkaE1mcHV6UXlIekNjMGZLU2VCY1hVRnBQamZsR0tKVzRWcy1EOWJFdw?oc=5",
       "source": "google_news_rss",
@@ -76,16 +36,6 @@
       "model_score": 0.9802,
       "rule_score": 0.0,
       "hybrid_score": 0.1921,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "农行江苏分行：科技和金融双向赋能 激活全链条创新动能",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5rRzBvNzdBQjNGdGlpTGdRTE9sWXRFMzdXR0dxbGdKTmgtdGtyZ0w0TUttc2VDbEU5c0JyeE9LSG9ya2MzVnIwMU1vcmgtcGNVa1pQdGN4NnJvU0d2Rjk3cXI4dXFHeGZCN1Bn?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 02:20:00 GMT",
-      "model_score": 0.9953,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1981,
       "sentiment_label": "positive"
     },
     {
@@ -106,46 +56,6 @@
       "model_score": 0.9978,
       "rule_score": 0.0,
       "hybrid_score": 0.1991,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "山东工行持续输送金融活水 精准赋能标志性产业链发展",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9RZXRXNi15eF9kUTM3V1lmU1czaDk2YjYxNFVIZHQtWHF4djNvSzVzbjRncGRwOE8yb0VNLTJiWTVkai1fakp5ZDY1d3RWQ0p1VlNMVXVZbDRaTThNVnMtT2dpSXg?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 04:49:00 GMT",
-      "model_score": 0.9999,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "朱桑之 高星：金融科技人才培养中伦理教育的学理建构与实践_湖南探索",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Ia2hlNEs4M2ZxNVVkLVZmUmhPTFJqTEtwZXR1OUdNZGRudEd6aDRhVWtTMGNKLUhYY0tGcENLZHV6TWVfZHhQaVNfc2x5WS1uZUxsbHhsVDZGTFV0cWtsWVhfY3Q?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 03:05:33 GMT",
-      "model_score": 1.0,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "工商银行重庆市分行启动“3·15”金融宣教活动_央广网",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9QRHYxWkVGa3EyTW5SX0YteE1PTkFKWkZUQTZHR1RNbDBBWVMzZmhDdnN3aGw0MzJUY0RjcVZZRmZkbWNIMzJrQ1c2VU1Zd05wZlFnRFgwYkVrOW8zd3VHYXlMbUVfUQ?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 03:47:13 GMT",
-      "model_score": 0.3551,
-      "rule_score": 0.0,
-      "hybrid_score": -0.058,
-      "sentiment_label": "neutral"
-    },
-    {
-      "title": "太平人寿全面开展2026年“3·15”金融消费者权益保护教育宣传活动",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORkRDVHFVazltR3dsaWoxRFZMZGZnRGEyRXJmd2RfRVR1MTIzQjJRbkQzaGp5cExDYmJBSktBeTBDNVEtMHdXYVE3eDVPYS1VSGNrY0lrY3c4QUZ5MHF6QjhKTk5RT0tFWmk5c1F5cm1sVS1BMEUzTV95S0IycFFhYmxuZi1SalM2Y2NCZGZn?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 06:56:00 GMT",
-      "model_score": 0.9494,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1797,
       "sentiment_label": "positive"
     },
     {
@@ -179,50 +89,10 @@
       "sentiment_label": "positive"
     },
     {
-      "title": "“投资者点题 代表委员作答”｜中小金融机构改革化险成效几何？",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQ0NVZTZZTHhSekZmT180WFFFLXB1a0gxb0QxbXZqMlloTXBwTHhDZExJOTZrdS1KbFBRbFpLaUI1UFVRWTNDV0lHb1BuSjdja2FyZW81YkdBOEFiTnlsZnJ1TXZMR3FWYzB4aEdQSllQTlBzN3FHTjBPOVZSUHlLQ2VkUGJlLTNzbzRVS3B0eHNOa1pqM29SUkNnTHlMTUR5OEoyUFJXMGZiMHZpbjdab3YtZEdtZW5qWklnX0FaYU5oRUFRNzhOX0ZZaUtwX2lx?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 05:30:00 GMT",
-      "model_score": 1.0,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "《金融时报》丨交通银行金融赋能打造智能经济新形态",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeTRfNU1GT3FPWGFqYm1jdkd1VDQySUV3R096Sk5tbDk0YTF4dmFhOEZaeUFOZlNzbXdCSURvM3dhWFpXVldHcm1wUHZCQ082WFdkZ3Vxd18tazBzYkxoZC1VU3B1OTM3cTVwLUVLT2ZRdms1LW9OQ0ZZQzVWdjVDSw?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 05:36:00 GMT",
-      "model_score": 0.9999,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
-      "sentiment_label": "positive"
-    },
-    {
       "title": "今年将制定国有资产法、金融法、反跨境腐败法等",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBFVVJBWFZRc1lVdnhseWVoVG9GQlBmbzBhZUtueEpBOWtlbUJCeWFZM3VuNjFYTTltRGFWTlFIU05zTlBtM3JjT3Y0UzVwenlrVDNhRTZoeGRrekhTNzlDTEpyUm11dGRCN1VuNUVaMzYzWl9aODUw?oc=5",
       "source": "google_news_rss",
       "published_at": "Mon, 09 Mar 2026 03:36:00 GMT",
-      "model_score": 1.0,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "《人民日报》︱走好中国特色金融发展之路 挺膺担当服务金融强国建设",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTFRJVDRKa1d5TTB1UElpQWpkTkdaZkt2SjJ6azItYnJiT2RjTVNJTFNXSzRERzJJS2ZsUDFjbVdEdDRZT09UQ0pSS3Rzck52R1JGN2NWY1VtN0JpWWdRNW84UGlZdmNZTHNkZFctSlpTWFA5Qzlqb21hTzZIMGdrTUdON2ZBMDhYM0s0VmhrWQ?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 02:56:00 GMT",
-      "model_score": 1.0,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "学雷锋践初心∙金融消保进田间∙暖心服务惠民生——中国大地保险四川分公司开展学雷锋活动",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1rNGwyLXlROVVuQ3h6dWVyTjZxUWZva2dJOTgzcjBVTlNfS2Zqek90SEJ6M1U3U0FFLXl0dVQ5aHlKY2NBQ3BfU190c1dpR3BQX0ZTcTY2alZ3S2ZJUy1FTTJac1lZQQ?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 06:50:00 GMT",
       "model_score": 1.0,
       "rule_score": 0.0,
       "hybrid_score": 0.2,
@@ -236,16 +106,6 @@
       "model_score": 0.9413,
       "rule_score": 0.0,
       "hybrid_score": 0.1765,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "金融赋能放心消费政银合作推出“3·15”惠民活动-岱山新闻网",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE04WTNUTUpKSlAzWjlxQzRxcVNyREpaWU4tTVg5Qm9XNzN6dHlFX1BHM0ZNYVFuNlZiQVdqcFhHejdtcm9ZTU1jQXlLV1dvY190eXExblAtVFpGbnpEbFE?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 06:55:00 GMT",
-      "model_score": 0.9756,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1902,
       "sentiment_label": "positive"
     },
     {
@@ -289,16 +149,6 @@
       "sentiment_label": "positive"
     },
     {
-      "title": "金融赋能标志性产业链｜3000亿金融活水涌向山东“智造”！这只金融“强后盾”从何而来？-中宏网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE04ZzliUUwtOTJqM2U2cURwMjY5T083RHpWUUVXQnpwNGFZT0ZOcVlKYXRMRUw3LVltTFZvOWs2Qk1pLTJrOEctSl9nLVI5Y0pMQ2NkUWVla0dkMWZuYVhEV1hn?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 06:14:14 GMT",
-      "model_score": 1.0,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
-      "sentiment_label": "positive"
-    },
-    {
       "title": "两会财经眼：句句\"粮\"言，道出\"国之大者\"--2026年全国两会",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBmN1FkNTI1QUlZSVdxbEx2Wlh2Mmt1cnVUV2swU3dxV0FmejI4RWFQVW9XeUJWem9Eam1GVENzT0VXZ2pmN1hoYjIwWnlxcFlZalBJSHljYTE2cjZ6ajF4TVZqQW9jTUozZGwyaHZB?oc=5",
       "source": "google_news_rss",
@@ -339,16 +189,6 @@
       "sentiment_label": "negative"
     },
     {
-      "title": "全国人大代表、天合光能董事长高纪凡：守护创新 推进光伏产业专利池建设",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5kQUpFWXVlNGVubXdmbEd0eW5uTXlMWloxZFFUMXNlSVBsZ1JYQmMta0N6RWoyTUJSVjFGWkpnT3UydTRHMGx5YUZfc2Vjc1lBZVV2am9n?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 06:22:16 GMT",
-      "model_score": 0.9942,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1977,
-      "sentiment_label": "positive"
-    },
-    {
       "title": "新刊快评丨3000亿元特别国债落地，奠定稳健金融基础",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9rLVY1M1o5MkJkYjYzd0puQUhENTV4VW5Wd09aYnE5blkzWUVJTFAwR0dTVnlDa1pHRC1jbGQ4WkVMLWxFbEhCR3hBZ0dkcTJGbDY5dmctYnU0MVIzSlNUM1lHczIxRUdUeWxsb0x6Zw?oc=5",
       "source": "google_news_rss",
@@ -359,16 +199,6 @@
       "sentiment_label": "positive"
     },
     {
-      "title": "金融守护进菜场，烟火气里话消保——2026年青岛“3·15”金融消费者权益保护教育宣传活动之“菜场金融守护站”正式启动",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1rR016MzVxc1BrUGJzZGt6dUdUWGloclJqVTktaHp6dDhkN2taV3FqakxDb0tBZDFTa3gxeW05RUV5TFoyck1HYnZfdFlod2RiWW9xWnVWVnpIRHNQSjl1SmxZSmdLVGZYZDdvSmprZVREM2RpeDhYT3FCdw?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 05:47:51 GMT",
-      "model_score": 1.0,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
-      "sentiment_label": "positive"
-    },
-    {
       "title": "新华社旗下四大财经媒体看两会 | 具身智能：从场景落地到产业崛起",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNOW5QOXBKZm1taEoteVFuODRSZnZBWnpiYWlicEpoNW92SzQxekZzU0RqeDFHNUE4SEdEd0VMTFlZMVp3WVlzZ3dtdUtfVURRNWZMbkd3Rm8xY0FNbmcyV1dncHZHYzdaMkpBblB4SXIzVEp5QzZfVEZWeGxZd3pWWlZhcw?oc=5",
       "source": "google_news_rss",
@@ -376,16 +206,6 @@
       "model_score": 0.9978,
       "rule_score": 0.0,
       "hybrid_score": 0.1991,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "全国政协委员、工商银行原董事长陈四清：加大金融赋能力度 助力外贸高质量发展",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPWUZYcy1qV3R4LWg3QVNQQW5PU0RHT01rQ1RDcnAtejFqNjFCT0N0MUtscURtdU94dzhlN3FENjRUbnFxajUtWEdFdnBmLWVuS0Z6WGJyQ3pvZk50T0k1aDhjWl9oUTB5dVQyNUVPZTF2WHRWNkxhRTUyVWtOSTZVa2p4bUl0NHd4NmJqcnJlSGZKYXBnT1dPYzU3Y1ZNeHVyWXU2MnN6d1JlRFczUU1fMGlwQU1LUU9GUGE1ZnNxd2VIOWhDaEZCOWFvTFJVc0VmS0RIbFRzMjB0OUM2LVN5U0g5VDRmcXVld3dxT3g3YlFzeHYtSDM0SXZZOUdDc3BZRURvOWtpTFpLQTg?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 00:22:30 GMT",
-      "model_score": 0.9994,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1998,
       "sentiment_label": "positive"
     },
     {
@@ -429,26 +249,6 @@
       "sentiment_label": "positive"
     },
     {
-      "title": "阳光保险 服务发展大局 坚守金融为民 奋力做好金融“五篇大文章”",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42TUVzSzdwUDN0S0FjakpUVFB1ZGtYc3dnQXJCU0hqcWVPTEpZMkc2Sm8wS2EzSlEzV1NPbXg2U1oyWEdZeXE2NEpndVhqTGxIY2UxcDFjdGdYODJsTHI5LTVpckx1YmpGM3laRnY1ZWJEWkdxMGZJcHh5aHhnTFk?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Sun, 08 Mar 2026 14:27:18 GMT",
-      "model_score": 1.0,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "国内首部少儿财商启蒙广播剧上线！ 复旦国际金融学院携手喜马拉雅助力中国家庭金融素养提升",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBUbV9WNFo5YVFMQ29XaHBoUENIdGFEQ0dvQlYxcXR3T3VJenIyWWZrZ3hyMlJoc28yeUxCc3ZTR1RDd0s3S19CV1ZxZFhrZXNPYU1UR3BVQi1jX0g3QzlXYUFR?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 01:43:09 GMT",
-      "model_score": 1.0,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
-      "sentiment_label": "positive"
-    },
-    {
       "title": "东方财富财经早餐 3月9日周一",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1La0s4MkN1UzJmdmZDTlMzQ0ZpX3ZlYVRvd0RMUW9xaWdSelVfQVRtbkRpbXB2T0ljZ0gtM2x5UTJmcXR6cFN2S1FpT2ExV0syUENlSnlINUlBd1pHVXRfOA?oc=5",
       "source": "google_news_rss",
@@ -469,16 +269,6 @@
       "sentiment_label": "negative"
     },
     {
-      "title": "王艳芳：网络平台注意义务认定年度观察（2025）",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1udnBZR1lMRDRZVk1sLWdHWC1Gb2dYNUpaVHJsVTNJVkNXWjFZb3hLQnJDTlByN2U2VHpETmViRVRldlExSF9FbUFublNOeG96TURORw?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 02:51:52 GMT",
-      "model_score": 0.9205,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1682,
-      "sentiment_label": "positive"
-    },
-    {
       "title": "南方财经全媒体集团 郑康喜,郭莎 2026-03-09 14:40:10",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBtVXUzM3owR2NfV3NneWE5bzV0R0pVbUVNSUMxQVFZOGdMR3duek1BbF9faWRsNWhZby1YRXZidE5ZVndHV2tMWWpTYjN3N2lGdXRCMnk2RlBrWVhYTkJ4SHRJUG0?oc=5",
       "source": "google_news_rss",
@@ -496,66 +286,6 @@
       "model_score": 0.9732,
       "rule_score": 0.0,
       "hybrid_score": 0.1893,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "金融活水助非遗飘出“新香气”",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTG5ncEFHX0ItX080UXhzT0tuZFNVZW1mRUpDNWIwZktMWW50VWhKYzN1SzJtS1dJTW5oVlZkZ2xnUEx4T0ZxaXBsQjZpb0oxQ25GUVc3V3NPR292clNETFNNci12SE1wTlJlbGpDdmNuNV8xSk16Nzc5Q0NyeDFzZzBQVjQ?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Sun, 08 Mar 2026 23:30:57 GMT",
-      "model_score": 0.9944,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1978,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "农行三明沙县支行开展“三八”国际妇女节金融宣教活动",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE96bW9TRG10MGJlZFZRT3k2ck5fRXk4ZHBxbTJDaHVtM3JSX0VnOWswZG1wR0FZdWpyc3IyLTNiNE5wMTJVYkJvRUxQdXJSaUoydUg0WUtKRm1MVFQ1ZkN2dg?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 02:50:08 GMT",
-      "model_score": 0.9315,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1726,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "全国政协委员陈四清：加大金融赋能外贸高质量发展力度",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNGVzb0I2anVza20yazJGQURGVnVlLXozM1FKU3c0NlpXRnFVZjJISWx5UVM0Wmpjdk1Nd2V1ZUlPUzlLcFpnX3h5RjI0MmV5Uk53UWI5eGJlLUNfckhjUUYySVdsYjFybEJSQmQyNnpZaktDeWJ2QVItSkNETGQ0LWNTMXdka3BCZHlaMXF1UQ?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Sun, 08 Mar 2026 09:30:00 GMT",
-      "model_score": 0.9933,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1973,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "金融“活水”新春惠民利企",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5lcXV5UHdKeTFXcVBwVlZJWjVHdk1yQ21BbFlzd1JQTHAzRGpmX0hiTG45SUtfWHAyNUg2bU1lMnFhMVNLLUlGd2pvbG5va2QweEZzazB1UWprSnhUNGhSWnNWbzd5X3hDazZ0QllWMGJHRHNFeVNnMA?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 00:08:00 GMT",
-      "model_score": 0.6631,
-      "rule_score": 0.0,
-      "hybrid_score": 0.0652,
-      "sentiment_label": "neutral"
-    },
-    {
-      "title": "浦发银行济南分行凤凰北路支行开展“清朗金融网络，守护安心消费”3·15金融消费者权益保护宣传活动",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWlppOGRXcmdqczRuUmV0eUF3Wmltdzg0WmwzeC1iSkkyZFNSMEFLTV9iUXk4aDJWSTM5VU1DQzE2NEtmbUNzem02ZGhKWVRFeHF5czFwT3NTWGNGRzVnWXNfcWkzVnlaX0xNTDRMWmg1alRwYi1zTGM3dnZfY2FZNXdveG8?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 01:51:00 GMT",
-      "model_score": 0.9859,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1944,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "广发银行临沂分行营业部开展“守护百姓钱袋子”金融宣教活动",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Tb2J0WGM4RUdNY3hXWVdfRVU4R1p6NjM2Y3JWUnMyRVJMekQzQjU0aTRJcUtmQ2FXSjF0Mk1xTVRZRVRTSVBjNzUxYjFuOVByUS1XYS1HNUUzcVBvWUUtNF9acTA?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 06:12:52 GMT",
-      "model_score": 0.9863,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1945,
       "sentiment_label": "positive"
     },
     {
@@ -619,16 +349,6 @@
       "sentiment_label": "positive"
     },
     {
-      "title": "党建领航强担当 金融赋能促发展——中信银行坚守初心使命，谱写高质量发展新篇章",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB0RXIxU0Ntc1l2TWZ1MkRDSHM5M3ZPWjlmeDRlT0ZQakplTFFoVUtGQ1pJX3ZuY3hCUW13a3liZEVEMnlla3htTXhiR2FUc2FSUlJ1ampwRmhScm9xbFhCNG50VDBDNFZXa2RhOGYzTGhuaFk?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 03:13:02 GMT",
-      "model_score": 1.0,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
-      "sentiment_label": "positive"
-    },
-    {
       "title": "南方财经全媒体集团 谭砚文 2026-03-09 11:34:47",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBiZG53UW9yNUlvY1Bac0ctYWNueGlWaHNuR09zRExtb09iaGIyZzV6enVRWHp1MkFENjF1NWdYcFZUZU1VMVpYMzdqdF81UVp6aWdjeElwWlU0WElhQ2xxODBtSjE?oc=5",
       "source": "google_news_rss",
@@ -646,16 +366,6 @@
       "model_score": 0.9787,
       "rule_score": 0.0,
       "hybrid_score": 0.1915,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "中国人保启动“3·15”金融消费者权益保护教育宣传活动",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOS212Z3Bqdmo2dU5Qbm03TUtSMWEtbTNsMFFFSVAyQkxvZVVFUmpRU3hzcTNJZ2ZrUGJWR25xMmlpZWk0SVFzYU00UzFlLTZHSlotb0lyM0RDOXhpMFBuUXk1UlNlQmxoak9FbEtCUmk5bjU4YWR5SkpsVThmT0hiN1BSSGlNWUU?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Sun, 08 Mar 2026 23:57:00 GMT",
-      "model_score": 0.9015,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1606,
       "sentiment_label": "positive"
     },
     {
@@ -679,16 +389,6 @@
       "sentiment_label": "negative"
     },
     {
-      "title": "省呗母公司萨摩耶云：科技向善，守护金融消费安全省呗母公司萨摩耶云：科技向善，守护金融消费安全",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA3bHlaMjZOOVYwUmxpbmRpR3c0dlJnYlU4dDJnRDNpVEwteDNrSzUxVWlIRDJTQ2hGd1FfOHVLVWhBU0hQTjN2WjRpaUN0eUJhVUxpVWI4MW9CdWVxV0RwMU5n?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 03:13:55 GMT",
-      "model_score": 1.0,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
-      "sentiment_label": "positive"
-    },
-    {
       "title": "再通胀交易强化 应警惕金融风暴冲击",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNzloT2g0LUhlSjdSYlJzZHc4YnFiTHZ5VWtLc2JDMkM0TG1oeEk5dXZHT2ROZWdrQWEtTmd0MktkU0lyYW5Zdk1NN3Bxc2kyeWwzV1VwaFNDZ19IOUhNMS1odk1KdDJ0Rk9wX0Q0WHBMTm00U1JoeHVGUjd4UUMwYnFRaDZ3aVJZRkE?oc=5",
       "source": "google_news_rss",
@@ -697,26 +397,6 @@
       "rule_score": -2.4,
       "hybrid_score": -0.2805,
       "sentiment_label": "negative"
-    },
-    {
-      "title": "全国政协委员郭基煇：锚定“十五五”机遇，赋能香港金融与教育创科高质量发展 ｜ 两会声音",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBpVkJFYWpqNEdoU3p6Z2I0NmJZSGVhTkFmakktSVBDQVZtLTJvWmNRbU5QeEoyOWk5bnpXT2NoTjhIUWVreXVzNjhrZnFCMWdLNU1Tb2VyTENKMndnbk42Mg?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Sun, 08 Mar 2026 23:32:43 GMT",
-      "model_score": 0.9997,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1999,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "科技赋能多维创新金融APP数字化转型迈入深水区-快科技-科技改变生活",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5wWW5kSThlSXZ1aTRMdXhtOFdCVjJ2eFhRcXJ1bHJtNTRfYTBucUc4aldreWxJcFRmVVU3cl9BeWRMUUdMS3hwZzVEXzZjSHNkMXUwS0JrQmU?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Mon, 09 Mar 2026 06:07:00 GMT",
-      "model_score": 1.0,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
-      "sentiment_label": "positive"
     },
     {
       "title": "棉界人士相聚张家港，探讨产业应对之道",
@@ -767,26 +447,6 @@
       "rule_score": -1.6,
       "hybrid_score": -0.275,
       "sentiment_label": "negative"
-    },
-    {
-      "title": "【红色金融系列01】苏区金融往事：红色经济从0到1的突破",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1UdUhOaDRBTnZLLS1WR2c2QUg2a2lxcmg4Zzl4ZlNCem80MThlWGlHZ2ljdVBFaEoyZHkyOUJSTk1OOTFSMnUta3NfRXlVU2RiY1p2Q0Fn?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Sun, 08 Mar 2026 23:35:00 GMT",
-      "model_score": 0.9997,
-      "rule_score": 1.4,
-      "hybrid_score": 0.4799,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "中信证券每周观察——利率与金融同业债20260309",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMlZUemIyWG5BVXRaVVhVdnNIb2FpNkdzYXRtM1NBTkFBdzAxRXRBanVsd0IxMWJESXF2OVQ3NWFyTnRNeGZRcmszUkhCNWtaMzNrT042R1g2clpFRFZQN25RTVpaSHYyZjRCTm9TRExQMkxHVmJBOTViT3VwdEh1SnpNc3M?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Sun, 08 Mar 2026 23:33:32 GMT",
-      "model_score": 0.9998,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1999,
-      "sentiment_label": "positive"
     },
     {
       "title": "中国为何能在 AI 竞赛出头？",

@@ -1,43 +1,13 @@
 {
-  "generated_at": "2026-03-10T01:06:17.405818",
-  "count": 96,
-  "daily_sentiment_index": 0.1683,
+  "generated_at": "2026-03-10T01:11:38.273969",
+  "count": 63,
+  "daily_sentiment_index": 0.1648,
   "label_counts": {
-    "positive": 84,
-    "neutral": 8,
-    "negative": 4
+    "positive": 54,
+    "neutral": 6,
+    "negative": 3
   },
   "items": [
-    {
-      "title": "为金融强国建设提供有力司法保障",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5FbWtEZ1hmM0kyampMcDBnMEtMcWlDZWNuWmQwUUh0RThVWkE2WnR4ZVhCdE4zUnE2cTJwbEtxbV9MTXJoblpMYWhYRDdJb1pWVUE1X3RxOWdpQXVrZnhNVFd3?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Fri, 06 Mar 2026 01:00:07 GMT",
-      "model_score": 0.9996,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1998,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "“十五五”规划纲要草案解读丨加快建设金融强国 为中国式现代化提供有力支撑",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZ2lDeFBiTGtXY1hJSVJYaU1nU05ubkFRNFBqZDJxUUhBeS1VVkg3bFRsaEcxY0VNY0FRNUtBdE5tZ015ZW02cVg0MERrTlBHb1lIQktwY2x4YTVkRlA1WlJiWndWN3BqT0lSZVc2VzNtRDJUVDlfZjBoMHZCWXp6ZGJhWW1hMEpyUERXaFd4WQ?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Fri, 06 Mar 2026 07:13:00 GMT",
-      "model_score": 0.9826,
-      "rule_score": 0.0,
-      "hybrid_score": 0.193,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "全国人大代表严宝玉：做好金融高质量发展，奋力书写金融“五篇大文章”",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBaWlB5SVkzalZIcHp2SDJ4dk5QNzYwcEp6NGczZHZPNTYtRkI5VWNyTFVqU1ZuWEpPSkNWQlQ3dlcyRkhHdXpzU2ZJRUJhNGVDaGxkTnpCeVhHRE9MM3RUUHdOZlRER1kwZXc?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Fri, 06 Mar 2026 03:22:00 GMT",
-      "model_score": 1.0,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
-      "sentiment_label": "positive"
-    },
     {
       "title": "财政部部长：中央财政安排1000亿元支持财政金融协同促内需",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9FSm9tWXM3ZDdKeEkxelJnTTYyRWV5V05Dc29FYWdqNVg1SmxSeE4zb05EeGI3bVY4TUZZdWxfSmhXdVBWNV9tYzN5dks2V0VuNHUtX3FjMkJwNXNPbldjb1RtcG14cV95QkVmMm5kXzBNMmljcUE?oc=5",
@@ -46,26 +16,6 @@
       "model_score": 0.968,
       "rule_score": 0.0,
       "hybrid_score": 0.1872,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "江西银行推进普惠金融服务站建设精准赋能乡村全面振兴_实践案例",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5PMzEwLTcxelUwcDVURF85NGpHaWJMUkFwUHZadTNzMEliMUM3cmxZQU1ObWdmVmt5T1liOE1NMElpSTVWSlg1WlpFcUNNVTREdmU4eTBaNFl4dw?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Fri, 06 Mar 2026 02:54:00 GMT",
-      "model_score": 0.9999,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "“巾帼力量展金融担当 群芳风采谱时代华章” ——上海金融系统妇女先进事迹宣讲会举行",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVmNXZDVxLXRsa1dmUlE5cUNhVHZZMlRrdkc3T1UzLXBqX2tRRElsZ05PTEJrY214ZGtiN0tidnQ1cmp6Ym1vTS1lZGhURlg1YXlHMnhsOUUtc1gxTGdlcFdLSHB2N01JaVlpczEtNmFLVm9qcUgtaUNBM2t2dDhpaUd3?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Fri, 06 Mar 2026 04:14:06 GMT",
-      "model_score": 1.0,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
       "sentiment_label": "positive"
     },
     {
@@ -79,26 +29,6 @@
       "sentiment_label": "positive"
     },
     {
-      "title": "华为全面升级金融AI解决方案，加速全球金融数智化转型",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0yVVNYVGd2eWRUTzktNTRqc2hycEJWdHhLWlo3bXN5WnRYQ2k5MmozNXJXVjdCbExadHRWNHA4V2RzZEFsRmNYMmFfV2ZFbmUzMlhfdzBuRGxPVEZ3SFdZSVB6Y3dpTl9ub1l3?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Fri, 06 Mar 2026 02:33:00 GMT",
-      "model_score": 0.9984,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1994,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "邮储银行“3·15”金融教育宣传活动暖心启航",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPanp1YWEwU3IzbnpTYl9kSlNLNVZVY25jNHZiZVVrZzUybVdUcU95dEt0LXBqeWMyVjUxY2M3WXo5aVByU0JuYTk4cTBLWGQ4WGR5aDYyUHNiUGNNUWhMa1NDVi1LRzhYaDM4bE9wRFlfdmd5dkgyTENuSG0wWFcxWA?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Thu, 05 Mar 2026 12:03:59 GMT",
-      "model_score": 0.936,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1744,
-      "sentiment_label": "positive"
-    },
-    {
       "title": "【财经分析】英国2月PMI延续扩张但高成本隐忧致增长预期下调- 中国金融信息网",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1yTzhnbG83RjN6dDNKVDZ5VWRtQ1o2MTFYbXQwLUVmdUFJZjk0NHA0Q2xVNVcwaU03YV9SaWpCVFlGSENjNXVWalBJcUdHOEpXV216SmtCRVpuUElXeDJLaHpZMXVldW4xMGc?oc=5",
       "source": "google_news_rss",
@@ -106,36 +36,6 @@
       "model_score": 1.0,
       "rule_score": 1.4,
       "hybrid_score": 0.48,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "莫开伟：防范打击非法金融活动确需强化金融协同监管",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5wc3BvMkZMcFFTWGdzZF9fb005Z2ZiaFZNQ0t2NEx1RkhpZkItb3l0TS1LcEZmdGJQSFJaLUoyLU93eG9WTXBVWmNsekczZFN6dWRqSV9JS3Q0OEl2a20zdVoyRlZ3aXB4SHVtVkItZEtyVmtkMTFYVkFBT3o?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Fri, 06 Mar 2026 06:57:17 GMT",
-      "model_score": 1.0,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "天台平桥：指尖生花，心中有 “数”！以金融温度守护民生烟火",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE12bUJaZWU5aXpHRU5UdHVMeHhtN0V6SEpVQlBzVHpNQmJ1RlVRNVF3U0UyYlpUTkNHTWg3RlFCNmlaaVVvOWl0bzlIODJzNDlEZTZFbEQ0aGY1N19Tb24xRFdfMUQ2NEVSMVJR?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Fri, 06 Mar 2026 03:22:57 GMT",
-      "model_score": 0.9999,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "农业银行启动2026年“3·15”金融消费者权益保护教育宣传活动",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfdkpUdko3Ukw4YnJ6RDM1b0JjMGc1OWkzRlgzYzI3cnV1dlpFaEp3RG45clctZ3hid3U3VWptQW1LTlFZUTNMaWxEU3JQR0ZFQUk1SFRyTlN5WmRMa2NSN2FrZmxyVElO?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Fri, 06 Mar 2026 01:26:33 GMT",
-      "model_score": 0.8223,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1289,
       "sentiment_label": "positive"
     },
     {
@@ -189,16 +89,6 @@
       "sentiment_label": "positive"
     },
     {
-      "title": "泰康人寿全面启动2026年“3·15”金融消费者权益保护教育宣传活动",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qWlEwWnVhV2s4d0dlSWtqcjJOblBjQXJobXlUNUJvRGVkTUpJS1Q0NUlodjFjeTFDajZFcnBlYk1vb2wySnV5aktvQVBMV2NOYWJxQkVPNFdCcXpHdmZSVmQ4ZWJTZVRZQXc?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Fri, 06 Mar 2026 06:36:00 GMT",
-      "model_score": 0.7653,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1061,
-      "sentiment_label": "positive"
-    },
-    {
       "title": "两会财经眼：以政策连贯性夯实消费“主引擎”--2026年全国两会",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5xSUJXbnIzU202WkJ0LXltOGM5anZOd19hb2tJbkJuTjZ0d29mbXNRVlg0ZklzWU5ieXI3N1B6eXVRSTliMjBYWVdwNU1GbVVVRlhDaUVqRm1panFpMHFYcjdtbUVkYzJFbzF1eXF3?oc=5",
       "source": "google_news_rss",
@@ -209,16 +99,6 @@
       "sentiment_label": "positive"
     },
     {
-      "title": "协同聚合力金融“活水”精准浇灌实体经济_央广网",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5XMlI1emppZHBWNnJlbml6bmw2X01GaDZrLVExeV96dkZjb3I3LXRqNV94Mjd5Tl9pUVQ5dnpkSnRCelBZOTJuMmFkb1Y3TWdxS3ExQ2lxMDFPWXVDZWlYY0M2V1hwc25kaVE?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Fri, 06 Mar 2026 00:06:26 GMT",
-      "model_score": 0.999,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1996,
-      "sentiment_label": "positive"
-    },
-    {
       "title": "地方化债最新进展：超82%融资平台退出、经营性金融债务下降超74%",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9RSzFaME4tdWxSdFNnWXhpdXE5VV9vV2txTVl2ZlpCdjJoNUs1dktha1pycTFmV2ozeDVfZUF3ZHJDb3AzZUtZX3Y3cU9jSmFWeE1ERVpWRHctcWg3SnF0Sw?oc=5",
       "source": "google_news_rss",
@@ -226,16 +106,6 @@
       "model_score": 0.999,
       "rule_score": 0.0,
       "hybrid_score": 0.1996,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "广发银行开展“金融为民守初心”活动",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9PeWxDMmlmZWZ0MzNJQUk1MEtVeWZLN3haWmJQT0M1QXd5SHJOVlNabXRYaUNINVJyNjR2bGRzXzlCM3A1clhwSEZkTkZqVHBoc0paVm1QU1ZjVlllS1NKSWNkdlo2dw?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Fri, 06 Mar 2026 07:32:00 GMT",
-      "model_score": 0.9612,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1845,
       "sentiment_label": "positive"
     },
     {
@@ -299,16 +169,6 @@
       "sentiment_label": "positive"
     },
     {
-      "title": "《防范打击非法金融活动宣传绘本》——2025年度防范打击非法金融活动优秀宣传作品系列展播㉚",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE14N2M2WnZNb25rakY0dmdmY1I4TnpEYUJEN1NRYjhoVmdQbHNCUEZGNEhianpqR1ZDc0Naa3d5QnBvc3hBYWJUSmFVUHJ1Q05WQTB3ZGJYamU?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Fri, 06 Mar 2026 07:57:26 GMT",
-      "model_score": 1.0,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
-      "sentiment_label": "positive"
-    },
-    {
       "title": "促内需、大行补血：解码两会八大金融关键词 | 财经解两会",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYlBfV1RzLXNtNF9ldUtTeWFCb0YtZ1RNeEpUSkdWUWJrUUsxVlpxN1AxeFVXOUJvQ0FyWjlabzBLaUVmaGxjUnBra1JVUmwwajFwUUQzaUh0YlhQbUpHMXFuekNES0U2OS1Vc2Y4aF96ejVzYnA0N1J4dnFNTnUtTFFBSQ?oc=5",
       "source": "google_news_rss",
@@ -327,16 +187,6 @@
       "rule_score": 0.0,
       "hybrid_score": 0.1992,
       "sentiment_label": "positive"
-    },
-    {
-      "title": "新华保险全面启动2026年“3·15”金融消费者权益保护教育宣传活动",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBvY3hFdDQ4SVVWX1hYM3ZWTmVUcGV0eF9LUFpzQXZxNHRMLVhMRURtNnRDSm9sVUVfWGpFcnU3c2lFN2pXZXQ0U25fVFVWVjdRZ1poOWxsaTdveHliT25ZTmo2Q3Q1R0YtbVpr?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Fri, 06 Mar 2026 03:42:00 GMT",
-      "model_score": 0.5696,
-      "rule_score": 0.0,
-      "hybrid_score": 0.0278,
-      "sentiment_label": "neutral"
     },
     {
       "title": "蓝佛安：创新设立财政金融协同促内需政策工具 抓住居民消费、民间投资两个关键",
@@ -389,36 +239,6 @@
       "sentiment_label": "positive"
     },
     {
-      "title": "事关中小金融机构、消费金融，从政府工作报告解读金融工作新动向",
-      "url": "https://news.google.com/rss/articles/CBMipANBVV95cUxQcl9EN0JlY3VhQ3hRd0dkbWlGeVNObWZ6OTJhN1I1ZzNNN2JsNFBKZWxNckJYZ3Y5S0hYWDZxSkVvUFdqWHMwdlZJa1ZlME51QkxVeVJmTi1GVE1rOXlBbnc4aVpuaVFpNGtVZXhkWG5MZ0N2NU10Q0t4cjUwWGFibmpEQzRIdHRPU3YwazNZbGRMRHlKM0pRTWZTbzVrR1RJeTJMUDJmbkVjcW9hVVFOWDR6WXJJbldVSS1hMUZRb0xvM1ZkbnZPbTUtdERGZzR1blFCZWRhREJ3bGgzeVJ6WnFMZHdmSjN3VEF2MHNDRjBwVlNhNWFPUjlFMzRKeFc2VUNTcmJiR2JRWUF4UzUtUHpOc0hWMXpULXM1Y0szMFNxLUR6MERjRUR0MjZqQXptbzNDOFdJV3VEVFpnZjlIZzBremFoMUY4U1NsSzFiaFVIbU1wdGtGM0R0UDlnQkxmc3N2UFJGVndRVTVSbjZrUGRiMHI4ZDFJX1BPMUZHODIyUm5RdGJQczBtNnRjbnpzeXpLOVhhV3paS1lZUHNHMnZ2TF8?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Thu, 05 Mar 2026 08:00:00 GMT",
-      "model_score": 1.0,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "全国人大代表田轩： 金融“活水”要流到实体经济最需要的地方",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE91Y1h5Q1pFRGFVaGFEV2tCN0FzR3JrZTBhQkNMdlhLSXczeUYybjlUdE4zSmdwT1pNZ0FvNGkyQlNDaEx0MHZjbzBYMU00UlRrd1JoaUtlRXpqZ3oyWVE?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Thu, 05 Mar 2026 13:50:00 GMT",
-      "model_score": 0.9717,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1887,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "引导金融资源流向科创领域！专访全国人大代表贾文勤：投贷联动业务仍存难点",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1eVB1NTgtUlI2NHRTd1JZenhqYThjR1hFb2tTMFNYWFB0QVJnRkFEUGFacmpjNXc4Tm90S2pLSXhIV0J2c3lYSi1hVUZ5ejZJcXlRd0MzRmVFZw?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Thu, 05 Mar 2026 12:34:52 GMT",
-      "model_score": 1.0,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
-      "sentiment_label": "positive"
-    },
-    {
       "title": "两会财经眼：4%的赤字率，与你我生活有何关联？--2026年全国两会",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA1QU9uc3JOZmlFZVpZT0FDdGVqRUJqUmJBOG1hZF9Fc0FoZjd3UXkyY3FUUW5DTUc0WVlmamprdWZ4cU95Sk9acS1wN0w4MFIzQXBMQWFZMGZ0Nm1Ja0hQWDVhTjBYcngteGMxWVhB?oc=5",
       "source": "google_news_rss",
@@ -449,16 +269,6 @@
       "sentiment_label": "positive"
     },
     {
-      "title": "【财经分析】多地陆续下达地方债提前批额度 超2.4万亿活水护航“十五五”开局",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0wQ3hJWkRBUzRWM29XejhqRTBPbGNZYWw1TFlIeXZrM1JjaDdmblVKOUlRSE4xT0xGUjlDdUpOb0ZwLWs2WWVtX2NBQ1hqbXZCTHhlWVVaWUZvcVVWYjVOc01DRm00dw?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Fri, 06 Mar 2026 00:53:32 GMT",
-      "model_score": 0.9968,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1987,
-      "sentiment_label": "positive"
-    },
-    {
       "title": "易鑫2025业绩出炉：金融科技收入达45亿元，同比增长150%",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBRWGtqbWRKd2FDRGY4YWNlWERLczBWek1rMEdsY3JZQWRNTC11OGUta082M3NrQ1hiT1VwQnNaRTBzdWFpWUJieFl1Ql82SmpGNXJNeVhpZEREUUZESEE?oc=5",
       "source": "google_news_rss",
@@ -476,16 +286,6 @@
       "model_score": 0.955,
       "rule_score": 0.0,
       "hybrid_score": 0.182,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "安徽中行以金融“活水”浇灌科技创新沃土",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBscTRWZWROa0hhVnNFaXlWT1JwMk1lb29rZkxzU0FNMFdlekQ5MVNtNFVHSmFEV2FDa2I4dmE1cjR2UmFUV3dpVkVLcm9MTmZzUThRcVZjRWxhMW0tSmJsZEppb250V3kzRVV3?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Fri, 06 Mar 2026 04:06:00 GMT",
-      "model_score": 0.9985,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1994,
       "sentiment_label": "positive"
     },
     {
@@ -539,16 +339,6 @@
       "sentiment_label": "neutral"
     },
     {
-      "title": "津云：云聚两会丨全国政协委员范小云：以金融之力赋能高质量发展",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB1c0Z0MXNvZFh2anctazBGMDZWTnkxWHdUNXpmdEhHaUZaXzRjRHJ1cEpqNU1CTmQ3Z0JIT1hsS2VialhsNFRjUTJsbDlwZWg0a0RHR1pSZG5SZjdGaDkzcWVWUndQWGE2ZHJ2ZEItUkxGc2M?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Fri, 06 Mar 2026 01:33:00 GMT",
-      "model_score": 0.9998,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1999,
-      "sentiment_label": "positive"
-    },
-    {
       "title": "多元金融板块震荡拉升，瑞达期货直线涨停",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBLZ21YSC1IZnhScHMxRkwwcFNsendyRW9FNEYtbnlBelZ0dTNQSVRKZjE3RGktT3RwQ2wwMDlqYmhQRmRDTG1tZzBuYWtSZml2YjAzclVOM21sT29STXhqbQ?oc=5",
       "source": "google_news_rss",
@@ -586,16 +376,6 @@
       "model_score": 0.9961,
       "rule_score": 0.0,
       "hybrid_score": 0.1984,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "博时基金：关注产业结构升级，持续融入金融强国建设大局",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQc2JvaXZLVUwzZk1NQ2dkby1fY0h5RXNDQXR3Ry1OdjJsOXlackJhVnNya0dMLWpqOXJrdlh4alhpaDllcENLTWNxYWxKVnNENWU5QVo0Tk50aEtwNUxMVmJUNDFYckw4OEc2STVxZ1NTVWk1S1UyWVhCUlRRdjdwVHQyN240dlNpUWpWZkZaNWtQdHR2d3lVTktnVzQ1U2V5TXdoYnl6cUJoam1sMlJQN0F6X3Y5c2JyNWRnaUo3SlpNb0FlbEw3Ty01QzlwdFJuNlZZd2VDRndoOW9kV2dTcVZNd2pwOWNfRVlJSnUwTW1wVVhtMW41QjlDWlZ5dXpiY0E?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Fri, 06 Mar 2026 08:00:00 GMT",
-      "model_score": 1.0,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
       "sentiment_label": "positive"
     },
     {
@@ -639,26 +419,6 @@
       "sentiment_label": "negative"
     },
     {
-      "title": "人民币汇率怎么稳？金融风险如何防……央行行长回应三大焦点丨封面两会观察",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE82eWs4XzFxTnJkTjBDekZKSEo4QlhPR2RteGdzb3VOM2RrckF2NWNDNXBrQ3kxSnJvaEstMklBZGtKajZvZGVnVGpMQ0lkYzdvOEl0SUY4VEJ3SmRYUDJsN2FuNA?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Thu, 05 Mar 2026 21:43:00 GMT",
-      "model_score": 0.9985,
-      "rule_score": -1.6,
-      "hybrid_score": -0.1206,
-      "sentiment_label": "negative"
-    },
-    {
-      "title": "逛集市、学金融、办业务……杭州“三五学雷锋”金融服务走进社区",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9lZlpCMjNMYXFLMWh3STVxaERhdm1lejhnZGd5elBvVmxTWndQTFBQNWVvNFp4VHJZUEUxdFlzMDlJNkk1eTJIUjAtTUZkX01kX3hDVFdaMUs3cnktMnRoZjZrWE5WbUt6MW1oQmhLVGZQaU4tYktxeHNFUHN1QQ?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Fri, 06 Mar 2026 06:20:29 GMT",
-      "model_score": 1.0,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
-      "sentiment_label": "positive"
-    },
-    {
       "title": "华为 × 先进数通：数智驱动金融营销，解锁效率新高度",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1JMGI4NkFXTnhSSHBWMEdpV0FMRTlVX0htNUJfNUdSOUJ0R1J1Y1kxeU1fd0FqdEVPQmtNSTRsWkZwLWtWbVJNZmR2eDJOcFdHNFJrdEhaV2dibm1jUkF1MWltNjRiM0dfMGVCbjljN200b0UwZVJ5R0tRdE84Zw?oc=5",
       "source": "google_news_rss",
@@ -676,16 +436,6 @@
       "model_score": 1.0,
       "rule_score": 0.0,
       "hybrid_score": 0.2,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "金融“活水”“浇”开县域经济之花",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPd01jWUxBMjhLQ3JXcnZOWG9tZ2IwVWN0YXNJdWVTQnZHbU9oTVpnbXEwMUJYaUxpV21STFpBcTRibzU5dk1rYWJtMVcwMlBPakhWa0U5MC15MDB0SXR6VXlRbkxUWm42bENNTkxydG5fblhwRXVvLU1rQnU4SUlSYzd6ek1kWWs?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Thu, 05 Mar 2026 22:22:00 GMT",
-      "model_score": 0.8885,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1554,
       "sentiment_label": "positive"
     },
     {
@@ -707,16 +457,6 @@
       "rule_score": -2.4,
       "hybrid_score": -0.2851,
       "sentiment_label": "negative"
-    },
-    {
-      "title": "三大领域精准滴灌！金融活水流向实体经济科技金融加速创新成果落地",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVVFVNnIyOEpsVjJpbTl0UFhFZ1hyei1tc2IyejI2RVFZcFpvZ1NLNXlhVWFHUVZIeWx1eWl6N0xTa3FIa0NWT0hOUVIzWXVYd09EdVdUdkNfUmdkNkM0N1BOSzJhWEQ0RF83S25pcXhqUW5LLTNvVDk2dWJoWGRKX0hUQzFvdzZjOGJXMUxfbzBGNk0?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Thu, 05 Mar 2026 14:28:00 GMT",
-      "model_score": 1.0,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
-      "sentiment_label": "positive"
     },
     {
       "title": "中国航司重启中东航线！",
@@ -749,26 +489,6 @@
       "sentiment_label": "positive"
     },
     {
-      "title": "董希淼专栏(第145期)｜金融服务迭代升级 做Z世代的人生金融伙伴",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX0tiR3pzV2FKNmJSQnB1S180aXZlN2JhSTJtVkpHTldKT0Q0VFA1enFHVV9ZSzlCNTg1M0NjOGJvdzRqLXRpODRsT244OURvbnpXenAwMmFFbHlhYVhxR3lUR3pZczJzcjlSdUtCNmtwaUdBMGdMa3VVRjVkTlJZTnJtVmY?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Thu, 05 Mar 2026 09:40:00 GMT",
-      "model_score": 0.9999,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "新华保险“3·15”金融消费者权益保护教育宣传活动全面启动",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUTZETXNJd0FUa3FPMnk3SXRsSUl6Um8wZVNOR3o1N3JRTnZxYXdKbzE1MUFsU1FvWUF0YUNiT3RRRVpaYWpFQ1BGZzBOeWl6YTRGb2pqV2h0c3hHRmxySkVCWGdrS01CTlFwXy1BNE1iX014LWdTeWpRQmNVMTJuU0ZxOFBWMVV5bUdJbDFTeGVLcDkyQ0dySGQxN1J1TUJZRVRjeTJXM0FTR0RMVW5WWWtfalM?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Fri, 06 Mar 2026 08:00:00 GMT",
-      "model_score": 0.5726,
-      "rule_score": 0.0,
-      "hybrid_score": 0.029,
-      "sentiment_label": "neutral"
-    },
-    {
       "title": "促内需转向“财金联动” 新型政策性金融工具较上年增3000亿元 扩投资政策力度加码",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9iM1lKX1B1S3RPcWFvWUpFWGxlZHZTWnFlT1RBZHNPUElUZk5PNlJpT0ZLeFZ5djA0OHZ6MXNHWHNVUDc1eGtXMQ?oc=5",
       "source": "google_news_rss",
@@ -776,16 +496,6 @@
       "model_score": 0.9992,
       "rule_score": 0.0,
       "hybrid_score": 0.1997,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "中国光大银行西安分行全面启动2026年“3·15”金融消费者权益保护系列活动",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA4OUdTMGxfNjJWWTFZcjlZRlRITURocWxHOGk2Qm43QXE5d2s4akhwUndxcUpfQTV1ejFxcm9kLTBrbmxPQWxmWmZ3eFZmakJsMzJ1SEdtYkVqb3BsY2RCRUtfT0FHWG11MjNYUjBR?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Fri, 06 Mar 2026 05:00:10 GMT",
-      "model_score": 0.7195,
-      "rule_score": 0.0,
-      "hybrid_score": 0.0878,
       "sentiment_label": "positive"
     },
     {
@@ -806,16 +516,6 @@
       "model_score": 0.9982,
       "rule_score": 0.0,
       "hybrid_score": 0.1993,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "中华财险湖南分公司启动2026年“3・15”金融消保宣教活动",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9sLUFtNjhQaGdERkJyMmdnSU53Z3hPT01jVDEtZEFSdTdXblNiYkZfbHJYbkJTSzRWNl9ucl9HNnBSRjYwZFJnVUZ2Y0tMQTJfY0tBY1haMVlQRDR3TkpHQ2l6TXN5QQ?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Thu, 05 Mar 2026 11:22:57 GMT",
-      "model_score": 0.9439,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1776,
       "sentiment_label": "positive"
     },
     {
@@ -846,16 +546,6 @@
       "model_score": 0.9998,
       "rule_score": 0.0,
       "hybrid_score": 0.1999,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "二手车融资、金融科技齐发力，易鑫2025年净利润增长48%",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1NNW5KSXJtTnNjLTJBS0hPdFQzUmxHazQzLS1jRldTWmQzRzFldnA1WHZBd2gwTU5pRFNRSjN5cGRXd1R0NmlFLTFROFd3dXkzT3lQZHZXYXFaUVRnUGItQw?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Thu, 05 Mar 2026 16:01:32 GMT",
-      "model_score": 0.9822,
-      "rule_score": 1.4,
-      "hybrid_score": 0.4729,
       "sentiment_label": "positive"
     },
     {
@@ -909,16 +599,6 @@
       "sentiment_label": "positive"
     },
     {
-      "title": "平安产险江西分公司：金融安全共守护，全民防非迎新春",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPeTVOZENRWFRjOUg2V2FOY0c0c2hGTnhKUnlkTjVrenAyUzdpZm5HN2wxblFLTWZ5bV9IMTQwZ2xxTFlDUUg0TjZTMUszVW94NHVxdWk4UlUyX2JHTkprMkJvZy1qbTdjbllkakQzX1RjTHF0UXlMa0lDN0EtOFdNeXdWOHVYdHM5OWl1SWxUYlZJcEw2UHlPN201eVZ2OXFXamIyWWF1bEc5TnB1bGRocm9PcG9nSy1HTDNKdEt4TFF5c3RkbVhsNVRXWGc?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Fri, 06 Mar 2026 03:43:00 GMT",
-      "model_score": 0.9323,
-      "rule_score": 0.0,
-      "hybrid_score": 0.1729,
-      "sentiment_label": "positive"
-    },
-    {
       "title": "恒尚节能：中标4.79亿元南外滩金融中心幕墙专业分包工程",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8tNnFLV1l0aW5PVkFSa3RwTFhqUkFDRGV6dGRwWFlsSHNzZk56cW9zMVo5ek5JWVR5UlFxNTlpSDZRRnBaNkFiUTlxYkxhTEg2bnZxbFJwbnpKdmNENzFldzM2LUE?oc=5",
       "source": "google_news_rss",
@@ -926,16 +606,6 @@
       "model_score": 0.9967,
       "rule_score": 0.0,
       "hybrid_score": 0.1987,
-      "sentiment_label": "positive"
-    },
-    {
-      "title": "肇庆创业担保贷款打造全省样板，金融活水赋能创业就业提质增效",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPLUxTaE8tSW92X1JkaGRiTnpLQzA1VUhwN2NSX0tnVml0QlIzSUp4b21CbWdTVTBhT19LV0hEUDJvaUl6dnN4eUotQjRnY0J2Zy04eV9TSXFQdE04Y1U3cHl1NjRJU3M3X3V6cV90OC1QeTkzV2d1cE9ZT2w5bXVnclBsVWVySHozZUtzbWFlWQ?oc=5",
-      "source": "google_news_rss",
-      "published_at": "Thu, 05 Mar 2026 10:02:00 GMT",
-      "model_score": 1.0,
-      "rule_score": 0.0,
-      "hybrid_score": 0.2,
       "sentiment_label": "positive"
     },
     {

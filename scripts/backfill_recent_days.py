@@ -31,6 +31,10 @@ STOP_PATTERNS = [
     r'中国证券登记结算', r'中国上市公司协会', r'中国证券投资基金业协会',
     r'全国社保基金理事会', r'中国金融期货交易所',
     r'高质量发展大会', r'颁奖典礼', r'论坛$', r'大会$', r'金牛奖',
+    r'宣传活动', r'教育活动', r'进社区', r'进校园', r'消费者权益保护', r'3·15', r'学雷锋',
+    r'主题活动', r'微沙龙', r'宣讲会', r'研讨会', r'系列展播', r'网络研讨会', r'趣味互动',
+    r'答卷', r'事迹', r'专访', r'观察', r'解读', r'声音', r'点题', r'作答', r'为民办实事',
+    r'护航', r'守护', r'赋能', r'润', r'活水', r'温度', r'担当', r'强国建设', r'中国特色金融发展之路',
 ]
 TIME_PREFIX = re.compile(r'^\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}\s+')
 
@@ -95,6 +99,11 @@ def is_valid_title(title: str, url: str = '') -> bool:
     if any(x in url for x in bad_domains):
         return False
     if title.count('：') > 2:
+        return False
+    finance_count = title.count('金融')
+    if finance_count >= 2 and not any(k in title for k in ['市场', '股', '汇率', '利率', '通胀', '油价', '货币政策', '经济增长', 'IPO']):
+        return False
+    if any(k in title for k in ['活动', '宣传', '讲座', '专访', '事迹', '教育']) and not any(k in title for k in ['A股', '港股', '美股', '汇率', '油价', '通胀', '加息', '降息']):
         return False
     return True
 
