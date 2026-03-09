@@ -19,10 +19,12 @@ def main() -> None:
         'sentiment_analysis.py',
         'fetch_market_data.py',
         'update_history.py',
+        'build_charts.py',
         'build_report.py',
     ]:
         run(script)
     print('Daily pipeline completed.')
+    print('Tip: run scripts/publish_github.py to push the latest output automatically.')
 
 
 if __name__ == '__main__':
