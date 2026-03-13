@@ -1,0 +1,882 @@
+{
+  "generated_at": "2026-03-13T08:00:25.240470",
+  "count": 87,
+  "daily_sentiment_index": -0.1003,
+  "label_counts": {
+    "neutral": 20,
+    "positive": 32,
+    "negative": 35
+  },
+  "items": [
+    {
+      "title": "秘鲁央行连续第六次维持利率不变",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhquwcv7972444.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4393,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0243,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "美欧日据悉将谈判关键矿产贸易协议 包含价格下限和关税内容",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhquwcu1193168.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4501,
+      "rule_score": 0.0,
+      "hybrid_score": -0.02,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "马斯克回应xAI高层变动：正从基础开始重新构建",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhquwcx4228760.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7806,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1122,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "美国在伊拉克军机坠毁后开展救援工作",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhquwcx4228558.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9002,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1601,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "三星与英伟达合作加速研发下一代NAND闪存",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhquwcs4219564.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.1171,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1531,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "韩国有望因芯片热潮推出20万亿韩元追加预算",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhquwcs4218308.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0539,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1784,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "能化类期货品种大涨 部分获利投资者选择离场",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-03-13%2Fdoc-inhquwcs4218041.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9961,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1984,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "一图看懂｜从能源到餐桌：霍尔木兹海峡的石油风暴会引发粮食危机吗？",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-13%2Fdoc-inhquwcu1189457.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9296,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1719,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "执行董事：洛杉矶港基本未受伊朗战争扰乱供应链的影响",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhquwcv7964916.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7437,
+      "rule_score": -2.4,
+      "hybrid_score": -0.3825,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "高油价溢出效应持续显现 产业链各环节承受严酷“烤”验",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-03-13%2Fdoc-inhquwcs4217323.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.6651,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0661,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "Adobe首席执行官将卸任 新财报凸显产品韧性但面临AI挑战",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhquwcu1187100.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9986,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1994,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "亚马逊据悉拟将“Prime Day”促销活动提前至6月",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhquwcu1186408.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.5762,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0305,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "参议员沃伦质疑特朗普政府撤离中东美国公民行动不足",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhquwcs4215363.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9753,
+      "rule_score": -1.6,
+      "hybrid_score": -0.1299,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "Ulta Beauty第四财季表现不及预期 盘后跌约8%",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhquwcv7961216.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.1946,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1221,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "90%任务是“养虾” 大模型Token通胀 谁在收割红利？",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-03-13%2Fdoc-inhquwcu1187533.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.2506,
+      "rule_score": -2.4,
+      "hybrid_score": -0.5798,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "美军一架参与对伊军事行动的KC-135加油机坠毁",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhquwcx4219697.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9898,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1959,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "英氏控股IPO，成本30、售价100的婴幼儿米粉，是不是“智商税”？",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fnewstock%2F2026-03-13%2Fdoc-inhquwcx4221487.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0043,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1983,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "中韩半导体ETF，溢价率高企",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-03-13%2Fdoc-inhquwcs4212603.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9172,
+      "rule_score": -2.4,
+      "hybrid_score": -0.3131,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "以军袭击黎首都和南部，黎方：本轮冲突已致黎巴嫩687人死亡",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-13%2Fdoc-inhquwcx4217920.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0677,
+      "rule_score": -4.0,
+      "hybrid_score": -0.9729,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "美财长：美国海军将护送油轮通过霍尔木兹海峡 战争成本仍可承受",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhquwcx4215954.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9992,
+      "rule_score": -2.4,
+      "hybrid_score": -0.2803,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "大麻烦来了！伊朗新任最高领袖首次发声“应继续关闭霍尔木兹海峡”，油价收复100关口！",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-03-13%2Fdoc-inhquwcs4218645.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8197,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1279,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "纽约期金跌超2%，美股盘后失守5060美元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqurvw1305910.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9758,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1903,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "继续实施好适度宽松的货币政策",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-13%2Fdoc-inhqurvz4345327.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9986,
+      "rule_score": 1.4,
+      "hybrid_score": 0.4794,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "“真实性”为基 多维提高上市公司“可投性”",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-13%2Fdoc-inhqurvu4338089.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3098,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0761,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "3月13日隔夜要闻：美国估算伊朗战争首周耗资逾113亿美元 美国正建立关税退款系统 高盛推迟美联储降息预期",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqurvu4334515.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.2353,
+      "rule_score": -2.4,
+      "hybrid_score": -0.5859,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "私募基金前两个月平均收益率达6.89%",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-13%2Fdoc-inhqurvz4344166.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.985,
+      "rule_score": 0.0,
+      "hybrid_score": 0.194,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "物流业加速构建全球智慧仓储网络",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-13%2Fdoc-inhqurvu4336330.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4813,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0075,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "谷歌地图引入一系列AI驱动新功能",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqurvw1303142.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9915,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1966,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "中东战火致化肥运输受阻 全球农业生产受波及",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-03-13%2Fdoc-inhquwcx4220338.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9945,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1978,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "大宗商品综述：布伦特原油收盘突破100美元 黄金走低 铝价上涨",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqurvw1299947.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.2421,
+      "rule_score": 1.6,
+      "hybrid_score": 0.2169,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "美国财长贝森特称不担心伊朗战争的财政成本",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqurvx8075759.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8267,
+      "rule_score": -2.4,
+      "hybrid_score": -0.3493,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "一架美国空中加油机在伊拉克西部坠毁",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqurvw1298020.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.6326,
+      "rule_score": 0.0,
+      "hybrid_score": 0.053,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "正品控股净利大降92%仍要港股IPO 估值激增背后实控人左手套现右手融资",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fobserve%2F2026-03-13%2Fdoc-inhqufhf4534653.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7595,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1038,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "美国股市：标普500指数三连跌 油价再度飙升加剧通胀担忧",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqurvx8072435.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.984,
+      "rule_score": -5.8,
+      "hybrid_score": -0.9664,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "原油：布伦特原油结算价突破每桶100美元 为2022年8月以来首次",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqurvw1292654.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.1884,
+      "rule_score": 0.6,
+      "hybrid_score": -0.0046,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "3月13日外盘头条：布伦特原油突破每桶100美元 特朗普政府拟控制油价 英国称伊朗或已开始在霍尔木兹海峡布雷",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumpz8174064.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9436,
+      "rule_score": 0.6,
+      "hybrid_score": 0.2974,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "纽约汇市：彭博美元指数创下近两个月收盘新高 油价再度飙升",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqurvu4321889.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9554,
+      "rule_score": -2.4,
+      "hybrid_score": -0.2978,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "美国债市：短期美债大幅下挫 市场降息押注减弱",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqurvu4321052.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9993,
+      "rule_score": -3.4,
+      "hybrid_score": -0.4803,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "伊朗军方：若能源基础设施遭袭 将进行报复",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqurvu4320748.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.2019,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1192,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "加拿大和墨西哥重申美墨加自由贸易协定的重要性",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqurvz4325907.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9376,
+      "rule_score": 0.0,
+      "hybrid_score": 0.175,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "山姆奥特曼与立法者会面，就OpenAI的国防工作接受\"严肃质询\"",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqurvx8062343.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7743,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1097,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "美国正建立关税退款系统 进度达40%至80%",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqurvu4318560.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3723,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0511,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "RWE将在美国投资190亿美元用于燃气发电，以应对需求激增",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqurvu4317321.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9988,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1995,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "国际能源署警告有史以来最大规模石油供应中断",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqurvw1283438.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0018,
+      "rule_score": -4.2,
+      "hybrid_score": -1.0393,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "伊朗警告：若其石油设施遭袭，海湾能源资产可能被付之一炬",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqurvw1283024.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0127,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1949,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "底特律地区犹太教堂发生枪击事件 未报告有其他受害者",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqurvz4323053.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9663,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1865,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "贝森特：一旦“军事上可行”，美军将开始为通过霍尔木兹海峡的商船提供护航",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqurvw1280634.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9935,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1974,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "特朗普称伊朗战局正在迅速推进",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqurvw1279994.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9199,
+      "rule_score": 0.0,
+      "hybrid_score": 0.168,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "3月13日美股成交额前20：特斯拉获批向全英供电",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqurvz4321360.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.024,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1904,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "美国参议院民主党阻止重开国土安全部拨款法案推进",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumqc4447587.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8039,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1216,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "3月13日热门中概股多数下跌 小鹏汽车涨3.55%，台积电跌5%",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumqc4447207.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8538,
+      "rule_score": -1.6,
+      "hybrid_score": -0.1785,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "3月13日收盘：道指跌破47000点创年内新低，油价续涨令股指承压",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumqc4445373.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0573,
+      "rule_score": -1.6,
+      "hybrid_score": -0.4971,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "马斯克旗下xAI面临联合创始人离职潮 11名创始人仅剩2人在岗",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumqc4444620.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3349,
+      "rule_score": 0.0,
+      "hybrid_score": -0.066,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "特朗普政府准备豁免《琼斯法案》 以应对燃料价格飙升",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-03-13%2Fdoc-inhqumpw4437949.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9329,
+      "rule_score": -4.4,
+      "hybrid_score": -0.7068,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "亚马逊Prime Air因安全立场不合正退出商业无人机联盟",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumpy1397920.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8899,
+      "rule_score": 0.0,
+      "hybrid_score": 0.156,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "美以伊战争升级，阿曼疏散主要石油港口",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumpy1397037.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9664,
+      "rule_score": -2.4,
+      "hybrid_score": -0.2935,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "中东冲突升级，高盛上调油价预测",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumpz8173809.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.995,
+      "rule_score": -2.4,
+      "hybrid_score": -0.282,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "印媒称伊朗或允许印度油轮通过霍尔木兹海峡，但遭伊朗消息人士否认",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumpz8173105.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.6757,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0703,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "无人机袭击后，富查伊拉石油码头恢复运营",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumqc4440638.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0999,
+      "rule_score": -2.4,
+      "hybrid_score": -0.6401,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "DoorDash股价周四午后走低，油价上涨可能令其配送成本攀升",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumqc4440129.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3789,
+      "rule_score": 0.4,
+      "hybrid_score": 0.0316,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "布伦特原油自2022年8月以来首次结算价超过100美元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumpz8171108.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0125,
+      "rule_score": 0.0,
+      "hybrid_score": -0.195,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "美债抛售持续 2年期收益率当日上涨10个基点",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumpy1393838.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3503,
+      "rule_score": 1.0,
+      "hybrid_score": 0.1401,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "特朗普敦促鲍威尔立即降息：不要等到美联储下次开会",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumpy1393674.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3427,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0629,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "贝森特：美国海军将在情况允许时在霍尔木兹海峡护航",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumpw4432236.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.751,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1004,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "市场对美联储降息的希望正迅速消退",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumpz8170206.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3922,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0431,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "布伦特原油突破每桶100美元 海湾航运遭袭及伊朗警告后股市下跌",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumpy1392538.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9744,
+      "rule_score": -1.0,
+      "hybrid_score": -0.0102,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "巴西在油价飙升后取消柴油税，但对石油出口征税",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumpz8167693.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.1449,
+      "rule_score": -5.2,
+      "hybrid_score": -1.182,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "一名枪手在弗吉尼亚欧道明大学开枪造成两人伤亡后被击毙",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumpw4429656.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.754,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1016,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "伊朗战争持续，英国央行加息预期飙升，英国国债再遭重创",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumqc4435818.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9924,
+      "rule_score": -5.6,
+      "hybrid_score": -0.923,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "特朗普政府可能放宽美国航运法规以应对燃油价格飙升",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumpz8165938.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9989,
+      "rule_score": -5.2,
+      "hybrid_score": -0.8404,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "巴西淡水河谷公司2025年利用废料生产的矿石产量翻番",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumqc4435176.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8959,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1583,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "加勒比海岛国欲筹集2亿美元推动区域生物多样性",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumpy1387217.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9984,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1993,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "伊朗称霍尔木兹海峡必须保持关闭，布伦特原油收在100美元上方",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumpz8163505.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0076,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1969,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "特朗普与伊朗新领袖斗志昂扬 能源市场供应压力未见缓解",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fworld%2F2026-03-13%2Fdoc-inhqumpy1385025.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9864,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1946,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "尾盘：美股走低道指跌660点 伊朗称将继续关闭海峡",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumqc4432435.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0114,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1954,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "欧洲股市续跌 伊朗最高领袖言论加剧能源供应担忧",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fworld%2F2026-03-13%2Fdoc-inhqumpz8160919.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.1286,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1486,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "资金撤离与违约攀升夹击之下 “基金层面杠杆”成私募信贷新痛点",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fworld%2F2026-03-13%2Fdoc-inhqumpw4424296.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9997,
+      "rule_score": -3.2,
+      "hybrid_score": -0.4401,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "智利与美国将就关键矿产及稀土问题启动磋商",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumpy1376170.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.6464,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0586,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "五角大楼：美国上周在对伊朗作战中花费约110亿美元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumpw4418091.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4908,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0037,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "特斯拉获准将对xAI的投资转换为对SpaceX的持股",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-13%2Fdoc-inhqumpy1374948.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3898,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0441,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "长三角首台“华龙一号”核电机组首次并网发电",
+      "url": "https://jnzstatic.cs.com.cn/zzb/htmlInfo/116776.html",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.4283,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0287,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "全国人大代表、中国人民银行河南省分行行长王均坦：建议加快完善金融机构参与资源环境要素交易市场建设的环境和条件",
+      "url": "https://jnzstatic.cs.com.cn/zzb/htmlInfo/116771.html",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.512,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0048,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "潘功胜：继续实施好适度宽松的货币政策 加大逆周期和跨周期调节力度",
+      "url": "https://jnzstatic.cs.com.cn/zzb/htmlInfo/116769.html",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.9997,
+      "rule_score": 1.4,
+      "hybrid_score": 0.4799,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "全国人大代表、天津钢管制造有限公司工程师李刚：市场用订单给中国制造投下“信任票”",
+      "url": "https://jnzstatic.cs.com.cn/zzb/htmlInfo/116753.html",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.0809,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1676,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "市场监管总局：持续完善食品安全法规制度体系，推动食品安全治理提质增效",
+      "url": "https://jnzstatic.cs.com.cn/zzb/htmlInfo/116749.html",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.9984,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1994,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "北方稀土拟取消每月挂牌价？公司最新回应：消息属实",
+      "url": "http://video.cs.com.cn/150/7561.shtml?id=7561",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.0031,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1988,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "培育钻石掀涨价潮？上市公司最新回应",
+      "url": "http://video.cs.com.cn/150/7560.shtml?id=7560",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.729,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0916,
+      "sentiment_label": "positive"
+    }
+  ]
+}
