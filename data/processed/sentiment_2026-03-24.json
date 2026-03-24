@@ -1,0 +1,932 @@
+{
+  "generated_at": "2026-03-24T10:58:58.854257",
+  "count": 92,
+  "daily_sentiment_index": 0.0363,
+  "label_counts": {
+    "positive": 44,
+    "neutral": 22,
+    "negative": 26
+  },
+  "items": [
+    {
+      "title": "中信建投期货：3月24日农产品早报",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-03-24%2Fdoc-inhrzysw0590719.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8719,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1487,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "中信建投期货：3月24日工业品早报",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-03-24%2Fdoc-inhrzysx7367058.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.694,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0776,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "中信建投期货：3月24日黑色系早报",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-03-24%2Fdoc-inhrzysz3576368.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.6119,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0447,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "阿里玄铁C950发布，较C920综合性能提升超3倍",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Ftob%2F2026-03-24%2Fdoc-inhrzysx7361793.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9409,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1764,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "倪光南院士：半导体行业不再是先进制程包打天下的局面",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Ftob%2F2026-03-24%2Fdoc-inhrzysw0583869.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9997,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1999,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "美团客服回应删照片：第三方插件故障 现已紧急修复",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Ftob%2F2026-03-24%2Fdoc-inhrzysz3571608.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0026,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1989,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "汇丰集团行政总裁艾桥智：中国仍将是下一阶段全球增长的核心力量",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fhy%2Fhyjz%2F2026-03-24%2Fdoc-inhrzysx7359464.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9999,
+      "rule_score": 1.4,
+      "hybrid_score": 0.48,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "银行股批量上攻，华宝基金银行ETF（512800）涨近2%，资金密集涌入3.38亿元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffund%2Fetf%2F2026-03-24%2Fdoc-inhrzyta1878868.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.6029,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0412,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "银行板块震荡走强 青岛银行涨超4%",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjryx%2Fbank%2F2026-03-24%2Fdoc-inhrzysz3575383.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8079,
+      "rule_score": 1.0,
+      "hybrid_score": 0.3232,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "福建前首富，栽了！从安溪走出去的70岁“LED大王”，突遭留置",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-03-24%2Fdoc-inhrzyta1877865.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7819,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1128,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "IMF首席经济学家为中国加强内需“支招”：必须让消费者敢于消费，不用总想着挣钱",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fhy%2Fhyjz%2F2026-03-24%2Fdoc-inhrzyta1873905.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.6114,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0446,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "交通银行行长张宝江：恪守金融服务实体经济本源至关重要",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fhy%2Fhyjz%2F2026-03-24%2Fdoc-inhrzysz3572123.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8907,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1563,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "光伏组件新一轮涨价落地！硬科技宽基——华宝基金双创龙头ETF（588330）单日吸金741万元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffund%2Fetf%2F2026-03-24%2Fdoc-inhrzysw0570580.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7239,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0896,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "MINIMAX-W盘中涨超6%MaxClaw接入个人微信 发布支持全模态模型的订阅计划",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fmarketalerts%2F2026-03-24%2Fdoc-inhrzysw0566690.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8056,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1223,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "收益率首次低于2% 开年29只银行理财募集失利",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-03-24%2Fdoc-inhrzysz3571457.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.002,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1992,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "触底反弹！华宝基金港股通创新药ETF、港股通医疗ETF携手冲高3%！业绩超预期，药明合联、药明康德强势领涨",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffund%2Fetf%2F2026-03-24%2Fdoc-inhrzysz3556834.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9993,
+      "rule_score": 1.4,
+      "hybrid_score": 0.4797,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "凯乐士科技首挂上市 早盘上涨81.15%",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fggipo%2F2026-03-24%2Fdoc-inhrzysw0563607.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.245,
+      "rule_score": 1.0,
+      "hybrid_score": 0.098,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "顾客曝光“中园石化”太像“中国石化”，涉事加油站称名字经过审批，当地：将调查是否“傍名牌”",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fconsume%2Fxiaofei%2F2026-03-24%2Fdoc-inhrzyta1866739.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0099,
+      "rule_score": 0.0,
+      "hybrid_score": -0.196,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "渣打温拓思：货币数字化和人工智能正在重塑全球经济与金融格局",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fhy%2Fhyjz%2F2026-03-24%2Fdoc-inhrzysx7347446.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9949,
+      "rule_score": 0.0,
+      "hybrid_score": 0.198,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "老铺黄金早盘涨超8% 去年营收及净利润同比增超两倍",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fmarketalerts%2F2026-03-24%2Fdoc-inhrzysx7336185.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8882,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1553,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "“抄底”资金频频加码，港股硬科技能否迎来超跌反弹？全市场唯一港股信息技术ETF(159131)单日吸金6854万元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffund%2Fetf%2F2026-03-24%2Fdoc-inhrzysw0556743.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.5005,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0002,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "绿茶集团盘中涨超7% 全年纯利同比增近39%至4.86亿元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fmarketalerts%2F2026-03-24%2Fdoc-inhrzysx7331607.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4163,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0335,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "朱民：将人民币打造成强货币，对中国和世界都至关重要",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fhy%2Fhyjz%2F2026-03-24%2Fdoc-inhrzysw0555143.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9991,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1997,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "康诺亚-B盘中涨逾7% 吉利德已同意以并购方式收购持股公司Ouro Medicines",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fmarketalerts%2F2026-03-24%2Fdoc-inhrzysz3541020.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.137,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1452,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "央行购金还能托起金价？ 现货金回调接近尾声？",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Fnmetal%2Fhjfx%2F2026-03-24%2Fdoc-inhrzyta1873330.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.269,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0924,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "地缘缓和，华宝基金港股互联网ETF（513770）涨近2%，阿里或发布重磅芯片，直指算力需求",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffund%2Fetf%2F2026-03-24%2Fdoc-inhrzyta1850801.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9985,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1994,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "超跌反弹？或终结9连阴！华宝基金有色ETF（159876）盘中拉升1.79%，低位布局机遇凸显",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffund%2Fetf%2F2026-03-24%2Fdoc-inhrzysw0548067.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4084,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0366,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "中金：维持绿城服务跑赢行业评级 目标价6.0港元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fhkgg%2F2026-03-24%2Fdoc-inhrzysz3537613.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9893,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1957,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "药明合联绩后涨超9% 2025年度收益及净利润录得双增长",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fmarketalerts%2F2026-03-24%2Fdoc-inhrzysz3535448.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9958,
+      "rule_score": 1.4,
+      "hybrid_score": 0.4783,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "黄金惊现“恐慌性抛售”！ 发生了什么？",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Fnmetal%2Fhjfx%2F2026-03-24%2Fdoc-inhrzyta1873091.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.841,
+      "rule_score": -0.6,
+      "hybrid_score": 0.0164,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "2026“夏季达沃斯”将于6月在大连举行",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fhy%2Fhyjz%2F2026-03-24%2Fdoc-inhrzyta1845331.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.1349,
+      "rule_score": 0.0,
+      "hybrid_score": -0.146,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "AMD：搭载锐龙AI全形态创新产品全面上市，含华硕、惠普多款机型",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Ftob%2F2026-03-24%2Fdoc-inhrzysw0545547.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9995,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1998,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "IPO雷达| 轴承巨头人本股份闯关，高负债下扩产赌局待解",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-24%2Fdoc-inhrzyta1848463.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9878,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1951,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "华泰期货：昨日黑色建材商品上涨，主要受到能源价格上涨带动",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-03-24%2Fdoc-inhrzysw0545364.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0041,
+      "rule_score": 1.0,
+      "hybrid_score": 0.0016,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "华泰期货：美伊谈判希望重燃，油价大幅回落",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-03-24%2Fdoc-inhrzysw0544094.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0269,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1892,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "碧桂园盈喜后涨超6% 预计去年扭亏为盈赚最多22亿元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fmarketalerts%2F2026-03-24%2Fdoc-inhrzysz3532067.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4077,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0369,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "9年4次考察雄安，习近平心中的“千年大计”",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-03-24%2Fdoc-inhrzysx7322905.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9053,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1621,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "药明康德绩后涨超6% 全年纯利同比增长102.65%",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fmarketalerts%2F2026-03-24%2Fdoc-inhrzysx7319836.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9562,
+      "rule_score": 1.4,
+      "hybrid_score": 0.4625,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "疑员工内涵小鹏智驾，地平线CEO余凯回应：不符合我们的价值观",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Ftob%2F2026-03-24%2Fdoc-inhrzysx7318453.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3373,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0651,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "华泰期货：液化石油气盘面连续大涨，LPG基差走低",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-03-24%2Fdoc-inhrzysx7318340.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.1449,
+      "rule_score": 0.0,
+      "hybrid_score": -0.142,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "华泰期货：市场情绪扰动，玻碱盘面昨日走强",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-03-24%2Fdoc-inhrzysz3526076.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9841,
+      "rule_score": 1.0,
+      "hybrid_score": 0.3936,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "华泰期货：苹果优果交割驱动，红枣淡季库存承压",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-03-24%2Fdoc-inhrzysz3524785.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9893,
+      "rule_score": -1.6,
+      "hybrid_score": -0.1243,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "鲍威尔想当“临时主席”？特朗普手里还有一张1978年的“王牌”",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-03-24%2Fdoc-inhrzyta1835062.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4494,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0202,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "总台海峡时评：如此恋殖媚日的赖清德，是不折不扣的民族败类",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-24%2Fdoc-inhrzysz3525572.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9652,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1861,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "金价大跌！上金所紧急通知理性投资！银行“坐不住”了",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-24%2Fdoc-inhrzysw0548752.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.5265,
+      "rule_score": -1.6,
+      "hybrid_score": -0.3094,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "华泰期货：中东地缘局势变化，甲醇价格大幅波动",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-03-24%2Fdoc-inhrzyta1829003.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8076,
+      "rule_score": -1.0,
+      "hybrid_score": -0.0769,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "A股有机硅概念板块竞价活跃，富祥药业涨超15%",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-03-24%2Fdoc-inhrzysx7314614.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9695,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1878,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "朱民：继续做强做大中国经济，必须拥有强有力的人民币",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fhy%2Fhyjz%2F2026-03-24%2Fdoc-inhrzysw0550009.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9963,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1985,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "光大期货：3月24日农产品日报",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-03-24%2Fdoc-inhrzysx7307943.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7794,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1118,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "光大期货：3月24日软商品日报",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-03-24%2Fdoc-inhrzysz3516316.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3484,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0607,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "【早盘三分钟】3月24日华宝基金ETF早知道",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffund%2Fetf%2F2026-03-24%2Fdoc-inhrzysw0528991.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.2106,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1157,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "光大期货：3月24日有色金属日报",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-03-24%2Fdoc-inhrzysz3515108.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.5408,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0163,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "央行今日开展175亿元7天期逆回购操作",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjryx%2Fbank%2F2026-03-24%2Fdoc-inhrzysz3514875.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4166,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0334,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "金价暴跌后反抽逾400美元，“凤凰反应”将至？分析师警告：真正风险或藏在2万亿美元市场",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Fnmetal%2Fhjfx%2F2026-03-24%2Fdoc-inhrzysz3517467.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.2539,
+      "rule_score": -1.6,
+      "hybrid_score": -0.4184,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "光大期货：3月24日金融日报",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-03-24%2Fdoc-inhrzysw0527714.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9579,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1832,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "又现内幕交易？特朗普发表缓和言论前 6亿美元原油期货合约被抛售",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-03-24%2Fdoc-inhrzyta1825590.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.6118,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0447,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "苹果2026全球开发者大会定档6月9日，升级版Siri成重头戏",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-24%2Fdoc-inhrzysx7306350.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.2921,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0832,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "光大期货：3月24日矿钢煤焦日报",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-03-24%2Fdoc-inhrzysx7301824.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7412,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0965,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "快讯：恒指高开1.55% 科指涨1.3% 科网股、黄金股普涨 航空股回暖 新消费概念股活跃 老铺黄金涨超10%",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fmarketalerts%2F2026-03-24%2Fdoc-inhrzyta1821500.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9588,
+      "rule_score": 1.4,
+      "hybrid_score": 0.4635,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "华安基金：中长期看支撑黄金的宏观因素并未逆转",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffund%2Fjjh%2F2026-03-24%2Fdoc-inhrzysz3509580.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9949,
+      "rule_score": 0.0,
+      "hybrid_score": 0.198,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "“固收+”名将张永志实力护航 华商瑞鑫定期开放债券3月23日开放申赎",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffund%2Fjjh%2F2026-03-24%2Fdoc-inhrzyta1818680.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4363,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0255,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "人民币兑美元中间价报6.8943，上调98点",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Fforex%2Frmb%2F2026-03-24%2Fdoc-inhrzysz3507252.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.172,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1312,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "光大期货：3月24日能源化工日报",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-03-24%2Fdoc-inhrzysx7297297.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.2819,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0872,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "特朗普，再次TACO？“他是在救市”",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-03-24%2Fdoc-inhrzysx7302525.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8432,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1373,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "美国汽油价格大涨，美联储拉响加息警告",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-03-24%2Fdoc-inhrzysz3510347.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.5635,
+      "rule_score": -2.4,
+      "hybrid_score": -0.4546,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "酒价内参3月24日价格发布，水晶剑南春保持不变",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fchanjing%2Fwddc%2F2026-03-24%2Fdoc-inhrzyta1815517.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8207,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1283,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "快讯：现货白银日内跌超3%，失守67美元/盎司关口",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Fnmetal%2Froll%2F2026-03-24%2Fdoc-inhrzysz3505229.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.662,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0648,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "酒价内参3月24日价格发布，五粮液普五八代保持不变",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fchanjing%2Fwddc%2F2026-03-24%2Fdoc-inhrzysw0517835.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.2213,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1115,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "酒价内参3月24日价格发布，五粮液1618下跌3元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fchanjing%2Fwddc%2F2026-03-24%2Fdoc-inhrzysw0517747.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0783,
+      "rule_score": -1.6,
+      "hybrid_score": -0.4887,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "酒价内参3月24日价格发布，习酒君品下跌4元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fchanjing%2Fwddc%2F2026-03-24%2Fdoc-inhrzyta1815191.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0996,
+      "rule_score": -1.6,
+      "hybrid_score": -0.4802,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "酒价内参3月24日价格发布，青花汾20下跌4元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fchanjing%2Fwddc%2F2026-03-24%2Fdoc-inhrzysz3504879.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0416,
+      "rule_score": -1.6,
+      "hybrid_score": -0.5034,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "酒价内参3月24日价格发布，青花郎回落8元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fchanjing%2Fwddc%2F2026-03-24%2Fdoc-inhrzysw0517535.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0175,
+      "rule_score": 0.0,
+      "hybrid_score": -0.193,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "酒价内参3月24日价格发布，国窖1573回落9元跌幅居前",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fchanjing%2Fwddc%2F2026-03-24%2Fdoc-inhrzysz3504612.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0168,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1933,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "396股获融资买入超亿元，新易盛获买入41.28亿元居首",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-24%2Fdoc-inhrzysz3510997.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9991,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1996,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "酒价内参3月24日价格发布，古井贡古20小幅上涨1元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fchanjing%2Fwddc%2F2026-03-24%2Fdoc-inhrzysz3504382.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0361,
+      "rule_score": 1.0,
+      "hybrid_score": 0.0144,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "酒价内参3月24日价格发布，洋河梦之蓝M6+小幅上涨1元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fchanjing%2Fwddc%2F2026-03-24%2Fdoc-inhrzyta1814403.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4724,
+      "rule_score": 1.0,
+      "hybrid_score": 0.189,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "酒价内参3月24日价格发布，精品茅台上涨3元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fchanjing%2Fwddc%2F2026-03-24%2Fdoc-inhrzysz3504064.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.2162,
+      "rule_score": 1.0,
+      "hybrid_score": 0.0865,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "酒价内参3月24日价格发布，贵州茅台飞天酒上涨5元涨幅居前",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fchanjing%2Fwddc%2F2026-03-24%2Fdoc-inhrzysw0516977.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0122,
+      "rule_score": 1.0,
+      "hybrid_score": 0.0049,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "傅盛深夜向周鸿祎道歉：酒后冲动，一起打仗的日子是职业生涯最宝贵的记忆",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-24%2Fdoc-inhrzysw0517963.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.768,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1072,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "酒价内参3月24日价格发布 白酒终端总价小幅回落",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fchanjing%2Fwddc%2F2026-03-24%2Fdoc-inhrzysw0515731.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0009,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1996,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "央行公开市场今日净回笼335亿元",
+      "url": "https://jnzstatic.cs.com.cn/zzb/htmlInfo/117563.html",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.9129,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1652,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "【投资日历】周二（3月24日）资本市场大事",
+      "url": "https://jnzstatic.cs.com.cn/zzb/htmlInfo/117550.html",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.759,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1036,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "【中证快报】3月23日中证投资资讯",
+      "url": "https://jnzstatic.cs.com.cn/zzb/htmlInfo/117546.html",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.8276,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1311,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "国际油价，大幅跳水！",
+      "url": "https://jnzstatic.cs.com.cn/zzb/htmlInfo/117511.html",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.2718,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0913,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "刘烈宏：国家数据局正在建立健全数据产权制度",
+      "url": "https://jnzstatic.cs.com.cn/zzb/htmlInfo/117504.html",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.9864,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1946,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "刘烈宏：将加快国家枢纽算力设施集群建设",
+      "url": "https://jnzstatic.cs.com.cn/zzb/htmlInfo/117501.html",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.7012,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0805,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "刘烈宏：数据产业与人工智能深度融合协同发展，催生智能经济新增长点",
+      "url": "https://jnzstatic.cs.com.cn/zzb/htmlInfo/117500.html",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.9991,
+      "rule_score": 1.4,
+      "hybrid_score": 0.4796,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "北京三部门约谈12家平台企业，通报“内卷式”竞争问题并提出整改要求",
+      "url": "https://jnzstatic.cs.com.cn/zzb/htmlInfo/117487.html",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.0051,
+      "rule_score": 0.0,
+      "hybrid_score": -0.198,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "北交所上市公司达到300家",
+      "url": "http://video.cs.com.cn/178/7807.shtml?id=7807",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.3927,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0429,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "国家能源局：今年2月我国核发绿证1.98亿个",
+      "url": "http://video.cs.com.cn/178/7806.shtml?id=7806",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.8628,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1451,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "北方稀土拟取消每月挂牌价？公司最新回应：消息属实",
+      "url": "http://video.cs.com.cn/150/7561.shtml?id=7561",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.0031,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1988,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "培育钻石掀涨价潮？上市公司最新回应",
+      "url": "http://video.cs.com.cn/150/7560.shtml?id=7560",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.729,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0916,
+      "sentiment_label": "positive"
+    }
+  ]
+}
