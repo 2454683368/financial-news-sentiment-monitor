@@ -1,11 +1,18 @@
 from __future__ import annotations
 
+import argparse
 import json
 from datetime import datetime
 from pathlib import Path
 
 import matplotlib.pyplot as plt
 from matplotlib import font_manager, rcParams
+
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--date', default=None, help='Date in YYYY-MM-DD format')
+    return parser.parse_args()
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 PROC_DIR = BASE_DIR / "data" / "processed"
@@ -41,8 +48,8 @@ def latest_available_date() -> str:
         raise FileNotFoundError("No sentiment_*.json files found in processed data")
     return candidates[-1].stem.replace("sentiment_", "")
 
-def load_today():
-    today = latest_available_date()
+def load_today(target_date: str = None):
+    today = target_date or latest_available_date()
     sentiment_path = PROC_DIR / f"sentiment_{today}.json"
     market_path = PROC_DIR / f"market_{today}.json"
     sentiment = json.loads(sentiment_path.read_text(encoding="utf-8"))
@@ -147,8 +154,10 @@ def plot_history_market_linkage(history: list[dict]) -> str:
 
 
 def main():
+    args = parse_args()
+    target_date = args.date
     font_name = setup_chinese_font()
-    today, sentiment, market, history = load_today()
+    today, sentiment, market, history = load_today(target_date)
     outputs = {
         "font": font_name,
         "label_distribution": plot_label_distribution(today, sentiment),

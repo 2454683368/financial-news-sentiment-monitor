@@ -1,0 +1,902 @@
+{
+  "generated_at": "2026-03-30T08:27:58.446042",
+  "count": 89,
+  "daily_sentiment_index": 0.0505,
+  "label_counts": {
+    "positive": 53,
+    "negative": 22,
+    "neutral": 14
+  },
+  "items": [
+    {
+      "title": "招商银行获Ping An Asset Management Co., Ltd.增持170.3万股 每股作价约48.69港元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fggscyd%2F2026-03-30%2Fdoc-inhsthze4203261.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3428,
+      "rule_score": 1.4,
+      "hybrid_score": 0.2171,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "日韩股市周一大幅低开 韩股跌近5%",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-30%2Fdoc-inhsthzn2999987.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.2433,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1027,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "特朗普称想“夺取伊朗石油”：美国可以轻而易举拿下哈尔克岛",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fworld%2F2026-03-30%2Fdoc-inhsthze4199693.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.393,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0428,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "黄金、白银跳水！原油飙涨！中东突发：德黑兰，10多分钟遭两轮大规模空袭！",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fworld%2F2026-03-30%2Fdoc-inhsthzk6665641.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9413,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1765,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "业绩亏损、高管更迭，全新好困境难解",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-30%2Fdoc-inhsthzh9888129.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9824,
+      "rule_score": 0.0,
+      "hybrid_score": 0.193,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "“太二”想上岸，先“斩”酸菜鱼",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fchanjing%2F2026-03-30%2Fdoc-inhsthzk6666347.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0961,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1616,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "光大理财一产品遭大规模赎回！年内收益率跌至负14.27%",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Froll%2F2026-03-30%2Fdoc-inhsthzk6666968.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.2072,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1171,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "美国议员们对美国可能对伊朗发动的地面入侵行动持怀疑态度",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fworld%2F2026-03-30%2Fdoc-inhsthzk6662908.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4206,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0317,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "低价新股来了，就在今日！中签率或较高",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-03-30%2Fdoc-inhsthzn2996035.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9554,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1822,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "霍尔木兹海峡，再传重磅！两条“咽喉”航道或同时承压，油价拉升",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fworld%2Fgjcj%2F2026-03-30%2Fdoc-inhsthzh9885983.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4336,
+      "rule_score": -1.6,
+      "hybrid_score": -0.3466,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "华泰宏观：辩证分析海外能源供给缺口对中国的影响",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fmarketresearch%2F2026-03-30%2Fdoc-inhsthzn2994852.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9638,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1855,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "马斯克撕破了一块遮羞布",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fworld%2F2026-03-30%2Fdoc-inhsthzn2995153.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.2454,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1018,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "摩根大通和Pimco认为债券市场低估了经济放缓风险",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-30%2Fdoc-inhsthze4194231.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8485,
+      "rule_score": -1.6,
+      "hybrid_score": -0.1806,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "国药控股获Lazard Asset Management LLC增持约209.6万股 每股作价约19.59港元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fggscyd%2F2026-03-30%2Fdoc-inhsthzk6657983.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3983,
+      "rule_score": 1.4,
+      "hybrid_score": 0.2393,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "净利最高增超400% 券商“成绩单”带来这些信号",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-03-30%2Fdoc-inhsthzn2993185.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7689,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1076,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "中东冲突扩大引发供应中断担忧，油价上涨",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-30%2Fdoc-inhsthzn2990684.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3108,
+      "rule_score": -6.2,
+      "hybrid_score": -1.3157,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "伊朗军方称将打击美以军政人员住所",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fworld%2Fgjcj%2F2026-03-30%2Fdoc-inhsthzh9881854.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4412,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0235,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "泰格医药获Schroders PLC增持38.72万股 每股作价约37.53港元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fggscyd%2F2026-03-30%2Fdoc-inhsthzk6657633.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9566,
+      "rule_score": 1.4,
+      "hybrid_score": 0.4626,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "沃尔核材获UBS Group AG增持10.4万股 每股作价18.58港元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fggscyd%2F2026-03-30%2Fdoc-inhsthzh9880071.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9161,
+      "rule_score": 1.4,
+      "hybrid_score": 0.4464,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "中兴通讯获UBS Group AG增持87.38万股 每股作价约22.32港元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fggscyd%2F2026-03-30%2Fdoc-inhsthzn2989739.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7391,
+      "rule_score": 1.4,
+      "hybrid_score": 0.3756,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "这次，特朗普可能真完了！",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fworld%2Fgjcj%2F2026-03-30%2Fdoc-inhsthzn2990446.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9526,
+      "rule_score": 0.0,
+      "hybrid_score": 0.181,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "三花智控获Schroders PLC增持557.6万股 每股作价约29.57港元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fggscyd%2F2026-03-30%2Fdoc-inhsthzn2989352.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8825,
+      "rule_score": 1.4,
+      "hybrid_score": 0.433,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "喜相逢集团遭首席执行官黄伟减持2174.75万股 每股作价1.23港元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fggscyd%2F2026-03-30%2Fdoc-inhsthze4190389.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3923,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0431,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "蓝思科技遭UBS Group AG减持107.88万股 每股作价约21.82港元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-03-30%2Fdoc-inhsthzn2988547.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9871,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1949,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "最新，德黑兰再遭猛烈袭击，伊朗：美军E-3预警机“被击毁”，将打击美以军政人员住所！",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-03-30%2Fdoc-inhsthzn2991120.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7699,
+      "rule_score": -2.4,
+      "hybrid_score": -0.372,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "澳洲闹“柴油荒”，国内锂矿供应有变？",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-03-30%2Fdoc-inhsthzh9881744.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8579,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1432,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "A股4月研判，机构这样布局",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-03-30%2Fdoc-inhsthzk6659597.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.1105,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1558,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "中东资金加速扫货A股！QFII最新持仓揭秘，17股获重磅配置",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Frelnews%2F2026-03-30%2Fdoc-inhsthzh9878667.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9725,
+      "rule_score": 0.0,
+      "hybrid_score": 0.189,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "高盛因石油供应中断持续风险下调日本东证指数目标点位",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-30%2Fdoc-inhsthzh9877848.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8134,
+      "rule_score": -5.8,
+      "hybrid_score": -1.0347,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "中信建投：中国光纤出口比例大幅提升，持续看好AI算力板块",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-03-30%2Fdoc-inhsthzk6655094.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8761,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1504,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "清晨，集体跳水！伊朗，最新警告！",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-03-30%2Fdoc-inhsthzn2986731.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7553,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1021,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "上交所： 以投融资综合改革推动制度更加包容适配",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Froll%2F2026-03-30%2Fdoc-inhsthzh9875732.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9996,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1999,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "原油价格上涨 胡塞武装袭击以色列显示伊朗战争升级",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-30%2Fdoc-inhsthzn2983673.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0345,
+      "rule_score": -3.6,
+      "hybrid_score": -0.9062,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "操盘必读：影响股市利好或利空消息_2026年3月30日_财经新闻",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fcpbd%2F2026-03-30%2Fdoc-inhsthzn2984488.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9151,
+      "rule_score": 1.0,
+      "hybrid_score": 0.3661,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "3月30日财经早餐：胡塞武装加入伊朗战争，低吸买盘推动金价上涨",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Fforex%2Fhbfx%2F2026-03-30%2Fdoc-inhsthzn2984317.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0106,
+      "rule_score": -2.0,
+      "hybrid_score": -0.5958,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "3月30日周末要闻：胡塞武装参战 更多美军抵达中东 伊朗重水工厂遭严重损坏 美国发起第三波反特朗普抗议活动",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-03-30%2Fdoc-inhsthze4184693.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4126,
+      "rule_score": 0.0,
+      "hybrid_score": -0.035,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "股海导航_2026年3月30日_沪深股市公告与交易提示",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fs%2F2026-03-30%2Fdoc-inhsthze4184411.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.2848,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0861,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "四大证券报头版头条内容精华摘要_2026年3月30日_财经新闻",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fy%2F2026-03-30%2Fdoc-inhsthzh9872995.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3719,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0512,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "老旧新能源车私改续航“续命”乱象调查：营运车刚需催生灰色市场，三重壁垒困住车企官方升级",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-03-30%2Fdoc-inhsthzk6648374.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9534,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1814,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "【广发策略】霍尔木兹之殇，从油价冲击到增长损伤",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fmarketresearch%2F2026-03-30%2Fdoc-inhsthzh9872504.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9542,
+      "rule_score": 1.4,
+      "hybrid_score": 0.4617,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "比亚迪，业绩低于预期？筹资净现金流首次超千亿，发生了什么？",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fs%2F2026-03-30%2Fdoc-inhsthzn2981099.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.1546,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1382,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "中国石油2025年油气产量再创历史新高",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-30%2Fdoc-inhsthzn2977390.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9023,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1609,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "资管领域两项自律新规将产生三大影响",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-30%2Fdoc-inhsthzh9867247.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9976,
+      "rule_score": 0.0,
+      "hybrid_score": 0.199,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "公募基金员工积极增持自家产品",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-30%2Fdoc-inhsthzn2977145.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9588,
+      "rule_score": 1.4,
+      "hybrid_score": 0.4635,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "中金财富期货合并中金期货进入审查阶段",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-30%2Fdoc-inhsthzk6643836.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9162,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1665,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "电动三轮车行业有望迎来智能化变革",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-30%2Fdoc-inhsthzn2976818.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.5743,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0297,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "今日视点：“轻资产、高研发投入”认定标准扩围有深意",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-30%2Fdoc-inhsthzk6643307.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9979,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1992,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "中国股市吸引力提升 科技主线明确",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-30%2Fdoc-inhsthze4177839.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.997,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1988,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "美国加紧增兵部署，胡塞武装介入战局，世界担心中东危机再升级",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-03-30%2Fdoc-inhsthzn2975046.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9984,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1994,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "原油周报：“TACO”交易再现，油价维持高波动",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-03-30%2Fdoc-inhsthzn2984238.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8968,
+      "rule_score": -1.0,
+      "hybrid_score": -0.0413,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "首批一季报预告出炉，多家公司预增超100%，最高预增32倍",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Frelnews%2Fcn%2F2026-03-30%2Fdoc-inhsthze4176176.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3076,
+      "rule_score": 0.0,
+      "hybrid_score": -0.077,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "一季度业绩预告加速披露 近九成公司预喜",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-30%2Fdoc-inhstatq3094175.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8082,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1233,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "美官员透露美国允许一艘俄罗斯油轮驶抵古巴",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-30%2Fdoc-inhstatq3094626.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9999,
+      "rule_score": 0.0,
+      "hybrid_score": 0.2,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "QDII基金密集限购 跨境投资需警惕“炒作型”配置",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-03-30%2Fdoc-inhsthzn2968322.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.6552,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0621,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "以军称空袭伊朗武器研发生产设施 伊称对美以打击仍在继续",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-30%2Fdoc-inhstath4283875.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7019,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0808,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "伊朗外长：美以袭击伊大学是出于无力和绝望",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-30%2Fdoc-inhsswmq6859660.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9684,
+      "rule_score": -2.4,
+      "hybrid_score": -0.2926,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "三大石油公司去年合计盈利3112亿元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Frelnews%2Fcn%2F2026-03-30%2Fdoc-inhsswms3199560.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0609,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1756,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "创新药收入强势增长 生物医药公司业绩含“新”量高",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Frelnews%2Fcn%2F2026-03-30%2Fdoc-inhsswms3199513.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9999,
+      "rule_score": 1.4,
+      "hybrid_score": 0.48,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "政策护航 主线清晰 公募基金深度剖析A股二季度投资策略",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffund%2Fjjcc%2F2026-03-30%2Fdoc-inhsswmp0073985.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 1.0,
+      "rule_score": 0.0,
+      "hybrid_score": 0.2,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "AI驱动新一轮增长周期 云厂商迎来业绩拐点",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Frelnews%2F2026-03-30%2Fdoc-inhsswms3199170.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.819,
+      "rule_score": 1.4,
+      "hybrid_score": 0.4076,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "景气持续扩散 机构看好存储芯片赛道",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Frelnews%2Fcn%2F2026-03-30%2Fdoc-inhsswms3202818.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.5134,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0053,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "基金经理眼里的A股“错杀”机会",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-03-30%2Fdoc-inhsswmk4406699.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8361,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1344,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "A股资产韧性较强 四月配置进一步聚焦确定性",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-03-30%2Fdoc-inhsswmq6850327.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8994,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1598,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "上交所：“三重聚力”健全投融资相协调的资本市场功能",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-03-30%2Fdoc-inhsswms3198671.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9973,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1989,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "公募基金春季策略会传递信心：中国资产韧性凸显 看好多元投资机遇",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-03-30%2Fdoc-inhsswms3198607.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 1.0,
+      "rule_score": 0.0,
+      "hybrid_score": 0.2,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "煤企“抢矿”持续升温 能源巨头百亿“扫货”",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Frelnews%2Fcn%2F2026-03-30%2Fdoc-inhsswmp0075442.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0666,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1734,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "多家基金公司2025年业绩出炉 “强者恒强”态势依旧",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Frelnews%2Fcn%2F2026-03-30%2Fdoc-inhsswms3203368.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.985,
+      "rule_score": 0.0,
+      "hybrid_score": 0.194,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "近一个月调研3500次 公募掘金绩优概念标的",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Frelnews%2Fcn%2F2026-03-30%2Fdoc-inhsswms3204210.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9093,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1637,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "美国洛杉矶爆发大规模抗议活动 警方逮捕75名抗议者",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-30%2Fdoc-inhsswmk4401606.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0038,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1985,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "基金代销三巨头晒业绩 权益基金指数基金成规模增长“胜负手”",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Frelnews%2Fcn%2F2026-03-30%2Fdoc-inhsswmq6847408.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9993,
+      "rule_score": 1.4,
+      "hybrid_score": 0.4797,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "避险情绪升温 债券ETF逆市吸金215亿元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-30%2Fdoc-inhsswmp0065299.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7882,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1153,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "远期叙事现审美疲劳 公募QDII港股布局转向防御",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-30%2Fdoc-inhsswmq6842371.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8346,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1338,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "资金风险偏好回落 多只红利ETF规模增逾10亿元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-30%2Fdoc-inhsswmp0064841.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.5667,
+      "rule_score": -1.6,
+      "hybrid_score": -0.2933,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "25家公募去年经营业绩曝光：华夏工银瑞信等23家盈利 南华先锋2家公司亏损",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-30%2Fdoc-inhsswmq6841696.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.905,
+      "rule_score": 0.0,
+      "hybrid_score": 0.162,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "3月基金新发规模超千亿 “硬科技”产品成绝对主力",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-30%2Fdoc-inhsswmk4394615.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4298,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0281,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "“三桶油”去年赚超3100亿元 派现料超1600亿元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-30%2Fdoc-inhsswmp0064233.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.5819,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0328,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "电魂网络拟控股上海漫魂 加码二次元赛道",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-03-30%2Fdoc-inhsswmk4394295.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.1769,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1292,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "询价一路走高溢价抢购老股 各路资本疯抢脑机接口项目",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Frelnews%2Fcn%2F2026-03-30%2Fdoc-inhsswmk4395597.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9934,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1974,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "算电协同再平衡东西部供需结构 Token出海开辟绿电消纳新路径",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Frelnews%2Fcn%2F2026-03-30%2Fdoc-inhsswmp0066212.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9854,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1942,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "国务院食安办、市场监管总局督办“3·15”晚会曝光问题整改",
+      "url": "https://jnzstatic.cs.com.cn/zzb/htmlInfo/118160.html",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.9942,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1977,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "上海市国资委启动国资场景开放与行业应用挑战赛等活动",
+      "url": "https://jnzstatic.cs.com.cn/zzb/htmlInfo/118157.html",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.9376,
+      "rule_score": 0.0,
+      "hybrid_score": 0.175,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "证监会：研究制定资本市场法治建设规划，加快重点领域立法修法",
+      "url": "https://jnzstatic.cs.com.cn/zzb/htmlInfo/118074.html",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.9999,
+      "rule_score": 0.0,
+      "hybrid_score": 0.2,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "中债金融估值中心：3月30日起新增在全国中小企业股份转让系统转让的优先股估值",
+      "url": "https://jnzstatic.cs.com.cn/zzb/htmlInfo/118060.html",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.5328,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0131,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "落实举措发布，京津冀三地推进北京（京津冀）国际科技创新中心建设",
+      "url": "https://jnzstatic.cs.com.cn/zzb/htmlInfo/118054.html",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.216,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1136,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "中央网信办副主任王京涛：优化完善数据出境管理的各项制度",
+      "url": "https://jnzstatic.cs.com.cn/zzb/htmlInfo/118049.html",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.9667,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1867,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "国家能源局：2月底全国累计发电装机容量39.5亿千瓦 同比增长15.9%",
+      "url": "http://video.cs.com.cn/178/7810.shtml?id=7810",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.4868,
+      "rule_score": 1.4,
+      "hybrid_score": 0.2747,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "六部门：稳步推进农村供水价格改革",
+      "url": "http://video.cs.com.cn/178/7809.shtml?id=7809",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.9726,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1891,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "北方稀土拟取消每月挂牌价？公司最新回应：消息属实",
+      "url": "http://video.cs.com.cn/150/7561.shtml?id=7561",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.0031,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1988,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "培育钻石掀涨价潮？上市公司最新回应",
+      "url": "http://video.cs.com.cn/150/7560.shtml?id=7560",
+      "source": "cs_news",
+      "published_at": null,
+      "model_score": 0.729,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0916,
+      "sentiment_label": "positive"
+    }
+  ]
+}

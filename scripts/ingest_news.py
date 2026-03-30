@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import argparse
 import json
 from dataclasses import dataclass, asdict
 from datetime import datetime
@@ -8,6 +9,12 @@ from typing import List
 
 import requests
 from bs4 import BeautifulSoup
+
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--date', default=None, help='Date in YYYY-MM-DD format')
+    return parser.parse_args()
 
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 BASE_DIR = Path(__file__).resolve().parents[1]
@@ -84,8 +91,8 @@ def dedup_items(items: List[NewsItem]) -> List[NewsItem]:
     return out
 
 
-def save_items(items: List[NewsItem]) -> Path:
-    today = datetime.now().strftime("%Y-%m-%d")
+def save_items(items: List[NewsItem], date_str: str = None) -> Path:
+    today = date_str or datetime.now().strftime("%Y-%m-%d")
     path = RAW_DIR / f"news_{today}.json"
     payload = {
         "generated_at": datetime.now().isoformat(),
@@ -97,6 +104,8 @@ def save_items(items: List[NewsItem]) -> Path:
 
 
 def main() -> None:
+    args = parse_args()
+    target_date = args.date or datetime.now().strftime("%Y-%m-%d")
     items: List[NewsItem] = []
     for func in (parse_sina_roll, parse_cs_news):
         try:
@@ -104,7 +113,7 @@ def main() -> None:
         except Exception as exc:
             print(f"[WARN] {func.__name__} failed: {exc}")
     items = dedup_items(items)
-    output = save_items(items)
+    output = save_items(items, target_date)
     print(f"saved {len(items)} items to {output}")
 
 

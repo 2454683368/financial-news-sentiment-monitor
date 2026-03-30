@@ -1,9 +1,16 @@
 from __future__ import annotations
 
+import argparse
 import json
 from collections import Counter
 from datetime import datetime
 from pathlib import Path
+
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--date', default=None, help='Date in YYYY-MM-DD format')
+    return parser.parse_args()
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 PROC_DIR = BASE_DIR / "data" / "processed"
@@ -365,7 +372,11 @@ def build_today_take(score: float, hs300_ret: float, sh_ret: float, topic_counts
     return zh, en
 
 def main() -> None:
-    today = latest_available_date()
+    args = parse_args()
+    if args.date:
+        today = args.date
+    else:
+        today = latest_available_date()
     sentiment_path = PROC_DIR / f"sentiment_{today}.json"
     market_path = PROC_DIR / f"market_{today}.json"
     clean_path = PROC_DIR / f"news_clean_{today}.json"

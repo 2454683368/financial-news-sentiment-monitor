@@ -1,9 +1,16 @@
 from __future__ import annotations
 
+import argparse
 import json
 import re
 from datetime import datetime
 from pathlib import Path
+
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--date', default=None, help='Date in YYYY-MM-DD format')
+    return parser.parse_args()
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 RAW_DIR = BASE_DIR / "data" / "raw"
@@ -43,8 +50,9 @@ def is_valid_title(title: str, url: str = "") -> bool:
 
 
 def main() -> None:
-    today = datetime.now().strftime("%Y-%m-%d")
-    raw_path = RAW_DIR / f"news_{today}.json"
+    args = parse_args()
+    target_date = args.date or datetime.now().strftime("%Y-%m-%d")
+    raw_path = RAW_DIR / f"news_{target_date}.json"
     if not raw_path.exists():
         raise FileNotFoundError(raw_path)
     data = json.loads(raw_path.read_text(encoding="utf-8"))
@@ -69,7 +77,7 @@ def main() -> None:
         "items": cleaned,
         "dropped_examples": dropped[:40],
     }
-    out_path = PROC_DIR / f"news_clean_{today}.json"
+    out_path = PROC_DIR / f"news_clean_{target_date}.json"
     out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"saved {len(cleaned)} items to {out_path}; dropped={len(dropped)}")
 

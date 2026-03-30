@@ -1,11 +1,18 @@
 from __future__ import annotations
 
+import argparse
 import json
 from collections import Counter
 from datetime import datetime
 from pathlib import Path
 
 from snownlp import SnowNLP
+
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--date', default=None, help='Date in YYYY-MM-DD format')
+    return parser.parse_args()
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 PROC_DIR = BASE_DIR / "data" / "processed"
@@ -100,7 +107,11 @@ def latest_available_date() -> str:
 
 
 def main() -> None:
-    today = latest_available_date()
+    args = parse_args()
+    if args.date:
+        today = args.date
+    else:
+        today = latest_available_date()
     in_path = PROC_DIR / f"news_clean_{today}.json"
     if not in_path.exists():
         raise FileNotFoundError(in_path)
