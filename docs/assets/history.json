@@ -365,5 +365,15 @@
     "news_count": 80,
     "hs300_return": -0.17,
     "sh_index_return": -0.1
+  },
+  {
+    "date": "2026-04-21",
+    "sentiment_index": 0.0565,
+    "positive": 45,
+    "neutral": 10,
+    "negative": 25,
+    "news_count": 80,
+    "hs300_return": 0.61,
+    "sh_index_return": 0.76
   }
 ]
