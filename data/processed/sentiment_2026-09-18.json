@@ -1,0 +1,762 @@
+{
+  "generated_at": "2026-09-18T23:43:47.287771",
+  "count": 75,
+  "daily_sentiment_index": -0.0204,
+  "label_counts": {
+    "positive": 28,
+    "negative": 28,
+    "neutral": 19
+  },
+  "items": [
+    {
+      "title": "巴菲特卸任伯克希尔董事长 其次子霍华德即刻接任该职务",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-09-18%2Fdoc-inishkut3482284.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9946,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1978,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "美国8月份制造业产值出人意料出现今年以来首次萎缩",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-09-18%2Fdoc-inishkut3481212.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9882,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1953,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "全文|巴菲特致信伯克希尔股东：现在正是完成交接的时机",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-09-18%2Fdoc-inishkuw8278873.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9993,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1997,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "AI风险引发市场恐慌过后，Crowdstrike 、Palo Alto等网络安全股有望录得周度大幅上涨",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-09-18%2Fdoc-inishkuv0251000.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0538,
+      "rule_score": -1.2,
+      "hybrid_score": -0.4185,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "闪迪市值飙升超877亿元，中国资产深夜走高，阿里巴巴涨超4%，新一轮行情或蓄势待发",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-09-18%2Fdoc-inishkuw8279176.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9991,
+      "rule_score": -1.6,
+      "hybrid_score": -0.1204,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "AI制药，到哪一步了？",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-09-18%2Fdoc-inishkuw8275116.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4477,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0209,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "加州州长纽森发布行政令 推动建立人工智能“紧急关停”机制",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-09-18%2Fdoc-inishkur3110768.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7875,
+      "rule_score": 0.0,
+      "hybrid_score": 0.115,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "拉加德淡化连续加息预期：欧洲央行将逐次会议决定利率",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-09-18%2Fdoc-inishkuv0243852.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.6804,
+      "rule_score": -2.4,
+      "hybrid_score": -0.4079,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "两日股价涨幅超 12 倍！沈鼓集团上演极致新股行情",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-09-18%2Fdoc-inishkut3462595.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9765,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1906,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "沧源：县人民政府党组召开（扩大）会议",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuv0236159.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.1411,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1436,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "“星舰” 试飞推迟至9月28日，散户抛售，SpaceX股价下跌",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-09-18%2Fdoc-inishkuw8267039.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.1154,
+      "rule_score": -1.6,
+      "hybrid_score": -0.4738,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "国务院新规征求意见：网络服务提供者不得向未成年提供陌生人网络社交服务，虚拟亲属、虚拟伴侣等亲密关系服务等",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuv0237912.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9964,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1986,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "沈鼓集团遭爆炒，上市两日飙涨12倍",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-09-18%2Fdoc-inishkuv0231210.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0278,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1889,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "河东区人民政府与天津师范大学签署战略合作框架协议",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkur3108286.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.551,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0204,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "如果你最近经常无意识做出这个动作，立刻！马上休息！",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuv0230993.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.786,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1144,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "李强主持召开国务院常务会议 听取老龄工作情况汇报等",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkut3452851.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0999,
+      "rule_score": 0.0,
+      "hybrid_score": -0.16,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "中国男篮不敌日本队，无缘亚运会决赛",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuw8272029.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.6409,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0564,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "李强主持召开国务院常务会议",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuw8268886.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3965,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0414,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "王伟中包钢会见中粮集团董事长李国强",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuv0229409.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9424,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1769,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "【铸牢中华民族共同体意识】盟林草局第四党支部开展“森林可持续经营试点参观”主题党日活动",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuv0243391.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9976,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1991,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "深圳一商家在传单里夹5元现金，网友纷纷喊“想领”，律师解读：属于比较有新意的营销方式，不构成商业贿赂",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuv0235843.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.1808,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1277,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "冲上热搜，第一批穿德训鞋的“受害者”出现了！医生：鞋头过窄、过薄都是设计隐患",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuv0235774.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0891,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1644,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "为什么秋天的蚊子咬人更狠？🦟",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuv0224210.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.1368,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1453,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "关于促进房车消费的若干措施",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkut3457758.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.1043,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1583,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "iPhone 18 Pro 首销翻车？又被网友骂惨了！巨发烫、指纹重、颜色丑...",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuv0223595.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0004,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1998,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "王文涛与列舍特尼科夫主持召开中俄经贸合作分委会会议",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuw8270931.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4102,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0359,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "好消息，开奖啦！快来查收你的500元消费卡→",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkur3105665.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0609,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1756,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "促进房车消费，10部门出台新措施→",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuv0234558.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0095,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1962,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "《尚志新闻》速览2026.09.18",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkut3462621.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.5792,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0317,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "周红波主持召开6G产业发展座谈会",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuw8268783.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.6558,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0623,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "“慰安妇”受害者后代：我常常觉得奶奶是枉死的",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkut3444531.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7287,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0915,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "美国国务院放话：绝不允许伊朗官员及家属在纽约大肆购物",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuw8260922.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9756,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1902,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "日本亚运会又出大乌龙：韩国队对阵孟加拉国的曲棍球比赛，赛前竟误播朝鲜国歌",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuv0217053.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9551,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1821,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "欧洲央行官员为进一步加息做铺垫 最早可能10月行动",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-09-18%2Fdoc-inishkuv0212508.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4665,
+      "rule_score": -2.4,
+      "hybrid_score": -0.4934,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "手机看电视｜《武乡新闻》（9月18日）",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkut3456655.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4636,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0145,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "深夜！“黑天鹅”突袭！欧洲股市，全线杀跌",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fzqgd%2F2026-09-18%2Fdoc-inishkut3441918.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.2179,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1128,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "河南40岁数学老师投资300万余元拍院线电影，上映3天票房仅2万余元，本人发声“要告别电影圈”，影片仍在上映，但已无力回天",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuv0222410.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9999,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1999,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "面对列强入侵，他们宁死不降，跳崖殉国！这座英雄城永不褪色",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuv0212541.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9949,
+      "rule_score": 0.0,
+      "hybrid_score": 0.198,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "美国8月领先经济指标环比下降0.1% 预期为上升0.1%",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-09-18%2Fdoc-inishkuv0211276.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9914,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1966,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "马克龙拟召集G7会议 研究释放战略油品储备",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-09-18%2Fdoc-inishkut3438115.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9946,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1978,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "美国财政部2年期国债收益率升至4.743%",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-09-18%2Fdoc-inishkut3438464.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4734,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0106,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "中共怒江州纪委九届七次全会召开",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuv0213555.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4426,
+      "rule_score": 0.0,
+      "hybrid_score": -0.023,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "覃燕由调研督导道路交通安全和化解历史矛盾纠纷等工作",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkur3099174.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9977,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1991,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "保山公积金可以提取装修、物业费了→",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkur3099479.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.089,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1644,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "洗澡时忽略1个小细节，竟让人咳痰三年！",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkur3100843.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4119,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0352,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "住房城乡建设部：房地产进入存量时代，现房销售是大势所趋",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuv0220836.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4777,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0089,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "600502，公司董事长被查！",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-09-18%2Fdoc-inishkur3094022.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7275,
+      "rule_score": 0.0,
+      "hybrid_score": 0.091,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "美股“盈利泡沫”要破？高盛：增速回落并非断崖崩塌",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-09-18%2Fdoc-inishkuv0208212.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8061,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1225,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "上交所对沈鼓集团部分投资者采取暂停账户等自律监管措施",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fwbstock%2F2026-09-18%2Fdoc-inishkut3437139.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9972,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1989,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "住房城乡建设部：4楼及以上住宅都要加装电梯",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkut3441470.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.453,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0188,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "青锋砺能铸铁军——县市场监管局举办2026年第一期青年干部培训班",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkut3445571.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8067,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1227,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "南乐县安防委第六次全体（扩大）会议召开",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkur3099572.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.123,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1508,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "中共德宏州委八届十一次全会在芒市举行",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkut3439127.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.1677,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1329,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "比特币飙涨至8万美元，美股三大指数集体转跌，存储芯片股普涨，闪迪涨超5%，国际油价涨破100美元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-09-18%2Fdoc-inishkuv0211757.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9629,
+      "rule_score": -0.8,
+      "hybrid_score": 0.0252,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "谁是下一个“易中天”？",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuv0206621.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0041,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1984,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "忻州市公安局关于开展民用无人机实名登记报备和打击整治民用无人机“黑飞”违法行为的通告",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkur3099683.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0012,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1995,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "MiniMax 宣布开源 MiniMax Code CLI",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-09-18%2Fdoc-inishkut3428560.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3965,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0414,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "女子用ATM机存钱，1万余元“凭空消失”，银行员工：放入超过1万元，机器无法识别导致吞钱，已清点核对",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuw8253486.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0004,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1998,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "市委全面深化改革委员会召开会议：进一步深化重点领域改革，更好统筹高质量发展和高水平安全",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkut3449862.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 1.0,
+      "rule_score": 0.0,
+      "hybrid_score": 0.2,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "许勤督导检查中央生态环境保护督察整改工作并巡河",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkur3095444.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9491,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1797,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "【学习】9月18日共产党员手机报",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuw8258691.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.6535,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0614,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "新报告认为：美联储工作人员本应察觉硅谷银行存在风险隐患",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-09-18%2Fdoc-inishkuv0199144.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4489,
+      "rule_score": -1.6,
+      "hybrid_score": -0.3404,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "今天，不能忘！不敢忘！",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkur3094383.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.1536,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1386,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "泰国潮州会馆访问团莅潮开展访问考察",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkut3442956.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.1452,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1419,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "沙特石油出口“双通道”承压",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuw8252855.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.2738,
+      "rule_score": -1.6,
+      "hybrid_score": -0.4105,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "【现货异动】乙酸甲酯30天上涨32.9193%！需求回暖叠加供应收缩，库存偏紧推动报价上行",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Frelnews%2Fcn%2F2026-09-18%2Fdoc-inishkuv0208077.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0089,
+      "rule_score": 1.4,
+      "hybrid_score": 0.0835,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "这场资政会，事关宁国人口高质量发展！",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkur3095131.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9377,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1751,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "日本央行加息至1.25%，政策利率升至31年来最高水平",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-09-18%2Fdoc-inishkuv0194474.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.6749,
+      "rule_score": -2.4,
+      "hybrid_score": -0.4101,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "微软苏莱曼：OpenAI最新AI暴露的问题属于“严峻状况”",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-09-18%2Fdoc-inishkuv0193201.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.6228,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0491,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "四项违规！永诚财险被罚147万元，时任副总裁被追责",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fchina%2F2026-09-18%2Fdoc-inishkut3423286.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0721,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1712,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "政协“委员活动日”系列报道之八",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkur3092383.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9352,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1741,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "王瑞到王范回族镇、马店镇调研指导重点工作",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkut3434174.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.955,
+      "rule_score": 0.0,
+      "hybrid_score": 0.182,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "洛宁县林业局开展全国科普月集中宣传活动",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkur3092335.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8207,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1283,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "菲律宾船只碰撞我海警艇，中国海警局回应",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuw8253559.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.5718,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0287,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "伊朗总统，将赴美参会",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-09-18%2Fdoc-inishkuw8253553.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.5694,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0278,
+      "sentiment_label": "neutral"
+    }
+  ]
+}

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import subprocess
+import sys
 from datetime import datetime
 from pathlib import Path
 
@@ -13,12 +14,12 @@ LOG_DIR.mkdir(parents=True, exist_ok=True)
 def run(script_name: str) -> None:
     script_path = BASE_DIR / 'scripts' / script_name
     print(f'Running {script_name} ...')
-    subprocess.run(['python', str(script_path)], check=True)
+    subprocess.run([sys.executable, str(script_path)], check=True)
 
 
 def run_publish() -> None:
     print('Running publish_github.py ...')
-    subprocess.run(['python', str(BASE_DIR / 'scripts' / 'publish_github.py')], check=True)
+    subprocess.run([sys.executable, str(BASE_DIR / 'scripts' / 'publish_github.py')], check=True)
 
 
 def parse_args() -> argparse.Namespace:
