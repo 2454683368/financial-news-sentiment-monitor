@@ -21,8 +21,8 @@ PROC_DIR.mkdir(parents=True, exist_ok=True)
 def main() -> None:
     args = parse_args()
     target_date = args.date or datetime.now().strftime("%Y-%m-%d")
-    hs300 = ak.stock_zh_index_daily(symbol="sh000300").tail(10)
-    sh = ak.stock_zh_index_daily(symbol="sh000001").tail(10)
+    hs300 = ak.index_zh_daily_sina(symbol="sh000300").tail(10)
+    sh = ak.index_zh_daily_sina(symbol="sh000001").tail(10)
     payload = {
         "generated_at": datetime.now().isoformat(),
         "hs300": hs300.to_dict(orient="records"),

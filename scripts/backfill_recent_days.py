@@ -253,8 +253,8 @@ def main() -> None:
     today = date.today()
     start = today - timedelta(days=7)
     end = today - timedelta(days=1)
-    hs300 = ak.stock_zh_index_daily(symbol='sh000300').copy()
-    sh = ak.stock_zh_index_daily(symbol='sh000001').copy()
+    hs300 = ak.index_zh_daily_sina(symbol='sh000300').copy()
+    sh = ak.index_zh_daily_sina(symbol='sh000001').copy()
     hs300['date'] = hs300['date'].astype(str)
     sh['date'] = sh['date'].astype(str)
 

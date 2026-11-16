@@ -1,5 +1,5 @@
 {
-  "font": "Microsoft YaHei",
+  "font": "default",
   "label_distribution": "label_distribution.png",
   "topic_distribution": "topic_distribution.png",
   "sentiment_history": "sentiment_history.png",

@@ -1,50 +1,51 @@
-# Daily Financial Sentiment Report - 2026-09-18
+# Daily Financial Sentiment Report - 2026-11-16
 
 ## 1. Daily Sentiment Snapshot
-- Total cleaned news items: 75
-- Dropped noisy items: 5
-- Daily sentiment index: -0.0204
+- Total cleaned news items: 78
+- Dropped noisy items: 2
+- Daily sentiment index: 0.0161
 - Daily tone: 中性偏平衡
-- Label counts: {'positive': 28, 'negative': 28, 'neutral': 19}
-- HS300 daily return: 1.06%
-- SH Index daily return: 0.94%
+- Label counts: {'neutral': 18, 'negative': 24, 'positive': 36}
+- HS300 daily return: -0.68%
+- SH Index daily return: -0.59%
 
 ## 2. Sentiment-Market Linkage
-- 当日新闻情绪为中性偏平衡，沪深300 / 上证指数涨跌幅分别为 1.06% / 0.94%，更适合解读为情绪偏中性或存在阶段性背离，而不是简单同向验证。当前已具备基础连续样本，可继续观察趋势稳定性。
+- 当日新闻情绪为中性偏平衡，沪深300 / 上证指数涨跌幅分别为 -0.68% / -0.59%，更适合解读为情绪偏中性或存在阶段性背离，而不是简单同向验证。当前已具备基础连续样本，可继续观察趋势稳定性。
 
 ## 3. Topic Distribution
-- 其他: 51
-- 国际局势: 9
-- 资本市场: 8
-- 金融监管: 7
-- 科技AI: 5
-- 宏观政策: 5
+- 其他: 35
+- 科技AI: 17
+- 资本市场: 17
+- 金融监管: 10
+- 能源黄金: 4
+- 国际局势: 3
 
 ## 4. Keyword Signals
-- AI: 4
-- 银行监管: 4
+- AI: 15
+- 银行监管: 6
+- 人民币汇率: 4
+- 黄金: 3
 - 货币政策: 2
-- 中东冲突: 2
-- 油价: 1
+- A股: 1
 
 ## 5. Positive Headline Examples
-- 全文|巴菲特致信伯克希尔股东：现在正是完成交接的时机
-- 上交所对沈鼓集团部分投资者采取暂停账户等自律监管措施
-- 美国8月领先经济指标环比下降0.1% 预期为上升0.1%
-- 两日股价涨幅超 12 倍！沈鼓集团上演极致新股行情
-- 青锋砺能铸铁军——县市场监管局举办2026年第一期青年干部培训班
+- 中远海运港口公共关系部总经理赵慧：目标2050年碳中和 依托香港枢纽对接全球耐心资本
+- AI“教父”杰弗里・辛顿：或许人类从未发展AI会更好
+- 工行金融市场：人民币汇率市场每日概览
+- 工行金融市场：人民币利率市场每日概览
+- 康方生物暴跌32%：依沃西单抗二线适应症出海折戟 市场焦虑的到底是什么？
 
 ## 6. Negative Headline Examples
-- “星舰” 试飞推迟至9月28日，散户抛售，SpaceX股价下跌
-- AI风险引发市场恐慌过后，Crowdstrike 、Palo Alto等网络安全股有望录得周度大幅上涨
-- 新报告认为：美联储工作人员本应察觉硅谷银行存在风险隐患
-- 女子用ATM机存钱，1万余元“凭空消失”，银行员工：放入超过1万元，机器无法识别导致吞钱，已清点核对
-- 深夜！“黑天鹅”突袭！欧洲股市，全线杀跌
+- 调查显示欧元区第四季度通胀率预计将升至4%
+- 原来如此！A股下跌的三大利空，找到了！
+- 机构：全球AI眼镜出货量同比暴涨263% Meta出货量占比超90%
+- 摩根大通分析师：英伟达AI算力合约份额从83%降至39%
+- 董事会到期不足两月，南京银行密集补选董事
 
 ## 7. Market Data
 - HS300 latest rows: 10
 - SH Index latest rows: 10
-- History length: 42
+- History length: 43
 
 ## 8. Visual Assets
 - label_distribution.png
@@ -53,6 +54,6 @@
 - sentiment_vs_hs300_history.png
 
 ## 9. Brief Comment
-- CN: 今日日内信息面整体偏均衡，市场关注点集中在国际局势、资本市场，关键词主要围绕AI、银行监管展开。沪深300/上证分别变动 1.06% / 0.94% ，当前读数更适合用于观察结构性扰动，而非直接做方向判断。
-- EN: Today's information flow is broadly balanced, with attention centered on Global Geopolitics, Capital Markets and keywords led by AI, Bank Regulation. HS300 / SH Index moved 1.06% / 0.94%, so the current reading is better interpreted as a view on structural risk tone rather than a direct directional signal.
-- Linkage: 当日新闻情绪为中性偏平衡，沪深300 / 上证指数涨跌幅分别为 1.06% / 0.94%，更适合解读为情绪偏中性或存在阶段性背离，而不是简单同向验证。当前已具备基础连续样本，可继续观察趋势稳定性。
+- CN: 今日日内信息面整体偏均衡，市场关注点集中在科技AI、资本市场，关键词主要围绕AI、银行监管展开。沪深300/上证分别变动 -0.68% / -0.59% ，当前读数更适合用于观察结构性扰动，而非直接做方向判断。
+- EN: Today's information flow is broadly balanced, with attention centered on Tech & AI, Capital Markets and keywords led by AI, Bank Regulation. HS300 / SH Index moved -0.68% / -0.59%, so the current reading is better interpreted as a view on structural risk tone rather than a direct directional signal.
+- Linkage: 当日新闻情绪为中性偏平衡，沪深300 / 上证指数涨跌幅分别为 -0.68% / -0.59%，更适合解读为情绪偏中性或存在阶段性背离，而不是简单同向验证。当前已具备基础连续样本，可继续观察趋势稳定性。
