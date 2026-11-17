@@ -438,12 +438,12 @@
   },
   {
     "date": "2026-11-17",
-    "sentiment_index": 0.0266,
-    "positive": 39,
-    "neutral": 12,
-    "negative": 28,
-    "news_count": 79,
-    "hs300_return": -0.91,
-    "sh_index_return": -0.87
+    "sentiment_index": -0.0003,
+    "positive": 33,
+    "neutral": 14,
+    "negative": 31,
+    "news_count": 78,
+    "hs300_return": -0.08,
+    "sh_index_return": -0.5
   }
 ]
