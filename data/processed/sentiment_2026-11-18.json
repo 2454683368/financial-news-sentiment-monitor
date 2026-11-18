@@ -1,0 +1,792 @@
+{
+  "generated_at": "2026-11-18T08:02:24.643814",
+  "count": 78,
+  "daily_sentiment_index": 0.0103,
+  "label_counts": {
+    "neutral": 13,
+    "negative": 30,
+    "positive": 35
+  },
+  "items": [
+    {
+      "title": "美债空头大军恐陷“痛苦交易” 避险买盘升温或迫使回补",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-18%2Fdoc-inizcexm4926455.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.6167,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0467,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "花旗集团与一名董事总经理就纵容性骚扰指控达成和解",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-18%2Fdoc-inizcexm4925880.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.1806,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1278,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "浦燕子卸任抖音生服总裁，官方回应：属正常管理岗位轮换",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Ftob%2F2026-11-18%2Fdoc-inizcexp7078934.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0779,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1688,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "业绩超预期，英伟达盘后大涨",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fmarketresearch%2F2026-11-18%2Fdoc-inizcexp7079574.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4314,
+      "rule_score": 1.4,
+      "hybrid_score": 0.2525,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "SpaceX德克萨斯州数据中心项目获批空气污染许可证，扫清一大监管障碍",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-18%2Fdoc-inizcexp1699457.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.891,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1564,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "狂泻！道指重挫近850点，微软跌2.27%，英伟达盘后拉升，国际油价小幅走高",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-11-18%2Fdoc-inizcexp7079526.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0329,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1868,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "盘后涨超4%，英伟达业绩超预期，董事会：无意让黄仁勋复职",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-11-18%2Fdoc-inizcexp7079491.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.5895,
+      "rule_score": 1.4,
+      "hybrid_score": 0.3158,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "岚图汽车获得道路机动车辆独立生产资质",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fggscyd%2F2026-11-18%2Fdoc-inizcexp1699220.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.951,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1804,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "百度集团-W于11月17日斥资7845.25万港元回购110.93万股",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fggscyd%2F2026-11-18%2Fdoc-inizcexm4921731.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.021,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1916,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "MOMENTA-W于11月17日耗资约978.61万港元回购约6.61万股",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fggscyd%2F2026-11-18%2Fdoc-inizcexp7074792.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0711,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1716,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "思格新能：采纳H股激励计划",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fggscyd%2F2026-11-18%2Fdoc-inizcexp7073937.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.1079,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1568,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "高盛预计明年新兴市场债券总回报将达10%",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-18%2Fdoc-inizcexm4920196.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9866,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1946,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "安徽皖通高速公路拟折让约14%向交控香港公司发行约5308.79万股认购股份 净筹约6.92亿港元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fggscyd%2F2026-11-18%2Fdoc-inizcexm4919574.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9067,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1627,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "瑛泰医疗建议聘任立信会计师事务所为2026年度境内审计师",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fggscyd%2F2026-11-18%2Fdoc-inizcexi1188347.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.1101,
+      "rule_score": 0.0,
+      "hybrid_score": -0.156,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "美银：预计美国利率将持续上行直至经济活动受到抑制",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-18%2Fdoc-inizcexm4917882.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9195,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1678,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "大成生化科技拟以公开招标方式出售长春大成生物科技全部股权",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fggscyd%2F2026-11-18%2Fdoc-inizcexp7071286.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9095,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1638,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "黄仁勋离职动摇客户信心，AMD与谷歌蚕食英伟达市场份额",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-18%2Fdoc-inizcexp7070716.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8546,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1418,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "英伟达财报超出预期 公司不会就黄仁勋辞职一事回答提问",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-18%2Fdoc-inizcexp1693202.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0107,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1957,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "254万元首笔转让款爽约三个月，绝味食品终止转让参股公司股权",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-11-18%2Fdoc-inizcexi1188297.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.6711,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0684,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "曾毓群、李彦宏、王传福、雷军、董明珠、王兴兴……难得坐一起，聊了啥？",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-11-18%2Fdoc-inizcexi1191226.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.999,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1996,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "英伟达上调财测 董事会坚决拒绝黄仁勋回归",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-18%2Fdoc-inizcexp7070173.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.469,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0124,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "百胜中国于11月16日斥资约1418.06万港元回购3.56万股",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fggscyd%2F2026-11-18%2Fdoc-inizcexp7070136.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0547,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1781,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "中通快递-W发布第三季度业绩 归母净利润25.51亿元同比增加1.07%",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fggscyd%2F2026-11-18%2Fdoc-inizcexp7069728.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7391,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0956,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "金溢科技拟收购信联支付12%股权",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fmarketresearch%2F2026-11-18%2Fdoc-inizcexp7069601.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9608,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1843,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "英伟达盘后大涨5%，黄仁勋表态“愿意回归”，最新财报大超预期",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fmarketresearch%2F2026-11-18%2Fdoc-inizcexp1694385.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8972,
+      "rule_score": 1.4,
+      "hybrid_score": 0.4389,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "登临科技-P前三季度收入超5亿元 同比增长约592%",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fggscyd%2F2026-11-18%2Fdoc-inizcexi1185950.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9934,
+      "rule_score": 1.4,
+      "hybrid_score": 0.4774,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "“砍单疑云”笼罩 影响多大？深市科技龙头估值已在低位 看五大核心数据",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Froll%2F2026-11-18%2Fdoc-inizcexp1691841.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.878,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1512,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "英伟达：安全问题是CEO遴选的关键关注点",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-18%2Fdoc-inizcexi1184434.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3018,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0793,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "富达表示即便美债收益率达到6% 也不算“非常便宜”",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-18%2Fdoc-inizcexi1184053.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9454,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1782,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "英伟达财务担保和供应承诺大幅增加",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-18%2Fdoc-inizcexm4912715.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0006,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1998,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "操盘必读：影响股市利好或利空消息_2026年11月18日_财经新闻",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fcpbd%2F2026-11-18%2Fdoc-inizcexi1184171.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9179,
+      "rule_score": 1.0,
+      "hybrid_score": 0.3672,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "英伟达：仍在评估新出口管制的潜在影响",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-18%2Fdoc-inizcexp1687969.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0779,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1688,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "美国国家安全局机密网络中断 部分员工被要求推迟到岗",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-18%2Fdoc-inizcexm4910455.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7187,
+      "rule_score": -1.6,
+      "hybrid_score": -0.2325,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "黄仁勋辞职后仍可提名两名英伟达董事候选人",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-18%2Fdoc-inizcexp7063753.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0152,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1939,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "纽约联储银行行长称通胀仍须降温 但无需大幅升息",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-18%2Fdoc-inizcexp1683990.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0079,
+      "rule_score": -2.4,
+      "hybrid_score": -0.6768,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "英伟达临时首席执行官：英伟达仍“一切照常”",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-18%2Fdoc-inizcexp1682827.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0433,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1827,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "股海导航_2026年11月18日_沪深股市公告与交易提示",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fs%2F2026-11-18%2Fdoc-inizcexp1688503.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.2924,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0831,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "英伟达担忧暂缓！本季指引再超预期创新高，Vera Rubin“爆发式开局”，调升下财年指引 | 财报见闻",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fbxjj%2F2026-11-18%2Fdoc-inizcexp1690078.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9999,
+      "rule_score": 2.8,
+      "hybrid_score": 0.76,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "事关汽车召回，市场监管总局提醒！",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fmarketresearch%2F2026-11-18%2Fdoc-inizcexp7062642.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3566,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0574,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "海外AI波动来袭！多家券商研判：国内科技具备独立成长逻辑",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fmarketresearch%2F2026-11-18%2Fdoc-inizcexi1179173.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9993,
+      "rule_score": -1.0,
+      "hybrid_score": -0.0003,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "利好来了！刚刚，全线拉升！英伟达，重大发布",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fmarketresearch%2F2026-11-18%2Fdoc-inizcexp7062303.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0082,
+      "rule_score": 1.0,
+      "hybrid_score": 0.0033,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "特朗普500亿美元空域升级计划遭遇参议院阻力",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-18%2Fdoc-inizayrr1810394.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9026,
+      "rule_score": 0.0,
+      "hybrid_score": 0.161,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "英伟达，业绩超预期！盘后涨超4%",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fmarketresearch%2F2026-11-18%2Fdoc-inizayrr1811311.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.1787,
+      "rule_score": 1.4,
+      "hybrid_score": 0.1515,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "四大证券报头版头条内容精华摘要_2026年11月18日_财经新闻",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fy%2F2026-11-18%2Fdoc-inizayrp5034665.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3805,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0478,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "英伟达财报公布后美股期货大涨纳斯达克指数期货跃升1.4%",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-18%2Fdoc-inizayrr7189935.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0402,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1839,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "东方证券保荐志高机械IPO项目质量评级B级 股价一路下滑 此前申报创业板上市未果",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fobserve%2F2026-11-18%2Fdoc-inizapzt5198076.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.873,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1492,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "国金证券保荐能之光IPO项目质量评级D级 报告期内多次被监管关注 上市当年营收、净利润双降",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fobserve%2F2026-11-18%2Fdoc-inizapzv7351334.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8566,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1426,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "方正证券保荐新恒汇IPO项目质量评级C级 上市当年归母净利润同比降32% 上市周期长达3年",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fobserve%2F2026-11-18%2Fdoc-inizayrr7173685.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.1925,
+      "rule_score": 0.0,
+      "hybrid_score": -0.123,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "申港证券保荐天和磁材IPO项目质量评级B-级 上市当年营收下滑",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fobserve%2F2026-11-18%2Fdoc-inizapzt5189908.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.5347,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0139,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "浙商证券保荐锦华新材IPO项目评级A-级 上市首年营收、净利润双降",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fobserve%2F2026-11-18%2Fdoc-inizayrp5023009.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.048,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1808,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "招商证券保荐南网数字IPO项目质量评级A级 实际募资27亿元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fobserve%2F2026-11-18%2Fdoc-inizayrr1791133.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8545,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1418,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "中信证券保荐新广益IPO项目质量评级B级 申报周期较长 股价大起大落",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fobserve%2F2026-11-18%2Fdoc-inizapzt5195038.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9781,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1912,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "国联民生保荐超颖电子IPO项目质量评级B-级 上市首年增收不增利",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fobserve%2F2026-11-18%2Fdoc-inizapzt5198490.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.6019,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0407,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "国泰海通保荐丰倍生物IPO项目质量评级A-级 申报周期较长",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fobserve%2F2026-11-18%2Fdoc-inizayrp5011360.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7737,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1095,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "申万宏源保荐惠通科技IPO项目质量评级C级 上市当年业绩双降 归母净利润同比降30%",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fobserve%2F2026-11-18%2Fdoc-inizapzv7347412.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.2399,
+      "rule_score": 0.0,
+      "hybrid_score": -0.104,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "国泰海通保荐元创股份IPO项目质量评级C-级 承销保荐费用率偏高 股价承压",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fobserve%2F2026-11-18%2Fdoc-inizapzv1973333.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4143,
+      "rule_score": -1.6,
+      "hybrid_score": -0.3543,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "中信证券保荐建发致新IPO项目质量评级B级 上市周期较长 股价承压",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fobserve%2F2026-11-18%2Fdoc-inizaitx2083139.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9652,
+      "rule_score": -1.6,
+      "hybrid_score": -0.1339,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "中信建投保荐天有为IPO项目质量评级B级 募资37.4亿元 上市当年营收、净利润双降",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fobserve%2F2026-11-18%2Fdoc-inizapzv7356588.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9716,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1886,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "招商证券保荐马可波罗IPO项目质量评级C级 上市当年营收、净利润双降",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fobserve%2F2026-11-18%2Fdoc-inizayrr1792481.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0857,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1657,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "长江证券保荐中国瑞林IPO项目质量评级C-级 上市当年营收大降20% 股价急涨急跌",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fobserve%2F2026-11-18%2Fdoc-inizapzr1475195.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9458,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1783,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "阿里分拆平头哥赴港IPO：保密形式递表，计划挂牌时间落在2027年",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-11-18%2Fdoc-inizayrr7190023.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.799,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1196,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "基金投顾T类份额上线在即：买方收费模式明确 机构多线筹备",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffund%2Fjjyj%2F2026-11-18%2Fdoc-inizcexp7068603.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.858,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1432,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "谷歌：Google Wallet已面向全美iOS用户开放",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-18%2Fdoc-inizayrm1301945.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4486,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0206,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "苹果内部更新引发大范围服务中断 公司正着手恢复",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-18%2Fdoc-inizayrr1801892.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7796,
+      "rule_score": -1.6,
+      "hybrid_score": -0.2081,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "美股芯片、光通信股深夜反弹，ARM涨近5%，热门中概股普跌，金山云大跌超8%，国际油价拉升",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-11-18%2Fdoc-inizayrp5029976.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.6972,
+      "rule_score": -1.6,
+      "hybrid_score": -0.2411,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "涉嫌严重违纪违法，湖南省体育局党组成员、副局长陈彬被查",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-11-18%2Fdoc-inizayrr7185724.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0427,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1829,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "美股光通信逆势上涨 机构紧盯多只CPO概念股",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Frelnews%2Fcn%2F2026-11-18%2Fdoc-inizayrr1802421.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0734,
+      "rule_score": 1.0,
+      "hybrid_score": 0.0294,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "英伟达业绩再爆表！下季度营收指引上调至1300亿美元，董事会明确拒绝黄仁勋复职",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fbxjj%2F2026-11-18%2Fdoc-inizayrr7189342.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0987,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1605,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "苹果称内部更新后出现服务中断，表示正努力恢复系统上线",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-18%2Fdoc-inizayrp5024639.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0401,
+      "rule_score": -1.6,
+      "hybrid_score": -0.5039,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "千亿覆铜板龙头生益科技，回应股价异动",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fwm%2F2026-11-18%2Fdoc-inizayrm1302820.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9303,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1721,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "APEC现场｜“技术迭代，波涛汹涌！”企业家连场“群聊”科技含量爆表",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-11-18%2Fdoc-inizayrr1798250.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4371,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0252,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "拥挤美债空头撞上避险买盘 美银警告“痛苦交易”风险升温",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fggscyd%2F2026-11-18%2Fdoc-inizayrr1802482.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9997,
+      "rule_score": -1.6,
+      "hybrid_score": -0.1201,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "财险公司费用分摊管理迎新规 促行业降本增效",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-11-18%2Fdoc-inizayrp5016538.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8571,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1428,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "交易规模跃升 标的方向“向新” 目的回归产业本源 并购重组三大亮点厘清资本配置脉络",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-11-18%2Fdoc-inizayrr1792916.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9976,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1991,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "深耕齐鲁 德邦证券打造特色债券业务",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-11-18%2Fdoc-inizayrr1792830.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9645,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1858,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "人气牛股，涨超235%！紧急回应多个热点",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-11-18%2Fdoc-inizayrr7177219.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7474,
+      "rule_score": 0.0,
+      "hybrid_score": 0.099,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "油价微涨，地缘反复，API数据显示美国油品全面累库",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-11-18%2Fdoc-inizayrr7185746.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8328,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1331,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "【沥燃日报】原油大跌带动燃料油沥青全面回落，短期弱势震荡看待",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-11-18%2Fdoc-inizayrr7186390.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.2491,
+      "rule_score": -1.6,
+      "hybrid_score": -0.4204,
+      "sentiment_label": "negative"
+    }
+  ]
+}
