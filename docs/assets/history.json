@@ -468,12 +468,12 @@
   },
   {
     "date": "2026-11-20",
-    "sentiment_index": -0.0323,
-    "positive": 34,
-    "neutral": 11,
-    "negative": 35,
-    "news_count": 80,
-    "hs300_return": -0.76,
-    "sh_index_return": -1.22
+    "sentiment_index": -0.0713,
+    "positive": 30,
+    "neutral": 14,
+    "negative": 34,
+    "news_count": 78,
+    "hs300_return": 0.03,
+    "sh_index_return": -0.28
   }
 ]
