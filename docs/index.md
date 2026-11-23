@@ -3,10 +3,10 @@
 Latest report: [Daily Report 2026-11-23](./latest.md)
 
 - Latest sentiment tone: 中性偏平衡
-- Cleaned news count: 79
-- Dropped noisy items: 1
-- HS300 daily return: -0.76%
-- SH Index daily return: -1.22%
+- Cleaned news count: 78
+- Dropped noisy items: 2
+- HS300 daily return: 0.09%
+- SH Index daily return: 0.15%
 - History length: 50
 - Visual assets: label distribution / topic distribution / sentiment history / sentiment vs HS300 history
 
