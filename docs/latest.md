@@ -1,4 +1,4 @@
-# Daily Financial Sentiment Report - 2026-11-24
+# Daily Financial Sentiment Report - 2026-11-25
 
 ## 1. Daily Sentiment Snapshot
 - Total cleaned news items: 78
@@ -46,7 +46,7 @@
 ## 7. Market Data
 - HS300 latest rows: 10
 - SH Index latest rows: 10
-- History length: 51
+- History length: 52
 
 ## 8. Visual Assets
 - label_distribution.png
