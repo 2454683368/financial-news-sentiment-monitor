@@ -528,12 +528,12 @@
   },
   {
     "date": "2026-11-26",
-    "sentiment_index": -0.0049,
-    "positive": 39,
-    "neutral": 12,
-    "negative": 27,
+    "sentiment_index": 0.0106,
+    "positive": 42,
+    "neutral": 6,
+    "negative": 30,
     "news_count": 78,
-    "hs300_return": -1.65,
-    "sh_index_return": -2.03
+    "hs300_return": 0.06,
+    "sh_index_return": 0.01
   }
 ]
