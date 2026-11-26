@@ -1,0 +1,792 @@
+{
+  "generated_at": "2026-11-26T08:00:09.211173",
+  "count": 78,
+  "daily_sentiment_index": -0.0049,
+  "label_counts": {
+    "positive": 39,
+    "negative": 27,
+    "neutral": 12
+  },
+  "items": [
+    {
+      "title": "受美股尾盘反弹提振，亚洲股市有望走高",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizzftt3854744.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9728,
+      "rule_score": 1.4,
+      "hybrid_score": 0.4691,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "美国股市因感恩节休市一日 周五提前休市",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizzftt3853046.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9662,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1865,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "贝索斯前妻累计捐赠超260亿美元，仍持有逾270亿美元亚马逊股份",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizzftm9072746.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9755,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1902,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "美联储12月加息已成定局，金银却V型反转，什么原因？",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Fforex%2Fforexroll%2F2026-11-26%2Fdoc-inizzftq8239235.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.6636,
+      "rule_score": -2.4,
+      "hybrid_score": -0.4146,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "天岳先进获JPMorgan Chase & Co.增持约14.99万股 每股作价约34.56港元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fggscyd%2F2026-11-26%2Fdoc-inizzftp1454684.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9699,
+      "rule_score": 1.4,
+      "hybrid_score": 0.4679,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "标普将英伟达评级加入负面观察名单，质疑董事会独立性",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizzftp1454465.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3667,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0533,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "百奥赛图-B获易方达基金管理有限公司增持14.6万股 每股作价约36.06港元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fggscyd%2F2026-11-26%2Fdoc-inizzftq8230659.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.6178,
+      "rule_score": 1.4,
+      "hybrid_score": 0.3271,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "贝克微获FIDELITY CHINA SPECIAL SITUATIONS PLC增持3.86万股 每股作价约24.82港元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fggscyd%2F2026-11-26%2Fdoc-inizzftm9067264.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8367,
+      "rule_score": 1.4,
+      "hybrid_score": 0.4147,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "领展房产基金遭JPMorgan Chase & Co.减持约966.32万股 每股作价约40.52港元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fggscyd%2F2026-11-26%2Fdoc-inizzftt3846945.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7422,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0969,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "赫格塞斯及五角大楼官员提议动用战时法律重新任命英伟达CEO",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizzftq8229200.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4436,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0225,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "金力永磁遭Morgan Stanley减持36.92万股 每股作价约13.04港元",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fhkstock%2Fggscyd%2F2026-11-26%2Fdoc-inizzftm9066497.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3494,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0602,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "“大空头”，削减空头仓位",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-11-26%2Fdoc-inizzftm9069860.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4706,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0118,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "爆单！冰雪经济升温，4股获机构看好",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-11-26%2Fdoc-inizzftt3846660.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0554,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1778,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "财经早报丨美联储加息预期回归，美国将对中国等国加征关税，外交部回应丨2026年11月26日",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fy%2F2026-11-26%2Fdoc-inizzftt3851675.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8602,
+      "rule_score": -2.4,
+      "hybrid_score": -0.3359,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "前特斯拉机器学习工程师：人工智能将产生更多“虚假工作”",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizzftq8224856.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3945,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0422,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "中信建投：AI相关需求放量升级，测试设备产业链价值重估",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-11-26%2Fdoc-inizzftp1451114.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9578,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1831,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "操盘必读：影响股市利好或利空消息_2026年11月26日_财经新闻",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fcpbd%2F2026-11-26%2Fdoc-inizzftq8226276.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.843,
+      "rule_score": 1.0,
+      "hybrid_score": 0.3372,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "股海导航_2026年11月26日_沪深股市公告与交易提示",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fs%2F2026-11-26%2Fdoc-inizzftq8224687.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.1655,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1338,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "突发！两国首都传出爆炸声！美联储，重要发布！油价，大涨！金、银价格弱势难改？",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-11-26%2Fdoc-inizzftm9063994.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7707,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1083,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "氢氧化锂期货今日上市交易！",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-11-26%2Fdoc-inizzftt3844611.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8978,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1591,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "沙特阿美拟将在韩原油储存量翻倍",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizzftm9059283.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8623,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1449,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "四大证券报头版头条内容精华摘要_2026年11月26日_财经新闻",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fy%2F2026-11-26%2Fdoc-inizzftq8222545.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.2277,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1089,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "美联储加息预期回归 美债上行压力下AI产业链迎考验",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fmarketresearch%2F2026-11-26%2Fdoc-inizzftm9058437.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9993,
+      "rule_score": -2.4,
+      "hybrid_score": -0.2803,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "清晨，深V大反弹！抄底资金，突然涌入！",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fzqgd%2F2026-11-26%2Fdoc-inizzftp1445058.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8891,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1556,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "算力爆发催生供配电新需求 电池厂掘金AI数据中心蓝海",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fmarketresearch%2F2026-11-26%2Fdoc-inizzftt3837609.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9993,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1997,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "黄仁勋复职前夕卖出英伟达看跌期权，“大空头”伯里称股价200美元时将再次做空",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizzftt3835897.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.226,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1096,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "美联储重磅！最青睐通胀指标超预期，12月加息概率升高",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-11-26%2Fdoc-inizzftq8215331.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.6342,
+      "rule_score": -2.6,
+      "hybrid_score": -0.4663,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "国际金价“V”型震荡！美国PCE达3年最高水平，高盛：市场已替美联储“加息四次”",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Fforex%2Fforexroll%2F2026-11-26%2Fdoc-inizzftp1437291.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8845,
+      "rule_score": -2.4,
+      "hybrid_score": -0.3262,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "英伟达因治理问题面临标普下调评级风险",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizzftp1433218.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.671,
+      "rule_score": -1.6,
+      "hybrid_score": -0.2516,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "道指抹去千点跌幅翻红，英伟达市值一夜蒸发近9800亿元，中国资产拉升，BOSS直聘大涨超12%，理想汽车涨11%",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-11-26%2Fdoc-inizzftt3828986.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0243,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1903,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "别急！外资集体看多中国资产，A股得“拿稳了”",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-11-26%2Fdoc-inizzftp1452598.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9221,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1688,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "今年以来逾2300家上市公司披露并购重组进展 资本深耕产业链 A股并购汇聚“新”动能",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Frelnews%2Fcn%2F2026-11-26%2Fdoc-inizzftq8201162.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9888,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1955,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "万斯：黄仁勋未受任何联邦调查 匿名报道不应让人丢工作",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizzftm9042443.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3206,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0718,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "穆迪：英伟达CEO复职降低了近期风险",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizzftt3816138.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.2078,
+      "rule_score": -1.6,
+      "hybrid_score": -0.4369,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "金银铜油股深夜全线大反转，油价走出11月最强表现",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-11-26%2Fdoc-inizzftq8224094.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7012,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0805,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "【沥燃日报】柴油裂解重挫下低硫近月补跌，Hi-5价差显著收窄",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Ffuture%2Ffmnews%2F2026-11-26%2Fdoc-inizzftm9063483.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0311,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1876,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "爱奇艺：收到纳斯达克不合规通知，暂不停牌，180日内整改",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2F7x24%2F2026-11-26%2Fdoc-inizzftq8187585.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0031,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1988,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "安大略省教师退休金CEO：漫长的AI基础设施建设危及投资",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizzftm9033916.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.864,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1456,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "美国股市：逢低买盘助美股收窄跌幅 纳斯达克100指数短暂进入熊市",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizzftt3813532.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9979,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1991,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "11月26日隔夜要闻：美股低开反弹 标普或下调英伟达评级 万斯力挺黄仁勋 爱奇艺收纳斯达克不合规通知",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizyzms8307866.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0525,
+      "rule_score": 0.0,
+      "hybrid_score": -0.179,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "美国副总统万斯力挺黄仁勋：没有受到调查 也不需要赦免",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizzftm9032714.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7712,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1085,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "美国评估政策选项 回应韩国对Coupang的歧视性待遇",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizyzms8302079.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0493,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1803,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "伊朗称一艘液化气运输船在霍尔木兹海峡触雷爆炸",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-11-26%2Fdoc-inizyzms8304261.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.694,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0776,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "通胀压力持续蔓延！美联储褐皮书显示企业成本普遍上涨 12月加息预期进一步强化",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fmoney%2Fforex%2Fforexroll%2F2026-11-26%2Fdoc-inizzftm9032227.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3159,
+      "rule_score": -3.6,
+      "hybrid_score": -0.7936,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "财政部前瞻性补充国有大型金融机构资本",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-11-26%2Fdoc-inizyzmv3924626.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9791,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1917,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "今日视点：三端合力夯实市场稳定底盘",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-11-26%2Fdoc-inizyzms8293122.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.996,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1984,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "公募REITs配置价值凸显 交易生态持续优化",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-11-26%2Fdoc-inizyzmv3924651.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9925,
+      "rule_score": 0.0,
+      "hybrid_score": 0.197,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "调降融资保证金比例下限正当其时",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-11-26%2Fdoc-inizyzms8293094.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3754,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0498,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "2027年智能眼镜全球出货或超2600万台",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-11-26%2Fdoc-inizyzmr1516677.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.328,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0688,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "11月26日热门中概股多数上涨 网易涨超3% 京东涨超2% 老虎证券涨超8%",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizyzmr1516453.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.6731,
+      "rule_score": 1.0,
+      "hybrid_score": 0.2692,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "11月26日美股成交额前20：英伟达跌近4% 标普或下调其评级",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizyzmv3920990.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0221,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1912,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "大宗商品综述：油价上涨 铜价跌入熊市区间 金价反弹",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizyzms8283739.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0371,
+      "rule_score": 0.4,
+      "hybrid_score": -0.1052,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "11月26日外盘头条：美10月通胀指标上升 联储褐皮书显示薪资压力上升 “大空头”清仓纳指100看跌头寸",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizyzmr1501337.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4871,
+      "rule_score": -2.4,
+      "hybrid_score": -0.4851,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "11月26日美股收盘：10月通胀仍未放缓 道指周三反弹收高 抹去1100点跌幅 标普纳指跌幅收窄至不足1%",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizyzmp9128647.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0004,
+      "rule_score": -2.4,
+      "hybrid_score": -0.6798,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "美国债市：国债上涨 科技股反弹之际早间买盘消退",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizyzmp9125053.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.4336,
+      "rule_score": 1.0,
+      "hybrid_score": 0.1734,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "美军开始在日本冲绳常态部署新型战斗机",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-11-26%2Fdoc-inizyzmp9125103.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9989,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1996,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "原油：油价上涨 中东袭击加剧供应不确定性",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizyzmp9120570.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0241,
+      "rule_score": -2.0,
+      "hybrid_score": -0.5904,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "美联储褐皮书显示经济温和增长 薪资压力上升",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizyzmv3897923.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9646,
+      "rule_score": 1.4,
+      "hybrid_score": 0.4658,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "美联储“褐皮书”显示美国物价整体温和上涨",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-11-26%2Fdoc-inizyzmv3890277.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.6192,
+      "rule_score": 1.0,
+      "hybrid_score": 0.2477,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "纽约汇市：美元走弱 感恩节假期前交投清淡",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizyvcx4005266.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7056,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0822,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "SpaceX 官宣赠股计划，马斯克个人等额匹配",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizyvcu8358058.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.1375,
+      "rule_score": 0.0,
+      "hybrid_score": -0.145,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "欧洲股市续跌 关税担忧叠加科技股抛售",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizyvcu8356613.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8659,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1464,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "城堡拟向客户返还约35亿美元 旗舰基金今年累计上涨15.3%",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2F7x24%2F2026-11-26%2Fdoc-inizyvcu8347135.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.2113,
+      "rule_score": 1.0,
+      "hybrid_score": 0.0845,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "A股重磅！超4600亿元资金在路上！建行、工行、中行密集表态",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fbxjj%2F2026-11-26%2Fdoc-inizyzms8286321.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.7219,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0887,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "欧洲债市：英国国债表现出色 科技股重挫提振债市",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizyvcr9208702.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9676,
+      "rule_score": 1.4,
+      "hybrid_score": 0.467,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "存管理和治理之忧 标普预告可能下调英伟达的信评一档",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizyvct1568694.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.6654,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0661,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "美国国债收益率触及两个月低点 市场避险情绪加剧",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fusstock%2Fc%2F2026-11-26%2Fdoc-inizyvcx3995514.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9604,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1842,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "标普可能下调英伟达评级",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2F7x24%2F2026-11-26%2Fdoc-inizyvcx3985178.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.3257,
+      "rule_score": 0.0,
+      "hybrid_score": -0.0697,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "也门胡塞武装称袭击沙特吉达港和吉赞港",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-11-26%2Fdoc-inizyzms8248809.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0471,
+      "rule_score": -2.4,
+      "hybrid_score": -0.6612,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "制度持续优化 年内超1300家上市公司实施回购",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-11-26%2Fdoc-inizyvcx3981815.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8865,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1546,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "11月130余只新基成立 发起式基金加速市场布局",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-11-26%2Fdoc-inizyvcx3981816.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.8845,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1538,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "六名股东撤回全部提名 银禧科技换届争议迎和解",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2F2026-11-26%2Fdoc-inizyvcr9203367.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.509,
+      "rule_score": 0.0,
+      "hybrid_score": 0.0036,
+      "sentiment_label": "neutral"
+    },
+    {
+      "title": "“AI+工程机械”深度融合 AI智能体、具身机器人站上宝马展C位",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fbxjj%2F2026-11-26%2Fdoc-inizyvcu8337404.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0357,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1857,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "震荡行情拾筹码 社保基金频出手",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Frelnews%2Fcn%2F2026-11-26%2Fdoc-inizyvcu8335418.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9992,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1997,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "制订实施方案 着手技术准备 券商启动创业板做市筹备",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fbxjj%2F2026-11-26%2Fdoc-inizyvcx3981615.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.9079,
+      "rule_score": 0.0,
+      "hybrid_score": 0.1632,
+      "sentiment_label": "positive"
+    },
+    {
+      "title": "刚果（金）再停钴出口 A股钴企加码“二次回收”",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Frelnews%2Fcn%2F2026-11-26%2Fdoc-inizyvcx3981307.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0186,
+      "rule_score": 0.0,
+      "hybrid_score": -0.1926,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "地方国资股东加码银行股不止于财务逻辑",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Frelnews%2Fcn%2F2026-11-26%2Fdoc-inizyvct1562525.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0974,
+      "rule_score": 0.0,
+      "hybrid_score": -0.161,
+      "sentiment_label": "negative"
+    },
+    {
+      "title": "上市公司回购增持升温 银行加快投放专项贷款",
+      "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Frelnews%2Fcn%2F2026-11-26%2Fdoc-inizyvct1559032.shtml",
+      "source": "sina_finance",
+      "published_at": null,
+      "model_score": 0.0181,
+      "rule_score": 1.4,
+      "hybrid_score": 0.0872,
+      "sentiment_label": "positive"
+    }
+  ]
+}
