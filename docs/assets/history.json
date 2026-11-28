@@ -538,6 +538,16 @@
   },
   {
     "date": "2026-11-27",
+    "sentiment_index": 0.0106,
+    "positive": 42,
+    "neutral": 6,
+    "negative": 30,
+    "news_count": 78,
+    "hs300_return": 0.06,
+    "sh_index_return": 0.01
+  },
+  {
+    "date": "2026-11-28",
     "sentiment_index": 0.0286,
     "positive": 42,
     "neutral": 12,
